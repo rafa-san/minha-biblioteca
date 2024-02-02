@@ -5,7 +5,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Minha Biblioteca - Home</title>
+  <link rel="stylesheet" href="styles/global-styles.css" />
+  <link rel="stylesheet" href="styles/header-e-nav.css" />
   <link rel="stylesheet" href="styles/home.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -15,20 +19,61 @@
 
   <nav class="menu">
     <ul class="itens-menu">
-      <li><a href="livros.html">Livros</a></li>
+      <li><a href="links-menu/livros.html">Livros</a></li>
       <li><a href="links-menu/linha-do-tempo.html">Linha do Tempo</a></li>
-      <li><a href="frases-e-trechos.html">Frases & Trechos</a></li>
-      <li><a href="#">Quero Ler</a> </li>
+      <li><a href="links-menu/frases-e-trechos.html">Frases & Trechos</a></li>
+      <li><a href="links-menu/quero-ler.html">Quero Ler</a> </li>
     </ul>
   </nav>
 
   <main>
-    <div class="imagem-home" style="background-image: url('images/estante-livros-edit.jpg');"></div>
-
+    <div class="imagem-home"></div>
     <h2 class="heading-2">Leituras Recentes</h2>
 
-    <div class="carrossel-livros">
-      <div class="owl-carousel owl-theme">   
+    <div class="container-carrossel-livros">
+      <div class="carrossel-livros">
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 1</p>
+            <p class="texto-autor">Autor 1</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 2</p>
+            <p class="texto-autor">Autor 2</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 3</p>
+            <p class="texto-autor">Autor 3</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 4</p>
+            <p class="texto-autor">Autor 4</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 5</p>
+            <p class="texto-autor">Autor 5</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/imagem-indisponivel.jpg" alt="" class="imagem" />
+          <div class="texto">
+            <p class="texto-titulo">Livro 6</p>
+            <p class="texto-autor">Autor 6</p>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -45,6 +90,9 @@
   </footer>
 
   <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="scripts/home-carrossel-imagens.js"></script>
 </body>
 
 </html>
