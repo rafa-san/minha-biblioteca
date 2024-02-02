@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.logo {
+  height: 120px;
+  line-height: 120px;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+}
+
+.itens-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 18px 26px;
+}
+
+.itens-menu a {
+  text-decoration: none;
+}
+
+.itens-menu a:hover {
+  border-bottom: 2px solid #fa6400;
+  padding-bottom: 2px;
+}
