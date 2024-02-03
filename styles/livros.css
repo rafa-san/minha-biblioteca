@@ -1,0 +1,50 @@
+h2 {
+  margin: 40px auto;
+  width: 95%;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px auto;
+  padding: 10px 0;
+  width: 95%;
+}
+
+.btn {
+  margin: 3px;
+  padding: 8px 16px;
+  width: 120px;
+}
+
+section.livros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px auto;
+  width: 95%;
+}
+
+div.books {
+  margin: 20px;
+  text-align: center;
+  width: 20%;
+}
+
+img {
+  height: 267px;
+  width: 188px;
+}
+
+.detalhes {
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+  width: 100%;
+}
+
+.books {
+  display: none;;
+  width: 169px;
+}
