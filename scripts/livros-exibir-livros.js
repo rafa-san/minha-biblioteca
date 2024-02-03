@@ -1,115 +1,129 @@
 const livros = [
-  {livro:'A Casa das Belas Adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', secao:'Ficção', literatura:'Japão', img:'imagens/a-casa-das-belas-adormecidas-edit.jpg'},
+  {livro:'Casa das Belas Adormecidas, A', autor:'Yasunari Kawabata', editora:'Estação Liberdade', secao:'Ficção', literatura:'Japão', img:'../images/a-casa-das-belas-adormecidas-edit.jpg'},
 
-  {livro:'A Narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', secao:'Ficção', literatura:'Estados Unidos', img:'imagens/a-narrativa-de-a-gordon-pym.jpg'},
+  {livro:'A Narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', secao:'Ficção', literatura:'Estados Unidos', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Eu Sou um Gato', autor:'Natsume Soseki', editora:'Estação Liberdade', secao:'Ficção', literatura:'Japão', img:'imagens/eu-sou-um-gato-edit.jpg'},
+  {livro:'Eu Sou um Gato', autor:'Natsume Soseki', editora:'Estação Liberdade', secao:'Ficção', literatura:'Japão', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Todos os Belos Cavalos', autor:'Cormac McCarthy', editora:'Alfaguara', secao:'Ficção', literatura:'Estados Unidos', img:'imagens/todos-os-belos-cavalos-edit.jpg'},
+  {livro:'Todos os Belos Cavalos', autor:'Cormac McCarthy', editora:'Alfaguara', secao:'Ficção', literatura:'Estados Unidos', img:'../images/todos-os-belos-cavalos-edit.jpg'},
 
-  {livro:'O Clube do Suicídio', autor:'Robert Louis Stevenson', editora:'Cosac Naify', secao:'Ficção', literatura:'Escócia', img:'imagens/o-clube-do-suicidio-edit.jpg'},
+  {livro:'O Clube do Suicídio', autor:'Robert Louis Stevenson', editora:'Cosac Naify', secao:'Ficção', literatura:'Escócia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Oblómov', autor:'Ivan Gontcharóv', editora:'Cosac Naify', secao:'Ficção', literatura:'Rússia', img:'imagens/oblomov-edit.jpg'},
+  {livro:'Oblómov', autor:'Ivan Gontcharóv', editora:'Cosac Naify', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Pais e Filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', secao:'Ficção', literatura:'Rússia', img:'imagens/pais-e-filhos.jpg'},
+  {livro:'Pais e Filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Os Trabalhadores do Mar', autor:'Victor Hugo', editora:'Cosac Naify', secao:'Ficção', literatura:'França', img:'imagens/os-trabalhadores-do-mar-edit.jpg'},
-  {livro:'Livro das Mil e Uma Noites - Volume 1', autor:'Anônimo', editora:'Biblioteca Azul', secao:'Ficção', literatura:'Árabe', img:'imagens/livro-das-mil-e-uma-noites-1-edit.jpg'},
-  {livro:'Livro das Mil e Uma Noites - Volume 2', autor:'Anônimo', editora:'Biblioteca Azul', secao:'Ficção', literatura:'Árabe', img:'imagens/livro-das-mil-e-uma-noites-2.jpg'},
-  {livro:'Ilíada', autor:'Homero', editora:'Ediouro', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Barba Ensopada de Sangue', autor:'Daniel Galera', editora:'Companhia das Letras', secao:'Ficção', literatura:'Brasil', img:'imagens/barba-ensopada-de-sangue-edit.jpg'},
-  {livro:'Odisseia', autor:'Homero', editora:'Ediouro', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'O Valor do Riso e Outros Ensaios', autor:'Virginia Woolf', editora:'Cosac Naify', secao:'Ensaios', literatura:'Inglaterra', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'A Divina Comédia', autor:'Dante Alighieri', editora:'Editora 34', secao:'Poesia', literatura:'Itália', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Essa Mulher e Outros Contos', autor:'Rodolfo Walsh', editora:'Editora 34', secao:'Contos', literatura:'Argentina', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'47 Contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', secao:'Contos', literatura:'Uruguai', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Não Há Lugar para a Lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', secao:'?', literatura:'Espanha', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Cartas a um Jovem Poeta', autor:'Rainer Maria Rilke', editora:'Editora Globo', secao:'Ficção', literatura:'Alemanha', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Cem Anos de Solidão', autor:'Gabriel García Márquez', editora:'Editora Record', secao:'Ficção', literatura:'Colômbia', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Minha Luta 1: A Morte do Pai', autor:'Karl Ove Knausgard', editora:'Editora Companhia das Letras', secao:'Romance Autobiográfico', literatura:'Noruega', img:'imagens/imagem-indisponivel.jpg'},
-  {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Chile', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Os Trabalhadores do Mar', autor:'Victor Hugo', editora:'Cosac Naify', secao:'Ficção', literatura:'França', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Tragédias: Teatro Completo', autor:'William Shakespeare', editora:'Editora Agir', secao:'Teatro', literatura:'Inglaterra', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Livro das Mil e Uma Noites - Volume 1', autor:'Anônimo', editora:'Biblioteca Azul', secao:'Ficção', literatura:'Árabe', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Novelas Exemplares', autor:'Miguel de Cervantes', editora:'Editora Cosac Naify', secao:'Novelas', literatura:'Espanha', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Livro das Mil e Uma Noites - Volume 2', autor:'Anônimo', editora:'Biblioteca Azul', secao:'Ficção', literatura:'Árabe', img:'../images/livro-das-mil-e-uma-noites-2.jpg'},
 
-  {livro:'Anna Kariênina', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Ilíada', autor:'Homero', editora:'Ediouro', secao:'Poesia', literatura:'Grécia', img:'../images/iliada-edit.jpg'},
 
-  {livro:'O Idiota', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Barba Ensopada de Sangue', autor:'Daniel Galera', editora:'Companhia das Letras', secao:'Ficção', literatura:'Brasil', img:'../images/barba-ensopada-de-sangue-edit.jpg'},
 
-  {livro:'Crime e Castigo', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Odisseia', autor:'Homero', editora:'Ediouro', secao:'Poesia', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Os Demônios', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'O Valor do Riso e Outros Ensaios', autor:'Virginia Woolf', editora:'Cosac Naify', secao:'Ensaios', literatura:'Inglaterra', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Contos Reunidos', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'A Divina Comédia', autor:'Dante Alighieri', editora:'Editora 34', secao:'Poesia', literatura:'Itália', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Os Irmãos Karamázov', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Essa Mulher e Outros Contos', autor:'Rodolfo Walsh', editora:'Editora 34', secao:'Contos', literatura:'Argentina', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Amores & Arte de Amar', autor:'Ovídio', editora:'Penguin/Companhia das Letras', secao:'Poesia', literatura:'Latina', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'47 Contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', secao:'Contos', literatura:'Uruguai', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Gente Pobre', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Não Há Lugar para a Lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', secao:'Ensaios', literatura:'Espanha', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'As Rãs', autor:'Aristófanes', editora:'Editora Cosac Naify', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Cartas a um Jovem Poeta', autor:'Rainer Maria Rilke', editora:'Editora Globo', secao:'Ficção', literatura:'Alemanha', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Os Sertões', autor:'Euclides da Cunha', editora:'Editora Ubu', secao:'Crítica', literatura:'Brasil', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Cem Anos de Solidão', autor:'Gabriel García Márquez', editora:'Editora Record', secao:'Ficção', literatura:'Colômbia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Dom Quixote', autor:'Miguel de Cervantes', editora:'Editora Penguin/Companhia das Letras', secao:'?', literatura:'Espanha', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Minha Luta 1: A Morte do Pai', autor:'Karl Ove Knausgard', editora:'Editora Companhia das Letras', secao:'Romance Autobiográfico', literatura:'Noruega', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Metamorfoses', autor:'Ovídio', editora:'Editora 34', secao:'Poesia', literatura:'Latina', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Chile', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Eneida', autor:'Virgílio', editora:'Editora 34', secao:'Poesia', literatura:'Latina', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Tragédias: Teatro Completo', autor:'William Shakespeare', editora:'Editora Agir', secao:'Teatro', literatura:'Inglaterra', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Fragmentos Completos', autor:'Safo', editora:'Editora 34', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Novelas Exemplares', autor:'Miguel de Cervantes', editora:'Editora Cosac Naify', secao:'Novelas', literatura:'Espanha', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Minha Luta 2: Um Outro Amor', autor:'Karl Ove Knausgard', editora:'Editora Companhia das Letras', secao:'Romance Autobiográfico', literatura:'Noruega', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Anna Kariênina', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Nova Antologia do Conto Russo', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Contos', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'O Idiota', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Fábulas', autor:'Esopo', editora:'Editora 34', secao:'Ficção-Fábulas', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Crime e Castigo', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Guerra e Paz', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Os Demônios', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Contos Completos', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Contos Reunidos', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'O Primo Basílio', autor:'Eça de Queirós', editora:'Editora Penguin / Companhia das Letras', secao:'Romance', literatura:'Portugal', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Os Irmãos Karamázov', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'David Copperfield', autor:'Charles Dickens', editora:'Editora Cosac Naify', secao:'Ficção', literatura:'Inglaterra', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Amores & Arte de Amar', autor:'Ovídio', editora:'Penguin/Companhia das Letras', secao:'Poesia', literatura:'Latina', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Terra Sonâmbula', autor:'Mia Couto', editora:'Editora Companhia das Letras', secao:'Ficção', literatura:'Moçambique', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Gente Pobre', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Ficção', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Odisseia', autor:'Homero', editora:'Ediouro', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'As Rãs', autor:'Aristófanes', editora:'Editora Cosac Naify', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Hinos Homéricos', autor:'Anônimo', editora:'Editora Unesp', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Os Sertões', autor:'Euclides da Cunha', editora:'Editora Ubu', secao:'Crítica', literatura:'Brasil', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Teogonia: a Origem dos Deuses', autor:'Hesíodo', editora:'Editora Iluminuras', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Dom Quixote', autor:'Miguel de Cervantes', editora:'Editora Penguin/Companhia das Letras', secao:'?', literatura:'Espanha', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Os Trabalhos e os Dias', autor:'Hesíodo', editora:'Editora Iluminuras', secao:'Poesia', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Metamorfoses', autor:'Ovídio', editora:'Editora 34', secao:'Poesia', literatura:'Latina', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Tragédias', autor:'Ésquilo', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Eneida', autor:'Virgílio', editora:'Editora 34', secao:'Poesia', literatura:'Latina', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Orestéia', autor:'Ésquilo', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Fragmentos Completos', autor:'Safo', editora:'Editora 34', secao:'Poesia', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Aias', autor:'Sófocles', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Minha Luta 2: Um Outro Amor', autor:'Karl Ove Knausgard', editora:'Editora Companhia das Letras', secao:'Romance Autobiográfico', literatura:'Noruega', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'A Trilogia Tebana', autor:'Sófocles', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Nova Antologia do Conto Russo', autor:'Fiódor Dostoiévski', editora:'Editora 34', secao:'Contos', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'As Traquínias', autor:'Sófocles', editora:'Editora Unicamp', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Fábulas', autor:'Esopo', editora:'Editora 34', secao:'Ficção-Fábulas', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Guerra e Paz', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Medéia, Hipólito, As Troianas', autor:'Eurípides', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Contos Completos', autor:'Liev Tolstói', editora:'Editora Cosac Naify', secao:'Romance', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Ifigênia em Áulis, As Fenícias, As Bacantes', autor:'Eurípides', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'O Primo Basílio', autor:'Eça de Queirós', editora:'Editora Penguin / Companhia das Letras', secao:'Romance', literatura:'Portugal', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Héracles', autor:'Eurípides', editora:'Editora Palas Athena', secao:'Teatro', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'David Copperfield', autor:'Charles Dickens', editora:'Editora Cosac Naify', secao:'Ficção', literatura:'Inglaterra', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'História', autor:'Heródoto', editora:'Editora Prestígio Editorial', secao:'História', literatura:'Grécia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Terra Sonâmbula', autor:'Mia Couto', editora:'Editora Companhia das Letras', secao:'Ficção', literatura:'Moçambique', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'O Vermelho e o Negro', autor:'Stendhal', editora:'Editora Cosac Naify', literatura:'França', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Hinos Homéricos', autor:'Anônimo', editora:'Editora Unesp', secao:'Poesia', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Três Contos', autor:'Gustave Flaubert', editora:'Editora Cosac Naify', literatura:'França', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Teogonia: a Origem dos Deuses', autor:'Hesíodo', editora:'Editora Iluminuras', secao:'Poesia', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Noites Brancas', autor:'Fiódor Dostoiévski', editora:'Editora Cosac Naify', literatura:'Rússia', img:'imagens/imagem-indisponivel.jpg'},
+  {livro:'Os Trabalhos e os Dias', autor:'Hesíodo', editora:'Editora Iluminuras', secao:'Poesia', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Tragédias', autor:'Ésquilo', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Orestéia', autor:'Ésquilo', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Aias', autor:'Sófocles', editora:'Editora Iluminuras', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'A Trilogia Tebana', autor:'Sófocles', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'As Traquínias', autor:'Sófocles', editora:'Editora Unicamp', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Medéia, Hipólito, As Troianas', autor:'Eurípides', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Ifigênia em Áulis, As Fenícias, As Bacantes', autor:'Eurípides', editora:'Editora Zahar', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Héracles', autor:'Eurípides', editora:'Editora Palas Athena', secao:'Teatro', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'História', autor:'Heródoto', editora:'Editora Prestígio Editorial', secao:'História', literatura:'Grécia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'O Vermelho e o Negro', autor:'Stendhal', editora:'Editora Cosac Naify', literatura:'França', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Três Contos', autor:'Gustave Flaubert', editora:'Editora Cosac Naify', literatura:'França', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Noites Brancas', autor:'Fiódor Dostoiévski', editora:'Editora Cosac Naify', literatura:'Rússia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', literatura:'Argentina', img:'../images/ficcoes-edit.jpg'}
   
 ];
 
