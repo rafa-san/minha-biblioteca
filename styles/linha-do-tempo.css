@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+tr {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  width: 30%;
+}
+
+summary::-webkit-details-marker {
+  display: none; /* Remove o marcador padrão do WebKit (Chrome, Safari, etc.) */
+}
