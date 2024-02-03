@@ -12,19 +12,16 @@
 }
 
 .container-carrossel-livros {
-  border: 1px solid black;
   margin: auto;
   width: 90%;
 }
 
 .carrossel-livros {
-  border: 1px solid red;
   margin: auto;
   width: 80%;
 }
 
 .item {
-  border: 1px solid coral;
   cursor: pointer;
   margin: 8px;
   width: 205px;
