@@ -3,3 +3,15 @@ footer {
   padding: 24px 8px;
   text-align: center;
 }
+
+.contato {
+  margin-top: 8px;
+}
+
+.contato a {
+  margin: 8px;
+}
+
+.contato a i {
+  font-size: 1.3em;
+}
