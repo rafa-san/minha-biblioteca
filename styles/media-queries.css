@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@media (min-width: 992px) {
+  /* HEADER */
+  #header {
+    flex-direction: row;
+  }
+
+  .titulo {
+    margin-bottom: 8px;
+    margin-left: 16px;
+    text-align: left;
+  }
+
+  #icone-menu {
+    display: none;
+  }
+
+  #nav-bar {
+    display: block;
+  }
+
+  #nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  #nav-bar ul li {
+    display: inline;
+  }
+
+
+  /* HOME */
+  .imagem-home {
+    height: 88vh;
+  }
+}
