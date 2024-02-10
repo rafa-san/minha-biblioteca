@@ -1,50 +1,126 @@
-h2 {
-  margin: 40px auto;
+@charset "utf-8";
+
+/* PRIMEIRO CONTAINER */
+.container-1 {
+  margin: 40px auto 24px;
   width: 95%;
 }
 
-.botoes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px auto;
-  padding: 10px 0;
-  width: 95%;
+.container-1 h2 {
+  margin: 8px;
+  text-align: center;
 }
 
-.btn {
-  margin: 3px;
-  padding: 8px 16px;
-  width: 120px;
+.container-1 p {
+  margin: 8px;
+  text-align: center;
 }
 
-section.livros {
+.container-1__filtros {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  width: 90%;
+}
+
+.container-1__filtro {
+  border: 3px solid lightgray;
+  border-radius: 32px;
+  cursor: pointer;
+  margin: 16px auto;
+  padding: 16px;
+  text-align: center;
+  width: 80%;
+}
+
+
+
+/* CONTAINER DOS LIVROS */
+.container-livros {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   margin: 10px auto;
   width: 95%;
 }
 
-div.books {
-  margin: 20px;
-  text-align: center;
-  width: 20%;
+.itens {
+  /* border: 1px solid blue; */
+  background-color: #f7f6f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 376px; */
+  height: auto;
+  margin: 16px;
+  padding: 16px;
+  width: 300px;
 }
 
 img {
-  height: 267px;
-  width: 188px;
+  display: block;
+  /* border: 1px solid red; */
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  object-fit: contain;
+  max-width: 100%;
 }
 
 .detalhes {
-  display: flex;
-  justify-content: space-around;
-  height: 120px;
+  padding: 16px 8px;
+  text-align: center;
   width: 100%;
 }
 
-.books {
-  display: none;;
-  width: 169px;
+
+/* SEGUNDO CONTAINER */
+.container-2,
+.livros-segmento {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0,0,0, 0.9);
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 0;
+}
+
+.fullscreen-menu__conteudo,
+.fullscreen-menu-segmento {
+  position: relative;
+  top: 25%;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.container-2 a,
+.container-2 li,
+.livros-segmento a,
+.livros-segmento li {
+  cursor: pointer;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  /* display: block; */
+  transition: 0.3s;
+}
+
+.container-2 a:hover,
+.container-2 a:focus,
+.livros-segmento a:hover,
+.livros-segmento a:focus {
+  color: #f1f1f1;
+}
+
+.container-2 .fechar-menu,
+.livros-segmento .fechar-menu-segmento {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
