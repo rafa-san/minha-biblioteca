@@ -1,17 +1,21 @@
 const container = document.querySelector('.container-livros');
 
 const livros = [
-  {livro:'Dois Fios', autor:'Pep Molist | Ilustrações de Emilio Urberuaga', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios-2.jpg'},
+  {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
+
+  {livro:'Dois Fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
   
   {livro:'Modelo Vivo Natureza Morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
-  {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/onda.jpg'}
+  {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/onda.jpg'},
+
+  {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'}
 ];
 
 for (let i = 0; i < livros.length; i++) {
 
   function exibirLivros() {
-    return `<p><strong>${livros[i].livro}</strong></p> <p>${livros[i].autor}</p> <p>Editora ${livros[i].editora}</p> <p> Ano da edição: ${livros[i].anoEdicao}`;
+    return `<p><strong>${livros[i].livro}</strong></p> <p>${livros[i].autor}</p> <p>${livros[i].editora}, ${livros[i].anoEdicao}</p>`;
   };
 
   const figure = document.createElement('div');
@@ -72,13 +76,61 @@ function mostrarLitEspanhola() {
     livro.style.display = 'none';
   });
 
-  // Exibir apenas os livros da categoria "Literatura Espanhola"
   livros.forEach((livro, index) => {
     if (livro.categoria === 'Literatura Espanhola') {
       todosLivros[index].style.display = 'block';
     }
   });
 }
+
+
+// Visualizar Literatura Norte-Americana
+const litNorteAmericana = document.getElementById('lit-norte-americana');
+litNorteAmericana.addEventListener('click', function() {
+  // Esconder o menu de tela cheia
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitNorteAmericana();
+});
+
+function mostrarLitNorteAmericana() {
+  // Esconder todos os livros
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Norte-Americana') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar Literatura Russa
+const litRussa = document.getElementById('lit-russa');
+litRussa.addEventListener('click', function() {
+  // Esconder o menu de tela cheia
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitRussa();
+});
+
+function mostrarLitRussa() {
+  // Esconder todos os livros
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Russa') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
 
 // Visualizar Literatura Sul-Coreana
 const litSulCoreana = document.getElementById('lit-sul-coreana');
