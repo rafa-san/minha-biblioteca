@@ -23,7 +23,7 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 1200, // tela menor que 1200 pixels
+        breakpoint: 1300, // tela menor que 1200 pixels
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1

@@ -36,4 +36,8 @@
   .imagem-home {
     height: 88vh;
   }
+
+  figure {
+    width: 100%;
+  }
 }
