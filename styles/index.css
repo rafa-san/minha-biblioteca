@@ -12,6 +12,8 @@
 }
 
 .carrossel-livros {
+  display: flex;
+  justify-content: space-around;
   margin: 8px auto;
   width: 96%;
 }
@@ -35,7 +37,7 @@ figure {
   height: 370px;
   margin: auto;
   padding: 0 16px;
-  width: 330px;
+  width: 340px;
 }
 
 .imagem {
@@ -45,24 +47,21 @@ figure {
   width: 100%;
 }
 
-.texto {
-  text-align: center; /* Centraliza o texto dentro do figcaption */
+.formato-retrato {
+  box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 );
+  height: 262px;
+  object-fit: contain;
+  max-width: 200px;
 }
 
-
-
-
-
-
-
 .imagem:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
   transition: .3s;
 }
 
 .texto {
   margin-top: 10px;
-  text-align: center;
+  text-align: center; /* Centraliza o texto dentro do figcaption */
 }
 
 .texto-titulo {
