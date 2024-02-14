@@ -41,14 +41,14 @@ figure {
 }
 
 .imagem {
-  box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 );
+  /* box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 ); */
   height: auto;
   object-fit: contain;
   width: 100%;
 }
 
 .formato-retrato {
-  box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 );
+  /* box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 ); */
   height: 262px;
   object-fit: contain;
   max-width: 200px;
