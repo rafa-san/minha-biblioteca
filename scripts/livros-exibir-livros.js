@@ -4,8 +4,10 @@ const livros = [
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
   {livro:'Dois Fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
+
+  {livro:'Ele que o abismo viu: Epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
   
-  {livro:'Modelo Vivo Natureza Morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
+  {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
   {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/onda.jpg'},
 
@@ -78,6 +80,29 @@ function mostrarLitEspanhola() {
 
   livros.forEach((livro, index) => {
     if (livro.categoria === 'Literatura Espanhola') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+// Visualizar Literatura Mesopotâmica
+const litMesopotamica = document.getElementById('lit-mesopotamica');
+litMesopotamica.addEventListener('click', function() {
+  // Esconder o menu de tela cheia
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitMesopotamica();
+});
+
+function mostrarLitMesopotamica() {
+  // Esconder todos os livros
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Mesopotâmica') {
       todosLivros[index].style.display = 'block';
     }
   });
@@ -174,9 +199,31 @@ function mostrarLitInfantil() {
     livro.style.display = 'none';
   });
 
-  // Exibir apenas os livros da categoria "Literatura Chilena"
   livros.forEach((livro, index) => {
     if (livro.segmento === 'Literatura Infantil') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+// Visualizar Poesia
+const poesia = document.getElementById('poesia');
+poesia.addEventListener('click', function() {
+  // Esconder o menu de tela cheia
+  document.getElementById("fullscreen-menu-segmento").style.width = "0%";
+  
+  mostrarPoesia();
+});
+
+function mostrarPoesia() {
+  // Esconder todos os livros
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.segmento === 'Poesia') {
       todosLivros[index].style.display = 'block';
     }
   });
