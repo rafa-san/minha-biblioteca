@@ -37,7 +37,7 @@
     height: 88vh;
   }
 
-  figure {
-    width: 100%;
+  .container-carrossel-livros {
+    width: 94%;
   }
 }
