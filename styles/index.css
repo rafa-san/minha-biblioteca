@@ -11,61 +11,47 @@
   text-align: center;
 }
 
-.carrossel-livros {
+.container-carrossel-livros {
   display: flex;
-  justify-content: space-around;
   margin: 8px auto;
-  width: 96%;
+  width: 86%;
 }
 
 .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(211, 211, 211, 0.2);
   cursor: pointer;
-  margin: 8px 6px;
-  width: 226px;
+  height: auto;
+  margin: 6px;
+  padding: 16px 8px;
 }
 
 .item:hover {
   color: #fa6400;
 }
 
-figure {
-  background-color: #f7f6f2;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centraliza no eixo horizontal */
-  justify-content: center; /* Centraliza no eixo vertical */
-  height: 370px;
-  margin: auto;
-  padding: 0 16px;
-  width: 340px;
-}
-
 .imagem {
-  /* box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 ); */
-  height: auto;
+  display: block;
+  height: 262px;
+  margin: auto;
   object-fit: contain;
   width: 100%;
 }
 
-.formato-retrato {
-  /* box-shadow: 0 3px 3px rgba( 0, 0, 0, 0.25 ); */
-  height: 262px;
-  object-fit: contain;
-  max-width: 200px;
-}
-
 .imagem:hover {
-  /* opacity: 0.7; */
   transition: .3s;
 }
 
 .texto {
-  margin-top: 10px;
-  text-align: center; /* Centraliza o texto dentro do figcaption */
-}
-
-.texto-titulo {
-  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 66px;
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
 }
 
 .texto-autor {
