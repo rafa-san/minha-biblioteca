@@ -37,39 +37,33 @@
 
 /* CONTAINER DOS LIVROS */
 .container-livros {
-  /* border: 1px solid green; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 10px auto;
-  width: 98%;
+  margin: 8px auto;
+  width: 96%;
 }
 
 .itens {
-  /* border: 1px solid blue; */
-  background-color: #f7f6f2;
+  background-color: rgba(211, 211, 211, 0.5);
   display: flex;
   flex-direction: column;
-  /* align-items: end; */
-  /* justify-content: flex-end; */
-  /* height: 376px; */
   height: auto;
   margin: 16px 8px;
-  padding: 16px;
-  max-width: 340px;
+  padding: 16px 16px 0;
+  width: 400px;
 }
 
 img {
   display: block;
-  /* border: 1px solid red; */
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+  height: 262px;
   margin: auto;
   object-fit: contain;
-  max-width: 100%;
+  width: 100%;
 }
 
 .detalhes {
-  /* border: 1px solid blue; */
+  margin: 8px auto;
   padding: 16px 8px;
   text-align: center;
   width: 100%;
@@ -108,7 +102,6 @@ img {
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  /* display: block; */
   transition: 0.3s;
 }
 
