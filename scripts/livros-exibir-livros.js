@@ -3,15 +3,21 @@ const container = document.querySelector('.container-livros');
 const livros = [
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
-  {livro:'Dois Fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
+  {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
   {livro:'Ele que o abismo viu: Epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
+  
+  {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/onda.jpg'},
+  
+  {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
-  {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'}
+  {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
+  
+  {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/thapa-kunturi.jpg'}
 ];
 
 for (let i = 0; i < livros.length; i++) {
@@ -62,17 +68,16 @@ function mostrarLitChilena() {
   });
 }
 
+
 // Visualizar Literatura Espanhola
 const litEspanhola = document.getElementById('lit-espanhola');
 litEspanhola.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu").style.width = "0%";
   
   mostrarLitEspanhola();
 });
 
 function mostrarLitEspanhola() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
@@ -85,17 +90,60 @@ function mostrarLitEspanhola() {
   });
 }
 
+
+// Visualizar Literatura Francesa
+const litFrancesa = document.getElementById('lit-francesa');
+litFrancesa.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitFrancesa();
+});
+
+function mostrarLitFrancesa() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Francesa') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar Literatura Irlandesa
+const litIrlandesa = document.getElementById('lit-irlandesa');
+litIrlandesa.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitIrlandesa();
+});
+
+function mostrarLitIrlandesa() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Irlandesa') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
 // Visualizar Literatura Mesopotâmica
 const litMesopotamica = document.getElementById('lit-mesopotamica');
 litMesopotamica.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu").style.width = "0%";
   
   mostrarLitMesopotamica();
 });
 
 function mostrarLitMesopotamica() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
@@ -112,14 +160,12 @@ function mostrarLitMesopotamica() {
 // Visualizar Literatura Norte-Americana
 const litNorteAmericana = document.getElementById('lit-norte-americana');
 litNorteAmericana.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu").style.width = "0%";
   
   mostrarLitNorteAmericana();
 });
 
 function mostrarLitNorteAmericana() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
@@ -136,14 +182,12 @@ function mostrarLitNorteAmericana() {
 // Visualizar Literatura Russa
 const litRussa = document.getElementById('lit-russa');
 litRussa.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu").style.width = "0%";
   
   mostrarLitRussa();
 });
 
 function mostrarLitRussa() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
@@ -160,20 +204,17 @@ function mostrarLitRussa() {
 // Visualizar Literatura Sul-Coreana
 const litSulCoreana = document.getElementById('lit-sul-coreana');
 litSulCoreana.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu").style.width = "0%";
   
   mostrarLitSulCoreana();
 });
 
 function mostrarLitSulCoreana() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
   });
 
-  // Exibir apenas os livros da categoria "Literatura Sul-Coreana"
   livros.forEach((livro, index) => {
     if (livro.categoria === 'Literatura Sul-Coreana') {
       todosLivros[index].style.display = 'block';
@@ -186,14 +227,12 @@ function mostrarLitSulCoreana() {
 // Visualizar Literatura Infantil
 const litInfantil = document.getElementById('lit-infantil');
 litInfantil.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu-segmento").style.width = "0%";
   
   mostrarLitInfantil();
 });
 
 function mostrarLitInfantil() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
@@ -206,17 +245,16 @@ function mostrarLitInfantil() {
   });
 }
 
+
 // Visualizar Poesia
 const poesia = document.getElementById('poesia');
 poesia.addEventListener('click', function() {
-  // Esconder o menu de tela cheia
   document.getElementById("fullscreen-menu-segmento").style.width = "0%";
   
   mostrarPoesia();
 });
 
 function mostrarPoesia() {
-  // Esconder todos os livros
   const todosLivros = document.querySelectorAll('.itens');
   todosLivros.forEach(livro => {
     livro.style.display = 'none';
