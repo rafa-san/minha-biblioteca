@@ -21,3 +21,7 @@ th, td {
 summary::-webkit-details-marker {
   display: none; /* Remove o marcador padrão do WebKit (Chrome, Safari, etc.) */
 }
+
+ul {
+  list-style-position: inside;
+}
