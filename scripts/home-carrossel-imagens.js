@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.carrossel-livros').slick({
+  $('.container-carrossel-livros').slick({
     autoplay: false,
     autoplaySpeed: 2000, // Tempo em milissegundos
     dots: true,
@@ -16,14 +16,14 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 992, // tela menor que 992 pixels
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
         }
       },
       {
-        breakpoint: 1300, // tela menor que 1200 pixels
+        breakpoint: 1500,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1
