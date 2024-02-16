@@ -2,10 +2,17 @@ h2 {
   margin-top: 20px;
 }
 
+main div {
+  margin: auto;
+  overflow-x: auto;
+  width: 96%;
+}
+
 table {
-  width: 100%;
+  min-width: 900px;
   border-collapse: collapse;
   margin-top: 50px;
+  overflow-x: auto;
 }
 
 tr {
@@ -15,11 +22,7 @@ tr {
 th, td {
   padding: 10px;
   text-align: left;
-  width: 30%;
-}
-
-summary::-webkit-details-marker {
-  display: none; /* Remove o marcador padrão do WebKit (Chrome, Safari, etc.) */
+  /* width: 40%; */
 }
 
 ul {
