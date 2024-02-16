@@ -40,4 +40,26 @@
   .container-carrossel-livros {
     width: 94%;
   }
+
+
+  /* LIVROS */
+  .container-1__filtro {
+    width: 50%;
+  }
+
+
+  .container-2 li,
+  .livros-segmento li {
+    font-size: 2.0em;
+  }
+
+
+  /* FRASES E TRECHOS */
+  #imagem-livro-container {
+    max-width: 500px;
+  }
+
+  #frases-e-trechos {
+    max-width: 500px;
+  }
 }
