@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+.heading-2 {
+  margin: 16px auto;
+  text-align: center;
+  width: 90%;
+}
+
+
+
 /* PRIMEIRO CONTAINER */
 .container-1 {
   margin: 40px auto 24px;
@@ -31,6 +39,26 @@
   padding: 16px;
   text-align: center;
   width: 80%;
+}
+
+
+/* CONTAINER DOS DADOS */
+.container-dados {
+  display: flex;
+  justify-content: space-around;
+  /* border: 3px solid lightgray;
+  border-radius: 32px; */
+  margin: 16px auto;
+  padding: 16px;
+  text-align: center;
+  max-width: 380px;
+}
+
+.total-encontrado {
+  background-color: lightgray;
+  border-radius: 16px;
+  margin: 8px;
+  padding: 8px 16px;
 }
 
 
