@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* Estilo da section de dados e dos botÃĩes  
+======================================= */
+
+.container-dados {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.total-encontrado {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+  padding: 10px 0;
+  text-align: center;
+  width: 30%;
+}
+
+#total-filmes, #total-diretores {
+  margin: 5px auto;
+}
+
+h3.visualizacao {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.ordem {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.ordem button {
+  background-color: #ffffff;
+  border: 1px solid #2f4eda;
+  border-radius: 9px;
+  color: #394E66;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 20px;
+  padding: 10px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #2f4eda;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Estilo da galeria de filmes 
+=========================== */
+
+.container-lista > div {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 95%;
+}
+
+#itens-lista p {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 #33333333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 0.5%;
+  padding-left: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 24%;
+}
+
+#itens-lista > p:hover {
+  border: 1px solid #2f4eda;
+  box-shadow: 0 4px 6px 0;
+}
+
+
+
+
+
+/* BOTOES */
+
+/* Estilos para a páginação */
+#itens-lista {
+  border: 1px solid red;
+}
+
+#paginacao {
+  border: 1px solid blue;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  margin: 16px auto;
+}
