@@ -14,7 +14,7 @@
 .container-carrossel-livros {
   display: flex;
   margin: 8px auto;
-  width: 86%;
+  width: 85%;
 }
 
 .item {
@@ -25,6 +25,8 @@
   height: auto;
   margin: 6px;
   padding: 16px 8px;
+  /* width: 400px; */
+  width: 100%;
 }
 
 .item:hover {
@@ -56,3 +58,12 @@
 .texto-autor {
   color: #fa6400;
 }
+
+/* figure {
+  background-color: lightblue;
+  padding: 8px 0;
+} */
+
+/* figcaption {
+  background-color: white;
+} */
