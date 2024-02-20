@@ -91,6 +91,7 @@ img {
 }
 
 .detalhes {
+  /* background-color: #fff; */
   margin: 8px auto;
   padding: 16px 8px;
   text-align: center;
@@ -131,6 +132,10 @@ img {
   padding: 8px;
   text-decoration: none;
   transition: 0.3s;
+}
+
+ul {
+  padding: 16px 0;
 }
 
 .container-2 li,
