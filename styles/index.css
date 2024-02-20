@@ -21,11 +21,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgba(211, 211, 211, 0.2);
   height: auto;
   margin: 6px;
-  padding: 16px 8px;
-  /* width: 400px; */
   width: 100%;
 }
 
@@ -33,11 +30,17 @@
   color: #fa6400;
 }
 
+figure {
+  background-color: rgba(211, 211, 211, 0.2);
+  padding: 16px 0 0 0;
+}
+
 .imagem {
   display: block;
   height: 262px;
   margin: auto;
   object-fit: contain;
+  padding: 0 8px;
   width: 100%;
 }
 
@@ -46,9 +49,11 @@
 }
 
 .texto {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 66px;
   margin-top: 16px;
   text-align: center;
@@ -58,12 +63,3 @@
 .texto-autor {
   color: #fa6400;
 }
-
-/* figure {
-  background-color: lightblue;
-  padding: 8px 0;
-} */
-
-/* figcaption {
-  background-color: white;
-} */
