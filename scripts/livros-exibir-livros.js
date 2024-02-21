@@ -9,6 +9,8 @@ const livros = [
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
+  {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
+
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
@@ -55,9 +57,9 @@ const livros = [
 // Exibir a quantidade de livro:
 document.getElementById('total-livros').innerHTML = livros.length;
 
-// Contar a quantidade de autores únicos:
-const autoresUnicos = new Set(livros.map(livro => livro.autor));
-document.getElementById('total-autores').innerHTML = autoresUnicos.size;
+// // Contar a quantidade de autores únicos:
+// const autoresUnicos = new Set(livros.map(livro => livro.autor));
+// document.getElementById('total-autores').innerHTML = autoresUnicos.size;
 
 for (let i = 0; i < livros.length; i++) {
 
@@ -457,6 +459,28 @@ function mostrarEnsaios() {
 
   livros.forEach((livro, index) => {
     if (livro.segmento === 'Ensaios') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar Filosofia
+const filosofia = document.getElementById('filosofia');
+filosofia.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu-segmento").style.width = "0%";
+  
+  mostrarFilosofia();
+});
+
+function mostrarFilosofia() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.segmento === 'Filosofia') {
       todosLivros[index].style.display = 'block';
     }
   });
