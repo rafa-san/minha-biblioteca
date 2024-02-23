@@ -20,6 +20,8 @@ const livros = [
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
 
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
+  
+  {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
 
@@ -50,6 +52,8 @@ const livros = [
   {livro:'Serrote 22', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-22.jpg'},
   
   {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/thapa-kunturi.jpg'},
+
+  {livro:'Toda Mafalda', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'HQ', img:'../images/toda-mafalda.jpg'},
 
   {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'}
 ];
@@ -127,6 +131,28 @@ function mostrarLitBelga() {
 
   livros.forEach((livro, index) => {
     if (livro.categoria === 'Literatura Belga') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar Literatura Argentina
+const litArgentina = document.getElementById('lit-argentina');
+litArgentina.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitArgentina();
+});
+
+function mostrarLitArgentina() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Argentina') {
       todosLivros[index].style.display = 'block';
     }
   });
@@ -237,6 +263,28 @@ function mostrarLitGlobal() {
 
   livros.forEach((livro, index) => {
     if (livro.categoria === 'Literatura Global') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar Literatura Grega
+const litGrega = document.getElementById('lit-grega');
+litGrega.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu").style.width = "0%";
+  
+  mostrarLitGrega();
+});
+
+function mostrarLitGrega() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.categoria === 'Literatura Grega') {
       todosLivros[index].style.display = 'block';
     }
   });
@@ -481,6 +529,28 @@ function mostrarFilosofia() {
 
   livros.forEach((livro, index) => {
     if (livro.segmento === 'Filosofia') {
+      todosLivros[index].style.display = 'block';
+    }
+  });
+}
+
+
+// Visualizar HQs, Mangás e Graphic Novels
+const hQ = document.getElementById('hq');
+hQ.addEventListener('click', function() {
+  document.getElementById("fullscreen-menu-segmento").style.width = "0%";
+  
+  mostrarhQ();
+});
+
+function mostrarhQ() {
+  const todosLivros = document.querySelectorAll('.itens');
+  todosLivros.forEach(livro => {
+    livro.style.display = 'none';
+  });
+
+  livros.forEach((livro, index) => {
+    if (livro.segmento === 'HQ') {
       todosLivros[index].style.display = 'block';
     }
   });
