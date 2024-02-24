@@ -42,9 +42,9 @@ h3 {
 }
 
 /* Ocultar timelines não ativas */
-/* .timeline {
+.timeline {
   display: none;
-} */
+}
 
 /* Linha do tempo real (a régua vertical) */
 .timeline {
