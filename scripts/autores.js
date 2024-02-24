@@ -14,6 +14,7 @@ const autores = [
   "Jennifer Uman",
   "Juta Bauer",
   "Liev Tolstói",
+  "Lucia Miguel Pereira",
   "Maurice Sendak",
   "Pep Molist",
   "Quino",
