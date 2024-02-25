@@ -12,10 +12,13 @@ const autores = [
   "Homero",
   "James Joyce",
   "Jennifer Uman",
+  "Joe Sacco",
   "Juta Bauer",
+  "Laura Erber",
   "Liev Tolstói",
   "Lucia Miguel Pereira",
   "Maurice Sendak",
+  "Max Beerbohm",
   "Pep Molist",
   "Quino",
   "Raja Mohanty",
@@ -23,7 +26,8 @@ const autores = [
   "Sin-léqi-unnínni",
   "Sirish Rao",
   "Suzy Lee",
-  "Valerio Vidali"
+  "Valerio Vidali",
+  "William Hazlitt"
 ];
 
 // Exibir a quantidade de autores
