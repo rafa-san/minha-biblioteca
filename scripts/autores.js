@@ -1,9 +1,12 @@
 const autores = [
+  "Adam Phillips",
   "Alix Barzelay",
   "Anthony Browne",
+  "Bryan Lee O'Malley",
   "CárcamO",
   "Carolina Moreyra",
   "Chloé Legeay",
+  "Craig Thompson",
   "David Merveille",
   "Davide Cali",
   "François Place",
