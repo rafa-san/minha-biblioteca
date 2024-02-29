@@ -174,15 +174,15 @@ h3 {
 
 
 .ribbon {
-  width: 72px;
+  position: absolute;
+  top: -12px;
+  right: -25px;
+  background-color: #ff9800;
+  border-radius: 25px;
+  color: white;
   font-size: 12px;
   padding: 4px;
-  position: absolute;
-  right: -25px;
-  top: -12px;
   text-align: center;
-  border-radius: 25px;
   transform: rotate(20deg);
-  background-color: #ff9800;
-  color: white;
+  width: 72px;
 }
