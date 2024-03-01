@@ -15,6 +15,7 @@ const autores = [
   "David Mazzucchelli",
   "David Merveille",
   "Davide Cali",
+  "Ésquilo",
   "François Place",
   "Frédéric Gros",
   "Giovanna Zoboli",
