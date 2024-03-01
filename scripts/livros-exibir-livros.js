@@ -35,7 +35,7 @@ const livros = [
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
 
-  {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
   
@@ -80,6 +80,8 @@ const livros = [
   {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/thapa-kunturi.jpg'},
 
   {livro:'Toda Mafalda', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'HQ', img:'../images/toda-mafalda.jpg'},
+
+  {livro:'Tragédias', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/esquilo-tragedias.jpg'},
 
   {livro:'Três Sombras', autor:'Cyril Pedrosa', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'HQ', img:'../images/tres-sombras.jpg'},
 
