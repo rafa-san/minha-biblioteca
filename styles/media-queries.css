@@ -43,12 +43,11 @@
 
 
   /* LIVROS */
-  .container-1__filtro {
-    width: 50%;
+  .dados,
+  .abrir-menu {
+    max-width: 50%;
   }
 
-
-  .container-2 li,
   .livros-segmento li {
     font-size: 2.0em;
   }
