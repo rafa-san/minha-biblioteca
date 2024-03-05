@@ -1,30 +1,126 @@
 @charset "utf-8";
 
-main {
-  background-color: lightgray;
+.heading-2 {
+  margin: 16px auto;
+  text-align: center;
+  width: 90%;
 }
 
-ul {
-  list-style-position: inside;
+
+/* CONTAINER DO BACKGROUND */
+.container-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/img-linha-do-tempo.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+  height: 420px;
+  margin: 16px auto;
+  text-align: center;
+  width: 85%;
+}
+
+.abrir-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  color: #fff;
+  margin: 8px auto;
+  padding: 16px;
+  width: 90%;
+}
+
+.abrir-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.abrir-menu span {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 1.4em;
+ }
+
+
+ /* FULLSCREEN MENU */
+.fullscreen-menu-conteudo {
+  position: relative;
+  top: 18%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.livros-seculos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0,0,0, 0.97);
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 0;
+}
+
+.livros-seculos a {
+  color: #818181;
+  cursor: pointer;
+  font-size: 36px;
+  padding: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.livros-seculos ul {
+  padding: 16px 0;
+}
+
+.livros-seculos li {
+  color: #818181;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: auto;
+  padding: 8px;
+  transition: 0.3s;
+  width: 95%;
+}
+
+.livros-seculos a:hover,
+.livros-seculos a:focus {
+  color: #f1f1f1;
+}
+
+.livros-seculos ul li:hover {
+  color: #f1f1f1;
+}
+
+.livros-seculos .fechar-menu {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+/* LINHA DO TEMPO */
+.linha-do-tempo {
+  background-color: var(--cor3);
 }
 
 h3 {
   position: relative;
 }
 
-.tags {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 16px auto 48px;
-  padding: 8px;
-  text-align: center;
-  max-width: 400px;
-}
-
-.tag-cloud {
+.tag {
   display: inline-block;
-  background-color: #818181;
   border: 1px solid transparent;
   border-radius: 25px;
   color: white;
@@ -80,11 +176,16 @@ h3 {
   right: -17px;
   z-index: 1;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid var(--cor1);
   border-radius: 50%;
   content: '';
   height: 25px;
   width: 25px;
+}
+
+/* Ocultar o círculo laranja quando o menu está aberto */
+.menu-aberto .container::after {
+  display: none;
 }
 
 /* Posicionar a div à esquerda */
@@ -109,6 +210,12 @@ h3 {
   content: " ";
   height: 0;
   width: 0;
+}
+
+/* Ocultar a seta quando o menu está aberto */
+.menu-aberto .left::before,
+.menu-aberto .right::before {
+  display: none;
 }
 
 /* Adicionar setas ao container direito (apontando para a esquerda) */
@@ -169,8 +276,6 @@ h3 {
     left: 0%;
   }
 }
-
-
 
 
 .ribbon {
