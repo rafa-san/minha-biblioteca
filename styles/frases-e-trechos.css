@@ -2,6 +2,7 @@
 
 h2 {
   margin: 16px auto;
+  text-align: center;
 }
 
 #container {
@@ -14,6 +15,12 @@ h2 {
   margin: auto;
   padding: 40px;
   width: 90%;
+}
+
+.img-borda {
+  border: 15px solid transparent;
+  padding: 15px;
+  border-image: url(../images/img-prateleira.jpg) 8% stretch;
 }
 
 #imagem-livro-container {
