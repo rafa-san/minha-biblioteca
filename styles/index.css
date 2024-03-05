@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .imagem-home {
-  background-image: url("../images/estante-de-livros.jpg");
+  background-image: url("../images/img-estante-de-livros.jpg");
   background-size: cover;
   height: 70vh;
 }
