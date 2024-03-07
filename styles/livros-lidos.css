@@ -14,7 +14,7 @@
   justify-content: center;
   background-image: url('../images/img-livros-lidos.jpeg');
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   border-radius: 8px;
   height: 420px;
@@ -28,7 +28,7 @@
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 16px;
   color: #fff;
-  margin: 8px auto;
+  margin: 16px auto;
   padding: 16px;
   width: 80%;
 }
@@ -40,7 +40,7 @@
 
 .abrir-menu span {
   position: absolute;
-  top: 20px;
+  top: 13px;
   right: 15px;
   font-size: 1.4em;
  }
