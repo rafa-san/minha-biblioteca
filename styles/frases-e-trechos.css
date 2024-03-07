@@ -6,59 +6,65 @@ h2 {
 }
 
 #container {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  border-radius: 3px;
-  height: auto;
+  height: 430px;
   margin: auto;
-  padding: 40px;
   width: 90%;
 }
 
 .img-borda {
   border: 15px solid transparent;
-  padding: 15px;
   border-image: url(../images/img-prateleira.jpg) 8% stretch;
+  padding: 15px;
 }
 
-#imagem-livro-container {
-  /* border: 1px solid blue; */
-  /* background-color: rgba(211, 211, 211, 0.5); */
+/* #imagem-livro-container {
   border-radius: 8px;
   height: 400px;
   margin: auto;
   overflow: hidden;
   padding: 24px;
   max-width: 400px;
-}
+} */
 
-img {
-  /* border: 1px solid blue; */
+/* img {
   display: block;
   border-radius: 16px;
   height: 262px;
   margin: auto;
   object-fit: contain;
-  /* padding: 0 8px; */
   width: 100%;
-}
+} */
 
 #frases-e-trechos {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 1.1em;
   margin: 8px auto;
-  max-width: 400px;
+  width: 80%;
   text-align: justify;
 }
 
-.frases-e-trechos-autor {
-  margin: 8px auto;
+.fa-quote-left {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+}
+
+.fa-quote-right {
+  display: block;
   text-align: right;
+  width: 100%;
+}
+
+.frases-e-trechos-autor {
+  font-size: 18px;
+  margin: 8px auto;
+  text-align: center;
 }
 
 button {
