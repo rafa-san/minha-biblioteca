@@ -38,10 +38,7 @@
 }
 
 .abrir-menu span {
-  position: absolute;
-  top: 15px;
-  right: 30px;
-  font-size: 1.4em;
+  padding: 0 16px;
  }
 
 
@@ -115,8 +112,17 @@
   background-color: var(--cor3);
 }
 
-h3 {
+.linha-do-tempo h3 {
   position: relative;
+}
+
+.linha-do-tempo ul {
+  list-style-type: none;
+}
+
+.linha-do-tempo li::before {
+  content: "\21AA";
+  padding-right: 0.5em;
 }
 
 .tag {
@@ -132,8 +138,8 @@ h3 {
 
 /* Estilo para a tag ativa */
 .active {
-  background-color: #fff;
-  border: 1px solid #818181;
+  /* background-color: #fff; */
+  /* border: 1px solid #818181; */
   color: #818181;
 }
 
