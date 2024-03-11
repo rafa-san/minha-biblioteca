@@ -9,8 +9,10 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 430px;
+  /* height: 510px; */
+  height: auto;
   margin: auto;
+  padding: 16px 8px;
   width: 90%;
 }
 
@@ -46,19 +48,14 @@ h2 {
   font-size: 1.1em;
   margin: 8px auto;
   width: 80%;
-  text-align: justify;
-}
-
-.fa-quote-left {
-  display: inline-block;
   text-align: left;
-  width: 100%;
 }
 
+.fa-quote-left,
 .fa-quote-right {
-  display: block;
-  text-align: right;
-  width: 100%;
+  font-size: 24px;
+  margin: 0 16px;
+  opacity: 0.4;
 }
 
 .frases-e-trechos-autor {
