@@ -11,7 +11,7 @@ const selecao = [
 function gerarSelecao() {
   const randomQuote = selecao[Math.floor(Math.random() * selecao.length)];
   document.getElementById('livro').textContent = randomQuote.livro;
-  document.getElementById('texto').textContent = randomQuote.frase;
+  document.getElementById('texto').innerHTML = '<i class="fa fa-quote-left"></i> ' + randomQuote.frase + '<i class="fa fa-quote-right"></i>';
   document.getElementById('autor').textContent = randomQuote.autor;
 }
 
