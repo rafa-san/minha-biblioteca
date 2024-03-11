@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../images/img-livros-lidos.jpeg');
+  background-image: url('../images/img-livros-lidos.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -39,11 +39,8 @@
 }
 
 .abrir-menu span {
-  position: absolute;
-  top: 13px;
-  right: 15px;
-  font-size: 1.4em;
- }
+  padding: 0 16px;
+}
 
 
 /* CONTAINER DOS LIVROS */
@@ -68,7 +65,8 @@
 
 img {
   display: block;
-  height: 262px;
+  /* height: 262px; */
+  height: 310px;
   margin: auto;
   object-fit: contain;
   padding: 0 8px;
