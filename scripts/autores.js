@@ -23,6 +23,7 @@ const autores = [
   "Frédéric Gros",
   "Giovanna Zoboli",
   "Gustavo Duarte",
+  'Heródoto',
   "Hesíodo",
   "Homero",
   "James Joyce",
