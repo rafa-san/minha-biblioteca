@@ -9,7 +9,7 @@ const livros = [
 
   {livro:'A parte que falta encontra o grande O', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta-encontra-o-grande-o.jpg'},
 
-  {livro:'A trilogia tebana: Édipo Rei, Édipo em Colono, Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
@@ -57,21 +57,23 @@ const livros = [
 
   {livro:'Héracles', autor:'Eurípides', editora:'Palas Athena', anoEdicao:'2003', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/heracles.jpg'},
 
-  {livro:'Hinos Homéricos', autor:'Autoras e autores diversos', editora:'UNESP', anoEdicao:'2010', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Hinos homéricos', autor:'Autoras e autores diversos', editora:'UNESP', anoEdicao:'2010', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Ifigênia em Áulis, As fenícias, As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
 
+  {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
-  {livro:'Medéia, Hipólito, As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
