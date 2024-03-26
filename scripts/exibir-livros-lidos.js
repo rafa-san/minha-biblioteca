@@ -73,6 +73,8 @@ const livros = [
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
+  {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
@@ -152,6 +154,7 @@ const segmentos = {
   'historia': 'História',
   'hq': 'HQs, Mangás & Graphic Novels',
   'lit-infantil': 'Literatura Infantil',
+  'lit-juvenil': 'Literatura Juvenil',
   'poesia': 'Poesia',
   'teatro': 'Teatro'
 };
