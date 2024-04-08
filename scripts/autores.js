@@ -29,6 +29,7 @@ const autores = [
   "Ésquilo",
   "Estesícoro",
   "Eurípides",
+  "Flávia Lins e Silva",
   "François Place",
   "Frédéric Gros",
   "Giovanna Zoboli",
