@@ -33,6 +33,8 @@ const livros = [
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
+  {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
+
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
   {livro:'Ele que o abismo viu: Epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
@@ -41,7 +43,7 @@ const livros = [
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | autoria anônima', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | autoria anônima', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
@@ -73,7 +75,7 @@ const livros = [
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
-  {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
   
