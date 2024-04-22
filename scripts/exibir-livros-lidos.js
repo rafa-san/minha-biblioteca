@@ -9,17 +9,19 @@ const livros = [
 
   {livro:'A parte que falta encontra o grande O', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta-encontra-o-grande-o.jpg'},
 
-  {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
-  {livro:'As Traquínias', autor:'Sófocles', editora:'Unicamp', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'As nuvens; Só para mulheres; Um deus chamado dinheiro', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2000', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-nuvens-so-para-mulheres-um-deus-chamado-dinheiro.jpg'},
 
-  {livro:'As vespas; As aves; As rãs', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'As Traquínias', autor:'Sófocles', editora:'Unicamp', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-traquinias.jpg'},
 
-  {livro:'Agamêmnon - Orestéia I', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'As vespas; As aves; As rãs', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-vespas-as-aves-as-ras.jpg'},
 
-  {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Agamêmnon - Orestéia I', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/agamemnon.jpg'},
+
+  {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/aias.jpg'},
 
   {livro:'Asterios Polyp', autor:'David Mazzucchelli', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/asterios-polyp.jpg'},
 
@@ -29,7 +31,7 @@ const livros = [
 
   {livro:'Có! & Birds', autor:'Gustavo Duarte', editora:'Quadrinhos na Cia.', anoEdicao:'2014', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/co-e-birds.jpg'},
 
-  {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/coeforas.jpg'},
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
@@ -39,9 +41,9 @@ const livros = [
 
   {livro:'Ele que o abismo viu: Epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
 
-  {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/electra(s).jpg'},
 
-  {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | autoria anônima', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
@@ -49,27 +51,27 @@ const livros = [
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
 
-  {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/fragmentos-completos-safo.jpg'},
 
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
 
   {livro:'Habibi', autor:'Craig Thompson', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/habibi.jpg'},
 
-  {livro:'Helena', autor:'Eurípides', editora:'Movimento', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Helena', autor:'Eurípides', editora:'Movimento', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/helena.jpg'},
 
   {livro:'Héracles', autor:'Eurípides', editora:'Palas Athena', anoEdicao:'2003', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/heracles.jpg'},
 
-  {livro:'Hinos homéricos', autor:'Autoras e autores diversos', editora:'UNESP', anoEdicao:'2010', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Hinos homéricos', autor:'Autoras e autores diversos', editora:'UNESP', anoEdicao:'2010', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hinos-homericos.jpg'},
 
-  {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História', img:'../images/historia.jpg'},
 
-  {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
 
-  {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/lira-grega.jpg'},
 
   {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
@@ -77,7 +79,7 @@ const livros = [
 
   {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
 
-  {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
@@ -93,11 +95,11 @@ const livros = [
   
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
-  {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
-  {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
   {livro:'Os Trabalhos e os Dias', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2006', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/os-trabalhos-e-os-dias.jpg'},
 
@@ -107,13 +109,13 @@ const livros = [
 
   {livro:'Onde vivem os monstros', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/onde-vivem-os-monstros.jpg'},
 
-  {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
   
   {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
-  {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
 
-  {livro:'Prometeu Acorrentado; Ájax; Alceste', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Prometeu Acorrentado; Ájax; Alceste', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/prometeu-acorrentado-ajax-alceste.jpg'},
 
   {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
 
