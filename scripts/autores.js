@@ -22,6 +22,7 @@ const autores = [
   "Crinágoras",
   "Cyril Pedrosa",
   "Dan Jurgens",
+  "Dani Choi",
   "David Mazzucchelli",
   "David Merveille",
   "Davide Cali",
