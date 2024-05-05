@@ -10,7 +10,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   /* height: 510px; */
-  height: auto;
+  min-height: 60vh;
   margin: auto;
   padding: 16px 8px;
   width: 90%;
