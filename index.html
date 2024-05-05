@@ -1,139 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Livros que eu li" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Biblioteca - Home</title>
+    <link rel="stylesheet" href="styles/01-global-styles.css" />
+    <link rel="stylesheet" href="styles/02-header-e-nav.css" />
+    <link rel="stylesheet" href="styles/03-footer.css" />
+    <link rel="stylesheet" href="styles/04-index.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="scripts/menu-responsivo.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+    <script src="scripts/home-carrossel-imagens.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Biblioteca - Home</title>
-  <link rel="stylesheet" href="styles/global-styles.css" />
-  <link rel="stylesheet" href="styles/header-e-nav.css" />
-  <link rel="stylesheet" href="styles/index.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
-  <link rel="stylesheet" href="styles/media-queries.css" />
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-</head>
-
-<body>
-  <header id="header">
-    <div class="titulo">
-      <h1><a href="index.html">Minha Biblioteca</a></h1>
-    </div>
-    <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
-    <nav id="nav-bar" class="menu-responsivo">
-      <ul>
-        <li><a href="links-menu/livros-lidos.html" class="nav-link">Livros Lidos</a></li>
-        <li><a href="links-menu/linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
-        <li><a href="links-menu/frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="imagem-home"></div>
-    <h2 class="heading-2">Leituras Recentes</h2>
-
-    <div class="container-carrossel-livros">
-
-      <div class="item">
-        <figure>
-          <img src="images/serrote-24.jpg" alt="Capa do livro Serrote 24" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Serrote 24</strong></p>
-            <p class="texto-autor">Autoras e autores diversos</p>
-          </figcaption>
-        </figure>
+  <body>
+    <header id="header">
+      <div class="titulo">
+        <h1><a href="index.html">Minha Biblioteca</a></h1>
       </div>
+      <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
+      <nav id="nav-bar" class="menu-responsivo">
+        <ul>
+          <li><a href="links-menu/livros-lidos.html" class="nav-link">Livros Lidos</a></li>
+          <li><a href="links-menu/linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
+          <li><a href="links-menu/frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <div class="item">
-        <figure>
-          <img src="images/bicycles.jpg" alt="Capa do livro Bicycle" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Bicycles: Pop-up-book</strong></p>
-            <p class="texto-autor">Dominique Ehrhard</p>
-          </figcaption>
-        </figure>
+    <main>
+      <div class="imagem-home"></div>
+      <h2 class="heading-2">Leituras Recentes</h2>
+      <div class="container-carrossel-livros">
+        <!-- PRIMEIRO -->
+        <div class="item">
+          <figure>
+            <img src="images/serrote-24.jpg" alt="Capa do livro Serrote 24" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Serrote 24</strong></p>
+              <p class="texto-autor">Autoras e autores diversos</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/bicycles.jpg" alt="Capa do livro Bicycle" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Bicycles: Pop-up-book</strong></p>
+              <p class="texto-autor">Dominique Ehrhard</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/diario-de-pilar-na-grecia.jpg" alt="Capa do livro Diário de Pilar na Grécia" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Diário de Pilar na Grécia</strong></p>
+              <p class="texto-autor">Flávia Lins e Silva</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/noite-no-museu.jpg" alt="Capa do livro Noite no Museu" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Noite no Museu</strong></p>
+              <p class="texto-autor">Dani Choi</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/serrote-23.jpg" alt="Capa do livro Serrote 23" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Serrote 23</strong></p>
+              <p class="texto-autor">Autoras e autores diversos</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/caminhar-uma-filosofia.jpg" alt="Capa do livro Caminhar, uma filosofia" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Caminhar, uma filosofia</strong></p>
+              <p class="texto-autor">Frédéric Gros</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/gorila.jpg" alt="Capa do livro Gorila" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Gorila</strong></p>
+              <p class="texto-autor">Anthony Browne</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="item">
+          <figure>
+            <img src="images/vozes-no-parque.jpg" alt="Capa do livro Vozes no parque" class="imagem" />
+            <figcaption class="texto">
+              <p class="texto-titulo"><strong>Vozes no parque</strong></p>
+              <p class="texto-autor">Anthony Browne</p>
+            </figcaption>
+          </figure>
+        </div>
       </div>
+    </main>
+    
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
 
-      <div class="item">
-        <figure>
-          <img src="images/diario-de-pilar-na-grecia.jpg" alt="Capa do livro Diário de Pilar na Grécia" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Diário de Pilar na Grécia</strong></p>
-            <p class="texto-autor">Flávia Lins e Silva</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="item">
-        <figure>
-          <img src="images/noite-no-museu.jpg" alt="Capa do livro Noite no Museu" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Noite no Museu</strong></p>
-            <p class="texto-autor">Dani Choi</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="item">
-        <figure>
-          <img src="images/serrote-23.jpg" alt="Capa do livro Serrote 23" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Serrote 23</strong></p>
-            <p class="texto-autor">Autoras e autores diversos</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="item">
-        <figure>
-          <img src="images/caminhar-uma-filosofia.jpg" alt="Capa do livro Caminhar, uma filosofia" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Caminhar, uma filosofia</strong></p>
-            <p class="texto-autor">Frédéric Gros</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="item">
-        <figure>
-          <img src="images/gorila.jpg" alt="Capa do livro Gorila" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Gorila</strong></p>
-            <p class="texto-autor">Anthony Browne</p>
-          </figcaption>
-        </figure>
-      </div>
-
-      <div class="item">
-        <figure>
-          <img src="images/vozes-no-parque.jpg" alt="Capa do livro Vozes no parque" class="imagem" />
-          <figcaption class="texto">
-            <p class="texto-titulo"><strong>Vozes no parque</strong></p>
-            <p class="texto-autor">Anthony Browne</p>
-          </figcaption>
-        </figure>
-      </div>
-
-    </div>
-  </main>
-  
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="scripts/menu-responsivo.js"></script>
-  <script src="scripts/home-carrossel-imagens.js"></script>
-</body>
-
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
+        </a>
+      </section>
+    </footer>
+  </body>
 </html>
