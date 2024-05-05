@@ -1,1178 +1,1256 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Livros que eu li" />
+    <title>Minha Biblioteca - Linha do Tempo</title>
+    <link rel="stylesheet" href="../styles/01-global-styles.css" />
+    <link rel="stylesheet" href="../styles/02-header-e-nav.css" />
+    <link rel="stylesheet" href="../styles/03-footer.css" />
+    <link rel="stylesheet" href="../styles/06-linha-do-tempo.css" />
+    <link rel="stylesheet" href="../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../scripts/menu-responsivo.js" defer></script>
+    <script src="../scripts/fullscreen-menu.js" defer></script>
+    <script src="../scripts/linha-do-tempo.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Biblioteca - Linha do Tempo</title>
-  <link rel="stylesheet" href="../styles/global-styles.css" />
-  <link rel="stylesheet" href="../styles/header-e-nav.css" />
-  <link rel="stylesheet" href="../styles/footer.css" />
-  <link rel="stylesheet" href="../styles/linha-do-tempo.css" />
-  <link rel="stylesheet" href="../styles/media-queries.css" />
-</head>
+  <body>
+    <header id="header">
+      <div class="titulo">
+        <h1><a href="../index.html">Minha Biblioteca</a></h1>
+      </div>
+      <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
+      <nav id="nav-bar" class="menu-responsivo">
+        <ul>
+          <li><a href="livros-lidos.html" class="nav-link">Livros Lidos</a></li>
+          <li><a href="linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
+          <li><a href="frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header id="header">
-    <div class="titulo">
-      <h1><a href="../index.html">Minha Biblioteca</a></h1>
-    </div>
-    <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
-    <nav id="nav-bar" class="menu-responsivo">
-      <ul>
-        <li><a href="livros-lidos.html" class="nav-link">Livros Lidos</a></li>
-        <li><a href="linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
-        <li><a href="frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
-      </ul>
-    </nav>
-  </header>
+    <main>
+      <h2 class="heading-2">Linha do Tempo</h2>
 
-  <main>
-    <h2 class="heading-2">Linha do Tempo</h2>
+      <section class="container-background">
+        <div id="abrir-fullscreen-menu" class="abrir-menu">
+          <h3>Abrir Menu da Linha do Tempo <span><i class="fa-solid fa-arrow-right"></i></span></h3>
+          
+        </div>
+      </section>
 
-    <section class="container-background">
-      <div id="abrir-fullscreen-menu" class="abrir-menu">
-        <h3>Abrir Menu da Linha do Tempo <span><i class="fa-solid fa-arrow-right"></i></span></h3>
+      <section id="fullscreen-menu" class="livros-seculos">
+        <a href="javascript:void(0)" class="fechar-menu">&times;</a>
+        <ul class="fullscreen-menu-conteudo">
+          <li id="btn-xiii-ac" class="tag" data-century="seculo-xiii-ac">Século XIII a.C.</li>
+          <li id="btn-viii-ac" class="tag" data-century="seculo-viii-ac">Século VIII a.C.</li>
+          <li id="btn-vii-ac" class="tag" data-century="seculo-vii-ac">Século VII a.C.</li>
+          <li id="btn-vi-ac" class="tag" data-century="seculo-vi-ac">Século VI a.C.</li>
+          <li id="btn-v-ac" class="tag" data-century="seculo-v-ac">Século V a.C.</li>
+          <li id="btn-iv-ac" class="tag" data-century="seculo-iv-ac">Século IV a.C.</li>
+          <li id="btn-i" class="tag" data-century="seculo-i-ac">Século I a.C.</li>
+          <li id="btn-i" class="tag" data-century="seculo-xiii">Século XIII</li>
+          <li id="btn-xvii" class="tag" data-century="seculo-xvii">Século XVII</li>
+          <li id="btn-xviii" class="tag" data-century="seculo-xviii">Século XVIII</li>
+          <li id="btn-xix" class="tag" data-century="seculo-xix">Século XIX</li>
+          <li id="btn-xx" class="tag" data-century="seculo-xx">Século XX</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 class="teste"></h3>
+      </section>
+    
+      <!-- LINHA DO TEMPO -->
+      <section class="linha-do-tempo">
         
-      </div>
-    </section>
+        <!-- SÉCULO 13 a.C -->
+        <div id="seculo-xiii-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Sin-léqi-unnínni</h3>
+              <p>O mais antigo registro literário que conhecemos. Ele é anterior a Homero, a Hesíodo e aos textos bíblicos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Ele que o abismo viu: Epopeia de Gilgámesh</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <section id="fullscreen-menu" class="livros-seculos">
-      <a href="javascript:void(0)" class="fechar-menu">&times;</a>
-      <ul class="fullscreen-menu-conteudo">
-        <li id="btn-xiii-ac" class="tag" data-century="seculo-xiii-ac">Século XIII a.C.</li>
-        <li id="btn-viii-ac" class="tag" data-century="seculo-viii-ac">Século VIII a.C.</li>
-        <li id="btn-vii-ac" class="tag" data-century="seculo-vii-ac">Século VII a.C.</li>
-        <li id="btn-vi-ac" class="tag" data-century="seculo-vi-ac">Século VI a.C.</li>
-        <li id="btn-v-ac" class="tag" data-century="seculo-v-ac">Século V a.C.</li>
-        <li id="btn-iv-ac" class="tag" data-century="seculo-iv-ac">Século IV a.C.</li>
-        <li id="btn-ii" class="tag" data-century="seculo-ii">Século II</li>
-        <li id="btn-i" class="tag" data-century="seculo-i">Século I</li>
-        <li id="btn-xvii" class="tag" data-century="seculo-xvii">Século XVII</li>
-        <li id="btn-xviii" class="tag" data-century="seculo-xviii">Século XVIII</li>
-        <li id="btn-xix" class="tag" data-century="seculo-xix">Século XIX</li>
-        <li id="btn-xx" class="tag" data-century="seculo-xx">Século XX</li>
-      </ul>
-    </section>
+        <!-- SÉCULO 8 a.C. -->
+        <div id="seculo-viii-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Homero</h3>
+              <p>O mais antigo e respeitado poeta da Grécia Antiga. Fundador da literatura ocidental. Há dúvidas se realmente existiu. Teria vivido entre 800 a.C. e 701 a.C.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Ilíada</cite> (entre 750 e 725 a.C.)</li>
+                <li><cite>Odisseia</cite>  (entre 743 e 713 a.C.)</li>
+              </ul>
+            </div>
+          </div>
 
-    <section>
-      <h3 class="teste"></h3>
-    </section>
-  
-    <!-- LINHA DO TEMPO -->
-    <section class="linha-do-tempo">
-      
-      <!-- SÉCULO 13 a.C -->
-      <div id="seculo-xiii-ac" class="timeline">
+          <div class="container right">
+            <div class="content">
+              <h3>Hesíodo</h3>
+              <p>É o mais antigo poeta grego de quem se tem notícia com alguma certeza.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Teogonia: a origem dos deuses</cite> (aproximadamente 700 a.C.)</li>
+                <li><cite>Os Trabalhos e os Dias</cite> (aproximadamente 700 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Anônimo</h3>
+              <p>Coletânea de 33 poemas, de autoras e autores diversos, dedicados a 22 deuses do panteão grego.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Hinos Homéricos</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 7 a.C. -->
+        <div id="seculo-vii-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Álcman</h3>
+              <p>Poeta do cânone alexandrino de nove poetas líricos. Ativo em 620 a.C. Sua obra preservada contém cerca de 170 fragmentos, nenhum deles completos.</p>
+              <p>É o mais antigo autor de odes corais que conhecemos e também o mais antigo membro do cânone alexandrino de nove poetas líricos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Alceu  (630/620 a.C. - 580 a.C.)</h3>
+              <p>Poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 440 fragmentos, nenhum deles completos.</p>
+              <p>É o segundo do cânone alexandrino de nove poetas.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Safo</h3>
+              <p>Poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 200 fragmentos, dos quais apenas um está completo.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Estesícoro (632 a.C. - 553 a.C.)</h3>
+              <p>Poeta do cânone alexandrino de nove poetas líricos. Os temas tratados em seus fragmentos estão muito mais próximos da tradição épica do que da tradição da poesia mélica. Sua obra preservada contém cerca de 240 fragmentos, nenhum deles completos.</p>
+              <p>É o quarto poeta do cânone alexandrino de nove poetas líricos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Esopo</h3>
+              <p>Segundo a tradição, era um ex-escravo procedente da Frígia. Todos os dados que temos a seu respeito são incertos. A primeira compilação das fábulas de Esopo foi feita por Demétrio de Falero, por volta de 300 a.C. O primeiro conjunto impresso das fábulas de Esopo foi publicado em 1474.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fábulas</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 6 a.C. -->
+        <div id="seculo-vi-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Íbico</h3>
+              <p>Quinto poeta do cânone alexandrino de nove poetas líricos. Ativo em 550 a.C. Sua obra preservada contém cerca de 160 fragmentos, nenhum completo.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Anacreonte (575 - 490 a.C.)</h3>
+              <p>Sexto poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 150 fragmentos, alguns aparentando estarem completos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Simônides (556 - 468 a.C.)</h3>
+              <p>Poeta do cânone alexandrino de nove poetas líricos. O mais importante autor de epigramas do Período Arcaico. Era tio do poeta Baquílides. Sua obra preservada contém cerca de 100 fragmentos incompletos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Ésquilo (525 - 456 a.C.)</h3>
+              <p>É o mais antigo dos poetas trágicos cuja obra chegou até nossos dias. Sete tragédias completas foram preservadas.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Os Persas</cite> (472 a.C.)</li>
+                <li><cite>Os sete contra Tebas</cite> (467 a.C.)</li>
+                <li><cite>As suplicantes</cite> (463 a.C.)</li>
+                <li><cite>Prometeu cadeeiro</cite> (462/459 a.C.)</li>
+                <li><cite>Agamêmnon - Orestéia I</cite> (458 a.C.)</li>
+                <li><cite>Coéforas - Orestéia II</cite> (458 a.C.)</li>
+                <li><cite>Eumênides - Orestéia III</cite> (458 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Baquílides (520 - 450 a.C)</h3>
+              <p>Oitavo poeta do cânone alexandrino de nove poetas líricos. Parte significativa de suas obras foram conservadas.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos e poemas completos</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Píndaro (518 - 450 a.C)</h3>
+              <p>Nono poeta do cânone alexandrino de nove poetas líricos. Parte significativa de suas obras foram conservadas.</p>
+              <p>Considerado o “príncipe dos poetas” teve grande fama em vida e durante toda a Antiguidade. Com ele, a lírica grega atingiu simultaneamente o apogeu e o fim. <a href="https://greciantiga.org/arquivo.asp?num=0369" target="_blank" title="RIBEIRO JR., Wilson A. Píndaro. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0369. Data da consulta: 22/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fragmentos e poemas completos</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 5 a.C. -->
+        <div id="seculo-v-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Sófocles (496 - 405 a.C.)</h3>
+              <p>O segundo dos poetas trágicos e muito querido pelos atenienses. Sete tragédias completas chegaram até os nossos dias.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>As Traquínias</cite> (457/430 a.C.)</li>
+                <li><cite>Ájax</cite> (445 a.C.)</li>
+                <li><cite>Édipo Rei</cite> (429/425 a.C.)</li>
+                <li><cite>Antígona</cite> (422/421 a.C.)</li>
+                <li><cite>Electra</cite> (420/410 a.C.)</li>
+                <li><cite>Filoctetes</cite> (409 a.C.)</li>
+                <li><cite>Édipo em Colono</cite> (401 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Empédocles (492 - 432 a.C.)</h3>
+              <p>A um tempo estadista, filósofo, poeta, cientista e curandeiro, foi um dos mais desconcertantes e originais pensadores do século -V. <a href="https://greciantiga.org/arquivo.asp?num=0541" target="_blank" title="RIBEIRO JR., Wilson A. Empédocles de Acragás. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0541. Data da consulta: 24/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Eurípides (485 - 406 a.C.)</h3>
+              <p>Terceiro poeta trágigo. Dezoito tragédias completas chegaram até os nossos dias.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Alceste</cite> (438 a.C.)</li>
+                <li><cite>Medéia</cite> (431 a.C.)</li>
+                <li><cite>Hipólito</cite> (428 a.C.)</li>
+                <li><cite>Hécuba</cite> (424 a.C.)</li>
+                <li><cite>Héracles</cite> (415 a.C.)</li>
+                <li><cite>As troianas</cite> (415 a.C.)</li>
+                <li><cite>Electra</cite> (413 a.C.)</li>
+                <li><cite>Helena</cite> (412 a.C.)</li>
+                <li><cite>As fenícias</cite> (411 a.C.)</li>
+                <li><cite>Orestes</cite> (408 a.C.)</li>
+                <li><cite>As bacantes</cite> (405 a.C.)</li>
+                <li><cite>Ifigênia em Áulis</cite> (405 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Heródoto (484 - 425 a.C.)</h3>
+              <p>O mais importante dos historiadores gregos mais antigos e o primeiro prosador a reunir diversas narrativas históricas ou quase-históricas em relato coerente e vivo.<a href="https://greciantiga.org/arquivo.asp?num=0345" target="_blank" title="RIBEIRO JR., Wilson A. Heródoto. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0345. Data da consulta: 18/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>História</cite> (425 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="container right">
+            <div class="content">
+              <h3>Aristófanes (447 - 386 a.C.)</h3>
+              <p>Principal representante da “Comédia Antiga”. Onze comédias completas chegaram até os nossos dias.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>As nuvens</cite> (423 a.C.)</li>
+                <li><cite>As vespas</cite> (422 a.C.)</li>
+                <li><cite>As aves</cite> (414 a.C.)</li>
+                <li><cite>Lisístrata (A greve do sexo)</cite> (411 a.C.)</li>
+                <li><cite>Tesmoforiantes (Só para mulheres)</cite> (411 a.C.)</li>
+                <li><cite>As rãs</cite> (405 a.C.)</li>
+                <li><cite>Um deus chamado dinheiro (Pluto)</cite> (388 a.C.)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Os arcanenses</cite> (425 a.C.)</li>
+                <li><cite>Os cavaleiros</cite> (424 a.C.)</li>
+                <li><cite>A paz</cite> (421 a.C.)</li>
+                <li><cite>A revolução das mulheres (Eclesiazusas)</cite> (392 a.C.)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Platão (428 - 347 a.C.)</h3>
+              <p>O mais importante de todos os discípulos de Sócrates. Exerceu enorme influência na filosofia, na religião, na educação, na literatura e até mesmo na língua grega.</p>
+              <p>Todos os 43 diálogos atribuídos a ele pelos antigos, mas não necessariamente escritos por ele, chegaram até nós. Dentre eles, somente 27 diálogos e as cartas VI, VII, VIII são considerados autênticos. <a href="https://greciantiga.org/arquivo.asp?num=0336" target="_blank" title="RIBEIRO JR., Wilson A. Platão. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0336. Data da consulta: 24/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li>Apologia de Sócrates</li>
+                <li>Cármides</li>
+                <li>Críton</li>
+                <li>Eutidemo</li>
+                <li>Eutífron</li>
+                <li>Górgias</li>
+                <li>Hípias Maior</li>
+                <li>Íon</li>
+                <li>Laques</li>
+                <li>Hípias Menor</li>
+                <li>Lísis</li>
+                <li>Menexeno</li>
+                <li>Mênon</li>
+                <li>Protágoras</li>
+                <li>Crátilo</li>
+                <li>Parmênides</li>
+                <li>Fédon</li>
+                <li>Fedro</li>
+                <li>O Banquete</li>
+                <li>A República</li>
+                <li>Teeteto</li>
+                <li>Leis Filebo</li>
+                <li>O Sofista</li>
+                <li>O Político</li>
+                <li>Timeu</li>
+                <li>Crítias</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 4 a.C. -->
+        <div id="seculo-iv-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Asclepíades (320 - 280 a.C.)</h3>
+              <p>Foi um epigramatista e poeta lírico grego.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Calímaco (315/305 - 240 a.C.)</h3>
+              <p>Natural de Cirene, Líbia. Poeta e estudioso, foi o maior expoente da erudição alexandrina e um dos mais importantes poetas do período. Sua contribuição ao estudo da obra dos autores gregos mais antigos é, também, muito significativa. <a href="https://greciantiga.org/arquivo.asp?num=0621" target="_blank" title="RIBEIRO JR., Wilson A. Calímaco de Cirene. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0621. Data da consulta: 26/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Possidipo (310 - 240 a.C.)</h3>
+              <p>Foi um poeta epigramático da Grécia antiga.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Simias de Rodes (300 - 250 a.C.)</h3>
+              <p>foi um poeta e gramático grego da escola alexandrina, que floresceu sob os primeiros Ptolomeus.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Teócrito (300 - 250 a.C.)</h3>
+              <p>O maior dos poetas helenísticos e o último grande poeta grego, autor de idílios e alguns epigramas. <a href="https://greciantiga.org/arquivo.asp?num=0404" target="_blank" title="RIBEIRO JR., Wilson A. Teócrito. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0404. Data da consulta: 24/03/2024."> Fonte</a></p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 1 a.C. -->
+        <div id="seculo-i-ac" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Crinágoras (70 a.C. - 18 d.C.)</h3>
+              <p>Foi um epigramático e embaixador grego que viveu em Roma como poeta da corte.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Autoria Anônima</h3>
+              <p>De autoria indeterminada, o Romance de Esopo pertence ao período imperial da literatura grega (31 a.C. a 410 d.C), tido por decadente em vista dos anteriores - os períodos arcaico, clássico e helenístico.</p>
+              <p>É provável que seu núcleo tenha origem na tradição oral, remontando vários séculos antes da consolidação das variantes escritas, o que só ocorreu por volta do século II d.C.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Romance de Esopo</cite></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 13 -->
+        <div id="seculo-xiii" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Dante Alighieri (1265 - 1321)</h3>
+              <p>Nasceu em Florença, Itália.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>A divina comédia</cite> (Entre 1304 e 1321)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- SÉCULO 17 -->
+        <div id="seculo-xvii" class="timeline">
         <div class="container left">
           <div class="content">
-            <h3>Sin-léqi-unnínni</h3>
-            <p>O mais antigo registro literário que conhecemos. Ele é anterior a Homero, a Hesíodo e aos textos bíblicos.</p>
+            <h3>Charles Perrault (1628 - 1703)</h3>
+            <p>Nasceu em Paris, França.</p>
             <h4>Já li:</h4>
             <ul>
-              <li><cite>Ele que o abismo viu: Epopeia de Gilgámesh</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 8 a.C. -->
-      <div id="seculo-viii-ac" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Homero</h3>
-            <p>O mais antigo e respeitado poeta da Grécia Antiga. Fundador da literatura ocidental. Há dúvidas se realmente existiu. Teria vivido entre 800 a.C. e 701 a.C.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Ilíada</cite> (entre 750 e 725 a.C.)</li>
-              <li><cite>Odisseia</cite>  (entre 743 e 713 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Hesíodo</h3>
-            <p>É o mais antigo poeta grego de quem se tem notícia com alguma certeza.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Teogonia: a origem dos deuses</cite> (aproximadamente 700 a.C.)</li>
-              <li><cite>Os Trabalhos e os Dias</cite> (aproximadamente 700 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Anônimo</h3>
-            <p>Coletânea de 33 poemas, de autoras e autores diversos, dedicados a 22 deuses do panteão grego.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Hinos Homéricos</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 7 a.C. -->
-      <div id="seculo-vii-ac" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Álcman</h3>
-            <p>Poeta do cânone alexandrino de nove poetas líricos. Ativo em 620 a.C. Sua obra preservada contém cerca de 170 fragmentos, nenhum deles completos.</p>
-            <p>É o mais antigo autor de odes corais que conhecemos e também o mais antigo membro do cânone alexandrino de nove poetas líricos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Alceu  (630/620 a.C. - 580 a.C.)</h3>
-            <p>Poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 440 fragmentos, nenhum deles completos.</p>
-            <p>É o segundo do cânone alexandrino de nove poetas.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Safo</h3>
-            <p>Poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 200 fragmentos, dos quais apenas um está completo.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Estesícoro (632 a.C. - 553 a.C.)</h3>
-            <p>Poeta do cânone alexandrino de nove poetas líricos. Os temas tratados em seus fragmentos estão muito mais próximos da tradição épica do que da tradição da poesia mélica. Sua obra preservada contém cerca de 240 fragmentos, nenhum deles completos.</p>
-            <p>É o quarto poeta do cânone alexandrino de nove poetas líricos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Esopo</h3>
-            <p>Segundo a tradição, era um ex-escravo procedente da Frígia. Todos os dados que temos a seu respeito são incertos. A primeira compilação das fábulas de Esopo foi feita por Demétrio de Falero, por volta de 300 a.C. O primeiro conjunto impresso das fábulas de Esopo foi publicado em 1474.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fábulas</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 6 a.C. -->
-      <div id="seculo-vi-ac" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Íbico</h3>
-            <p>Quinto poeta do cânone alexandrino de nove poetas líricos. Ativo em 550 a.C. Sua obra preservada contém cerca de 160 fragmentos, nenhum completo.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Anacreonte (575 - 490 a.C.)</h3>
-            <p>Sexto poeta do cânone alexandrino de nove poetas líricos. Sua obra preservada contém cerca de 150 fragmentos, alguns aparentando estarem completos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Simônides (556 - 468 a.C.)</h3>
-            <p>Poeta do cânone alexandrino de nove poetas líricos. O mais importante autor de epigramas do Período Arcaico. Era tio do poeta Baquílides. Sua obra preservada contém cerca de 100 fragmentos incompletos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Ésquilo (525 - 456 a.C.)</h3>
-            <p>É o mais antigo dos poetas trágicos cuja obra chegou até nossos dias. Sete tragédias completas foram preservadas.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Os Persas</cite> (472 a.C.)</li>
-              <li><cite>Os sete contra Tebas</cite> (467 a.C.)</li>
-              <li><cite>As suplicantes</cite> (463 a.C.)</li>
-              <li><cite>Prometeu cadeeiro</cite> (462/459 a.C.)</li>
-              <li><cite>Agamêmnon - Orestéia I</cite> (458 a.C.)</li>
-              <li><cite>Coéforas - Orestéia II</cite> (458 a.C.)</li>
-              <li><cite>Eumênides - Orestéia III</cite> (458 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Baquílides (520 - 450 a.C)</h3>
-            <p>Oitavo poeta do cânone alexandrino de nove poetas líricos. Parte significativa de suas obras foram conservadas.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos e poemas completos</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Píndaro (518 - 450 a.C)</h3>
-            <p>Nono poeta do cânone alexandrino de nove poetas líricos. Parte significativa de suas obras foram conservadas.</p>
-            <p>Considerado o “príncipe dos poetas” teve grande fama em vida e durante toda a Antiguidade. Com ele, a lírica grega atingiu simultaneamente o apogeu e o fim. <a href="https://greciantiga.org/arquivo.asp?num=0369" target="_blank" title="RIBEIRO JR., Wilson A. Píndaro. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0369. Data da consulta: 22/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fragmentos e poemas completos</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 5 a.C. -->
-      <div id="seculo-v-ac" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Sófocles (496 - 405 a.C.)</h3>
-            <p>O segundo dos poetas trágicos e muito querido pelos atenienses. Sete tragédias completas chegaram até os nossos dias.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>As Traquínias</cite> (457/430 a.C.)</li>
-              <li><cite>Ájax</cite> (445 a.C.)</li>
-              <li><cite>Édipo Rei</cite> (429/425 a.C.)</li>
-              <li><cite>Antígona</cite> (422/421 a.C.)</li>
-              <li><cite>Electra</cite> (420/410 a.C.)</li>
-              <li><cite>Filoctetes</cite> (409 a.C.)</li>
-              <li><cite>Édipo em Colono</cite> (401 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Empédocles (492 - 432 a.C.)</h3>
-            <p>A um tempo estadista, filósofo, poeta, cientista e curandeiro, foi um dos mais desconcertantes e originais pensadores do século -V. <a href="https://greciantiga.org/arquivo.asp?num=0541" target="_blank" title="RIBEIRO JR., Wilson A. Empédocles de Acragás. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0541. Data da consulta: 24/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Eurípides (485 - 406 a.C.)</h3>
-            <p>Terceiro poeta trágigo. Dezoito tragédias completas chegaram até os nossos dias.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Alceste</cite> (438 a.C.)</li>
-              <li><cite>Medéia</cite> (431 a.C.)</li>
-              <li><cite>Hipólito</cite> (428 a.C.)</li>
-              <li><cite>Hécuba</cite> (424 a.C.)</li>
-              <li><cite>Héracles</cite> (415 a.C.)</li>
-              <li><cite>As troianas</cite> (415 a.C.)</li>
-              <li><cite>Electra</cite> (413 a.C.)</li>
-              <li><cite>Helena</cite> (412 a.C.)</li>
-              <li><cite>As fenícias</cite> (411 a.C.)</li>
-              <li><cite>Orestes</cite> (408 a.C.)</li>
-              <li><cite>As bacantes</cite> (405 a.C.)</li>
-              <li><cite>Ifigênia em Áulis</cite> (405 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Heródoto (484 - 425 a.C.)</h3>
-            <p>O mais importante dos historiadores gregos mais antigos e o primeiro prosador a reunir diversas narrativas históricas ou quase-históricas em relato coerente e vivo.<a href="https://greciantiga.org/arquivo.asp?num=0345" target="_blank" title="RIBEIRO JR., Wilson A. Heródoto. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0345. Data da consulta: 18/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>História</cite> (425 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div class="container right">
-          <div class="content">
-            <h3>Aristófanes (447 - 386 a.C.)</h3>
-            <p>Principal representante da “Comédia Antiga”. Onze comédias completas chegaram até os nossos dias.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>As nuvens</cite> (423 a.C.)</li>
-              <li><cite>As vespas</cite> (422 a.C.)</li>
-              <li><cite>As aves</cite> (414 a.C.)</li>
-              <li><cite>Lisístrata (A greve do sexo)</cite> (411 a.C.)</li>
-              <li><cite>Tesmoforiantes (Só para mulheres)</cite> (411 a.C.)</li>
-              <li><cite>As rãs</cite> (405 a.C.)</li>
-              <li><cite>Um deus chamado dinheiro (Pluto)</cite> (388 a.C.)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Os arcanenses</cite> (425 a.C.)</li>
-              <li><cite>Os cavaleiros</cite> (424 a.C.)</li>
-              <li><cite>A paz</cite> (421 a.C.)</li>
-              <li><cite>A revolução das mulheres (Eclesiazusas)</cite> (392 a.C.)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Platão (428 - 347 a.C.)</h3>
-            <p>O mais importante de todos os discípulos de Sócrates. Exerceu enorme influência na filosofia, na religião, na educação, na literatura e até mesmo na língua grega.</p>
-            <p>Todos os 43 diálogos atribuídos a ele pelos antigos, mas não necessariamente escritos por ele, chegaram até nós. Dentre eles, somente 27 diálogos e as cartas VI, VII, VIII são considerados autênticos. <a href="https://greciantiga.org/arquivo.asp?num=0336" target="_blank" title="RIBEIRO JR., Wilson A. Platão. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0336. Data da consulta: 24/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li>Apologia de Sócrates</li>
-              <li>Cármides</li>
-              <li>Críton</li>
-              <li>Eutidemo</li>
-              <li>Eutífron</li>
-              <li>Górgias</li>
-              <li>Hípias Maior</li>
-              <li>Íon</li>
-              <li>Laques</li>
-              <li>Hípias Menor</li>
-              <li>Lísis</li>
-              <li>Menexeno</li>
-              <li>Mênon</li>
-              <li>Protágoras</li>
-              <li>Crátilo</li>
-              <li>Parmênides</li>
-              <li>Fédon</li>
-              <li>Fedro</li>
-              <li>O Banquete</li>
-              <li>A República</li>
-              <li>Teeteto</li>
-              <li>Leis Filebo</li>
-              <li>O Sofista</li>
-              <li>O Político</li>
-              <li>Timeu</li>
-              <li>Crítias</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 4 a.C. -->
-      <div id="seculo-iv-ac" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Asclepíades (320 - 280 a.C.)</h3>
-            <p>Foi um epigramatista e poeta lírico grego.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Calímaco (315/305 - 240 a.C.)</h3>
-            <p>Natural de Cirene, Líbia. Poeta e estudioso, foi o maior expoente da erudição alexandrina e um dos mais importantes poetas do período. Sua contribuição ao estudo da obra dos autores gregos mais antigos é, também, muito significativa. <a href="https://greciantiga.org/arquivo.asp?num=0621" target="_blank" title="RIBEIRO JR., Wilson A. Calímaco de Cirene. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0621. Data da consulta: 26/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Possidipo (310 - 240 a.C.)</h3>
-            <p>Foi um poeta epigramático da Grécia antiga.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Simias de Rodes (300 - 250 a.C.)</h3>
-            <p>foi um poeta e gramático grego da escola alexandrina, que floresceu sob os primeiros Ptolomeus.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Teócrito (300 - 250 a.C.)</h3>
-            <p>O maior dos poetas helenísticos e o último grande poeta grego, autor de idílios e alguns epigramas. <a href="https://greciantiga.org/arquivo.asp?num=0404" target="_blank" title="RIBEIRO JR., Wilson A. Teócrito. Portal Graecia Antiqua, São Carlos. URL: greciantiga.org/arquivo.asp?num=0404. Data da consulta: 24/03/2024."> Fonte</a></p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 2 -->
-      <div id="seculo-ii" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Autoria Anônima</h3>
-            <p>De autoria indeterminada, o Romance de Esopo pertence ao período imperial da literatura grega (31 a.C. a 410 d.C), tido por decadente em vista dos anteriores - os períodos arcaico, clássico e helenístico.</p>
-            <p>É provável que seu núcleo tenha origem na tradição oral, remontando vários séculos antes da consolidação das variantes escritas, o que só ocorreu por volta do século II d.C.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Romance de Esopo</cite></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <!-- SÉCULO 1 -->
-      <div id="seculo-i" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Crinágoras (70 a.C. - 18 d.C.)</h3>
-            <p>Foi um epigramático e embaixador grego que viveu em Roma como poeta da corte.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li>Epigramas em <cite>Poemas da antologia grega ou palatina</cite></li>
+              <li><cite>Contos da mamãe gansa</cite> (1697)</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <!-- SÉCULO 17 -->
-      <div id="seculo-xvii" class="timeline">
-      <div class="container left">
-        <div class="content">
-          <h3>Charles Perrault (1628 - 1703)</h3>
-          <p>Nasceu em Paris, França.</p>
-          <h4>Já li:</h4>
-          <ul>
-            <li><cite>Contos da mamãe gansa</cite> (1697)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-      <!-- SÉCULO 18 -->
-      <div id="seculo-xviii" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>William Hazlitt (1778 - 1830)</h3>
-            <p>Nasceu em Maidstone, Inglaterra.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Sobre os ensaístas de periódico</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+        <!-- SÉCULO 18 -->
+        <div id="seculo-xviii" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>William Hazlitt (1778 - 1830)</h3>
+              <p>Nasceu em Maidstone, Inglaterra.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Sobre os ensaístas de periódico</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-  
-      <!-- SÉCULO 19 -->
-      <div id="seculo-xix" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Fiódor Dostoiévski (1821 - 1881)</h3>
-            <p>Nasceu em Moscou, Rússia.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Noites Brancas</cite> (1848)</li>
-            </ul>
+    
+        <!-- SÉCULO 19 -->
+        <div id="seculo-xix" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Nikolai Gógol (1809 - 1852)</h3>
+              <p>Nasceu em Sorochyntsi, Ucrânia.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Avenida Niévski</cite> (1835)</li>
+                <li><cite>Notas de Petersburgo de 1836</cite> (1837)</li>
+              </ul>
+            </div>
           </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Liev Tolstói (1828 - 1910)</h3>
-            <p>Nasceu em Tula, Rússia.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>De quanta terra precisa o homem?</cite> (1886)</li>
-            </ul>
+          
+          <div class="container left">
+            <div class="content">
+              <h3>Fiódor Dostoiévski (1821 - 1881)</h3>
+              <p>Nasceu em Moscou, Rússia.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Noites brancas</cite> (1848)</li>
+                <li><cite>Memórias do subsolo</cite> (1864)</li>
+                <li><cite>Uma criatura Dócil</cite> (1876)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li>Gente pobre (1846)</li>
+                <li>O Duplo (1846)</li>
+                <li><cite>Humilhados e ofendidos</cite> (1861)</li>
+                <li><cite>Recordações da casa dos mortos</cite> (1861)</li>
+                <li>Crime e castigo (1866)</li>
+                <li>O idiota (1868)</li>
+                <li><cite>O eterno marido</cite> (1870)</li>
+                <li>Os demônios (1872)</li>
+                <li><cite>O adolescente</cite> (1875)</li>
+                <li>Os irmãos Karamázov (1880)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Max Beerbohm (1872 - 1956)</h3>
-            <p>Pseudônimo de Sir Henry Maximilian Beerbohm. Nasceu em Londres, Inglaterra. "Príncipe dos ensaístas" para Virginia Woolf.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O espírito da caricatura</cite> (1901 | ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Gustave Flaubert (1821 - 1880)</h3>
+              <p>Nasceu em Rouen, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Três Contos</cite> (1877)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Madame Bovary</cite> (1857)</li>
+                <li><cite>A educação sentimental</cite> (1869)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>James Joyce (1882 - 1941)</h3>
-            <p>Nasceu em Dublin, Irlanda.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O Gato e o Diabo</cite> (1936)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Liev Tolstói (1828 - 1910)</h3>
+              <p>Nasceu em Tula, Rússia.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>De quanta terra precisa o homem?</cite> (1886)</li>
+                <li><cite>Khadji-Murát</cite> (1912)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>P. L. Travers (1899 - 1996)</h3>
-            <p>Helen Lyndon Goff (nome de nascimento). Pamela Lyndon Travers (nome adotado após mudar-se para Sydney com a intenção de iniciar uma carreira como atriz). Nasceu em Marybrough, Austrália.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Mary Poppins</cite> (1934)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Gustave Doré (1832 - 1883) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Estrasburgo, França.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>A divina comédia</cite>, Abril Cultural</li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <!-- SÉCULO 20 -->
-      <div id="seculo-xx" class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h3>Lucia Miguel Pereira (1901 - 1959)</h3>
-            <p>Nasceu em Minas Gerais, Brasil.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Sobre os ensaístas ingleses</cite> (ensaio publicado na serrote número 22, em março de 2016).</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Machado de Assis</cite> (1936)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Friedrich Nietzsche (1844 - 1900)</h3>
+              <p>Nasceu em Röcken, Alemanha.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>A Gaia Ciência</cite> (1882)</li>
+                <li><cite>Ecce homo</cite> (1888)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Joseph Mitchell (1908 - 1996)</h3>
-            <p>Nasceu na Carolina do Norte, Estados Unidos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Robeson em Manhattan</cite> (ensaio publicado na serrote número 22, em março de 2016).</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>O segredo de Joe Gould</cite> (1964)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Max Beerbohm (1872 - 1956)</h3>
+              <p>Pseudônimo de Sir Henry Maximilian Beerbohm. Nasceu em Londres, Inglaterra. "Príncipe dos ensaístas" para Virginia Woolf.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O espírito da caricatura</cite> (1901 | ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>John Berger (1926 - 2017)</h3>
-            <p>Nasceu em Londres, Inglaterra.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Catarata: observações após uma remoção</cite> (2011 | ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>James Joyce (1882 - 1941)</h3>
+              <p>Nasceu em Dublin, Irlanda.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O Gato e o Diabo</cite> (1936)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Maurice Sendak (1928 - 2012)</h3>
-            <p>Nasceu em Nova York, Estados Unidos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Onde vivem os monstros</cite> (1963)</li>
-              <li><cite>Na cozinha noturna</cite> (1970)</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="container left">
-          <div class="content">
-            <h3>Shel Silverstein (1930 - 1999)</h3>
-            <p>Nasceu em Chicago, Estados Unidos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>A árvore generosa</cite> (1964)</li>
-              <li><cite>Quem quer este rinoceronte?</cite> (1964)</li>
-              <li><cite>A parte que falta</cite> (1976)</li>
-              <li><cite>A parte que falta encontra o grande O</cite> (1981)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>P. L. Travers (1899 - 1996)</h3>
+              <p>Helen Lyndon Goff (nome de nascimento). Pamela Lyndon Travers (nome adotado após mudar-se para Sydney com a intenção de iniciar uma carreira como atriz). Nasceu em Marybrough, Austrália.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Mary Poppins</cite> (1934)</li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Quino (1932)</h3>
-            <p>Joaquín Salvador Lavado. Nasceu em Mendoza, Argentina.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Toda Mafalda (1978)</cite></li>
-              <li><cite>Quinoterapia (1985)</cite></li>
-            </ul>
+        <!-- SÉCULO 20 -->
+        <div id="seculo-xx" class="timeline">
+          <div class="container left">
+            <div class="content">
+              <h3>Lucia Miguel Pereira (1901 - 1959)</h3>
+              <p>Nasceu em Minas Gerais, Brasil.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Sobre os ensaístas ingleses</cite> (ensaio publicado na serrote número 22, em março de 2016).</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Machado de Assis</cite> (1936)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Charles Juliet (1934)</h3>
-            <p>Nasceu em Jujurieux, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Encontros com Samuel Beckett</cite> (1999 | ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Joseph Mitchell (1908 - 1996)</h3>
+              <p>Nasceu na Carolina do Norte, Estados Unidos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Robeson em Manhattan</cite> (ensaio publicado na serrote número 22, em março de 2016).</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>O segredo de Joe Gould</cite> (1964)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Joseph Brodsky (1934 - 1996)</h3>
-            <p>Nasceu em São Petersburgo, Rússia.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Depois de uma viagem ou Homenagem às vértebras</cite> (1999) (ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>John Berger (1926 - 2017)</h3>
+              <p>Nasceu em Londres, Inglaterra.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Catarata: observações após uma remoção</cite> (2011 | ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Anthony Browne (1946)</h3>
-            <p>Nasceu em Sheffield, Inglaterra.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Gorila</cite> (1983)</li>
-              <li><cite>Vozes no Parque</cite> (1998)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Maurice Sendak (1928 - 2012)</h3>
+              <p>Nasceu em Nova York, Estados Unidos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Onde vivem os monstros</cite> (1963)</li>
+                <li><cite>Na cozinha noturna</cite> (1970)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Adam Phillips (1954)</h3>
-            <p>Nasceu em Cardiff, País de Gales.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Contra a autocrítica</cite> (2015 | ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Shel Silverstein (1930 - 1999)</h3>
+              <p>Nasceu em Chicago, Estados Unidos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>A árvore generosa</cite> (1964)</li>
+                <li><cite>Quem quer este rinoceronte?</cite> (1964)</li>
+                <li><cite>A parte que falta</cite> (1976)</li>
+                <li><cite>A parte que falta encontra o grande O</cite> (1981)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Emilio Urberuaga (1954) <span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em Madri, Espanha.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Dois Fios</cite> (2007)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Quino (1932)</h3>
+              <p>Joaquín Salvador Lavado. Nasceu em Mendoza, Argentina.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Toda Mafalda (1978)</cite></li>
+                <li><cite>Quinoterapia (1985)</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Gonzalo Cárcamo (1954)</h3>
-            <p>Nasceu em Los Angeles, Chile.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Modelo Vivo Natureza Morta</cite> (2000)</li>
-              <li><cite>Thapa Kunturi: ninho do condor</cite> (2007)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Charles Juliet (1934)</h3>
+              <p>Nasceu em Jujurieux, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Encontros com Samuel Beckett</cite> (1999 | ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Juta Bauer (1955)</h3>
-            <p>Nasceu em Hamburgo, Alemanha.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Selma</cite> (1997)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Joseph Brodsky (1934 - 1996)</h3>
+              <p>Nasceu em São Petersburgo, Rússia.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Depois de uma viagem ou Homenagem às vértebras</cite> (1999) (ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Serge Bloch (1956) <span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em Colmar, França.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Fico à espera...</cite> (2005)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Anthony Browne (1946)</h3>
+              <p>Nasceu em Sheffield, Inglaterra.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Gorila</cite> (1983)</li>
+                <li><cite>Vozes no Parque</cite> (1998)</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h3>François Place (1957)</h3>
-            <p>Nasceu em Ézanville, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O velho louco por desenho</cite> (2001)</li>
-            </ul>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Adam Phillips (1954)</h3>
+              <p>Nasceu em Cardiff, País de Gales.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Contra a autocrítica</cite> (2015 | ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Dominique Ehrhard (1958)</h3>
-            <p>Nasceu em Mulhouse, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Bicycles: Pop-up-book</cite> (2022)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Emilio Urberuaga (1954) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Madri, Espanha.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Dois Fios</cite> (2007)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Dan Jurgens (1959)</h3>
-            <p>Nasceu em Minnesota, Estados Unidos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Dois</cite> (1994)</li>
-              <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Três</cite> (1994)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Gonzalo Cárcamo (1954)</h3>
+              <p>Nasceu em Los Angeles, Chile.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Modelo Vivo Natureza Morta</cite> (2000)</li>
+                <li><cite>Thapa Kunturi: ninho do condor</cite> (2007)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Alison Bechdel (1960)</h3>
-            <p>Nasceu na Pensilvânia, Estados Unidos</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Você é minha Mãe?</cite> (2012)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Juta Bauer (1955)</h3>
+              <p>Nasceu em Hamburgo, Alemanha.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Selma</cite> (1997)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>David Mazzucchelli (1960)</h3>
-            <p>Nasceu em Rhode Island, EUA</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Asterios Polyp</cite> (2009)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Serge Bloch (1956) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Colmar, França.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Fico à espera...</cite> (2005)</li>
+              </ul>
+            </div>
           </div>
-        </div>
-
-        <div class="container right">
-          <div class="content">
-            <h3>Joe Sacco (1960)</h3>
-            <p>Nasceu em Kirkop, Malta.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Notas sobre Gaza</cite> (2009)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Palestina</cite></li>
-              <li><cite>Reportagens</cite></li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>François Place (1957)</h3>
+              <p>Nasceu em Ézanville, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O velho louco por desenho</cite> (2001)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Giovanna Zoboli (1962)</h3>
-            <p>Nasceu em Milão, Itália.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>A viagem da senhorita Timothy</cite> (2012)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Dominique Ehrhard (1958)</h3>
+              <p>Nasceu em Mulhouse, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Bicycles: Pop-up-book</cite> (2022)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Brett Breeding (1961) <span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em Delaware, Estados Unidos.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Dois</cite> (1994)</li>
-              <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Três</cite> (1994)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Dan Jurgens (1959)</h3>
+              <p>Nasceu em Minnesota, Estados Unidos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Dois</cite> (1994)</li>
+                <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Três</cite> (1994)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Daniel Casanave (1963)<span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em Ardenas, França.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>A incrível história do vinho</cite> (2021)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Alison Bechdel (1960)</h3>
+              <p>Nasceu na Pensilvânia, Estados Unidos</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Você é minha Mãe?</cite> (2012)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Frédéric Gros (1965)</h3>
-            <p>Nasceu em Saint-Cyr-lÉcole, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Caminhar, uma filosofia</cite> (2009)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>David Mazzucchelli (1960)</h3>
+              <p>Nasceu em Rhode Island, EUA</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Asterios Polyp</cite> (2009)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Pep Molist (1965)</h3>
-            <p>Nasceu em Manlleu, Espanha.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Dois Fios</cite> (2007)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Joe Sacco (1960)</h3>
+              <p>Nasceu em Kirkop, Malta.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Notas sobre Gaza</cite> (2009)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Palestina</cite></li>
+                <li><cite>Reportagens</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Odilon Moraes (1966) <span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em São Paulo, Brasil.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Lulu e o urso</cite> (2018)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Giovanna Zoboli (1962)</h3>
+              <p>Nasceu em Milão, Itália.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>A viagem da senhorita Timothy</cite> (2012)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>David Grann (1967)<span class="ribbon">Não li</span></h3>
-            <p>Nasceu em Nova York, Estados Unidos.</p>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Os náufragos do Wager</cite></li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Brett Breeding (1961) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Delaware, Estados Unidos.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Dois</cite> (1994)</li>
+                <li><cite>Super-Homem versus Apocalypse: A Revanche - Parte Três</cite> (1994)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Lelis (1967) <span class="ribbon">Ilustrador</span></h3>
-            <p>Marcelo Eduardo Lelis de Oliveira. Nasceu em Minas Gerais, Brasil.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>O Gato e o Diabo</cite> (1936)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Daniel Casanave (1963)<span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Ardenas, França.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>A incrível história do vinho</cite> (2021)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Paulo Roberto Pires (1967)</h3>
-            <p>Nasceu no Rio de Janeiro, Brasil.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Devíamos ter ficado em casa?</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Frédéric Gros (1965)</h3>
+              <p>Nasceu em Saint-Cyr-lÉcole, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Caminhar, uma filosofia</cite> (2009)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>David Merveille (1968)</h3>
-            <p>Nasceu em Bruxelas, Bélgica.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Na garupa do Meu tio</cite> (2005)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Pep Molist (1965)</h3>
+              <p>Nasceu em Manlleu, Espanha.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Dois Fios</cite> (2007)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Jennifer Uman (1970) <span class="ribbon">Ilustradora</span></h3>
-            <p>Nasceu na California, Estados Unidos.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Jemmy Button</cite> (2012)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Odilon Moraes (1966) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em São Paulo, Brasil.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Lulu e o urso</cite> (2018)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Flávia Lins e Silva (1971)</h3>
-            <p>Nasceu no Rio de Janeiro, Brasil.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Diário de Pilar na Grécia</cite> (2010)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Diário de Pilar na Amazônia</cite></li>
-              <li><cite>Diário de Pilar no Egito</cite></li>
-              <li><cite>Diário de Pilar em Machu Picchu</cite></li>
-              <li><cite>Diário de Pilar na África</cite></li>
-              <li><cite>Diário de Pilar na China</cite></li>
-              <li><cite>Diário de Pilar na Índia</cite></li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>David Grann (1967)<span class="ribbon">Não li</span></h3>
+              <p>Nasceu em Nova York, Estados Unidos.</p>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Os náufragos do Wager</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Cyril Pedrosa (1972)</h3>
-            <p>Nasceu em Poitiers, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Três Sombras</cite> (2007)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Lelis (1967) <span class="ribbon">Ilustrador</span></h3>
+              <p>Marcelo Eduardo Lelis de Oliveira. Nasceu em Minas Gerais, Brasil.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>O Gato e o Diabo</cite> (1936)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Davide Cali (1972)</h3>
-            <p>Nasceu em Liestal, Suíça.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Fico à espera...</cite> (2005)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Paulo Roberto Pires (1967)</h3>
+              <p>Nasceu no Rio de Janeiro, Brasil.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Devíamos ter ficado em casa?</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Benoist Simmat (1973)</h3>
-            <p>Nasceu na França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>A incrível história do vinho</cite> (2021)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>David Merveille (1968)</h3>
+              <p>Nasceu em Bruxelas, Bélgica.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Na garupa do Meu tio</cite> (2005)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Suzy Lee (1974)</h3>
-            <p>Nasceu em Seul, Coreia do Sul.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Onda</cite> (2008)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Jennifer Uman (1970) <span class="ribbon">Ilustradora</span></h3>
+              <p>Nasceu na California, Estados Unidos.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Jemmy Button</cite> (2012)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Alejandro Zambra (1975)</h3>
-            <p>Nasceu em Santiago, Chile.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>À procura de Pavese</cite> (2008) (ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Flávia Lins e Silva (1971)</h3>
+              <p>Nasceu no Rio de Janeiro, Brasil.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Diário de Pilar na Grécia</cite> (2010)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Diário de Pilar na Amazônia</cite></li>
+                <li><cite>Diário de Pilar no Egito</cite></li>
+                <li><cite>Diário de Pilar em Machu Picchu</cite></li>
+                <li><cite>Diário de Pilar na África</cite></li>
+                <li><cite>Diário de Pilar na China</cite></li>
+                <li><cite>Diário de Pilar na Índia</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Craig Thompson (1975)</h3>
-            <p>Nasceu em Michigan, Estados Unidos.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Habibi</cite> (2011)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Retalhos</cite></li>
-              <li><cite>Space Dumplins</cite></li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Cyril Pedrosa (1972)</h3>
+              <p>Nasceu em Poitiers, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Três Sombras</cite> (2007)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Gustavo Duarte (1977)</h3>
-            <p>Nasceu em São Paulo, Brasil.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Monstros!</cite> (2012)</li>
-              <li><cite>Có! & Birds</cite> (2014)</li>
-              <li><cite>Chico Bento: pavor espaciar</cite> (2015)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Davide Cali (1972)</h3>
+              <p>Nasceu em Liestal, Suíça.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Fico à espera...</cite> (2005)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Bryan Lee O'Malley (1979)</h3>
-            <p>Nasceu em Ontário, Canadá.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Repeteco</cite> (2016)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Scott Pilgrim contra o mundo - Volume 1</cite></li>
-              <li><cite>Scott Pilgrim contra o mundo - Volume 2</cite></li>
-              <li><cite>Scott Pilgrim contra o mundo - Volume 3</cite></li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Benoist Simmat (1973)</h3>
+              <p>Nasceu na França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>A incrível história do vinho</cite> (2021)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Laura Erber (1979)</h3>
-            <p>Nasceu no Rio de Janeiro, Brasil.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O fator Ileana Sonnabend</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
-            </ul>
-            <h4>Quero ler:</h4>
-            <ul>
-              <li><cite>Esquilos de Pavlov</cite> (2013)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Suzy Lee (1974)</h3>
+              <p>Nasceu em Seul, Coreia do Sul.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Onda</cite> (2008)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Chloé Legeay (1981)</h3>
-            <p>Nasceu em Estrasburgo, França.</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Para que serve um livro?</cite> (2011)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Alejandro Zambra (1975)</h3>
+              <p>Nasceu em Santiago, Chile.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>À procura de Pavese</cite> (2008) (ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Valerio Vidali (1983) <span class="ribbon">Ilustrador</span></h3>
-            <p>Nasceu em Lodi, Itália.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>A viagem da senhorita Timothy</cite> (2012)</li>
-              <li><cite>Jemmy Button</cite> (2012)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Craig Thompson (1975)</h3>
+              <p>Nasceu em Michigan, Estados Unidos.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Habibi</cite> (2011)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Retalhos</cite></li>
+                <li><cite>Space Dumplins</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Alix Barzelay</h3>
-            <p>Biografia não encontrada</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Jemmy Button</cite> (2012)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Gustavo Duarte (1977)</h3>
+              <p>Nasceu em São Paulo, Brasil.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Monstros!</cite> (2012)</li>
+                <li><cite>Có! & Birds</cite> (2014)</li>
+                <li><cite>Chico Bento: pavor espaciar</cite> (2015)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Carolina Moreyra</h3>
-            <p>Biografia não encontrada</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Lulu e o urso</cite> (2018)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Bryan Lee O'Malley (1979)</h3>
+              <p>Nasceu em Ontário, Canadá.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Repeteco</cite> (2016)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Scott Pilgrim contra o mundo - Volume 1</cite></li>
+                <li><cite>Scott Pilgrim contra o mundo - Volume 2</cite></li>
+                <li><cite>Scott Pilgrim contra o mundo - Volume 3</cite></li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Dani Choi</h3>
-            <p>Biografia não encontrada</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>Noite no museu</cite> (2019)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Laura Erber (1979)</h3>
+              <p>Nasceu no Rio de Janeiro, Brasil.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O fator Ileana Sonnabend</cite> (ensaio publicado na serrote número 22, em março de 2016)</li>
+              </ul>
+              <h4>Quero ler:</h4>
+              <ul>
+                <li><cite>Esquilos de Pavlov</cite> (2013)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Joana Penna <span class="ribbon">Ilustradora</span></h3>
-            <p>Biografia não encontrada.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>Diário de Pilar na Grécia</cite> (2010)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Chloé Legeay (1981)</h3>
+              <p>Nasceu em Estrasburgo, França.</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Para que serve um livro?</cite> (2011)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Radhashyam Raut <span class="ribbon">Ilustrador</span></h3>
-            <p>Biografia não encontrada.</p>
-            <h4>Ilustrou:</h4>
-            <ul>
-              <li><cite>O círculo do destino</cite> (2010)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Valerio Vidali (1983) <span class="ribbon">Ilustrador</span></h3>
+              <p>Nasceu em Lodi, Itália.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>A viagem da senhorita Timothy</cite> (2012)</li>
+                <li><cite>Jemmy Button</cite> (2012)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container left">
-          <div class="content">
-            <h3>Raja Mohanty</h3>
-            <p>Biografia não encontrada</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O círculo do destino</cite> (2010)</li>
-            </ul>
+          <div class="container left">
+            <div class="content">
+              <h3>Alix Barzelay</h3>
+              <p>Biografia não encontrada</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Jemmy Button</cite> (2012)</li>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <div class="container right">
-          <div class="content">
-            <h3>Sirish Rao</h3>
-            <p>Biografia não encontrada</p>
-            <h4>Já li:</h4>
-            <ul>
-              <li><cite>O círculo do destino</cite> (2010)</li>
-            </ul>
+          <div class="container right">
+            <div class="content">
+              <h3>Carolina Moreyra</h3>
+              <p>Biografia não encontrada</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Lulu e o urso</cite> (2018)</li>
+              </ul>
+            </div>
           </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Dani Choi</h3>
+              <p>Biografia não encontrada</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>Noite no museu</cite> (2019)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Joana Penna <span class="ribbon">Ilustradora</span></h3>
+              <p>Biografia não encontrada.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>Diário de Pilar na Grécia</cite> (2010)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Radhashyam Raut <span class="ribbon">Ilustrador</span></h3>
+              <p>Biografia não encontrada.</p>
+              <h4>Ilustrou:</h4>
+              <ul>
+                <li><cite>O círculo do destino</cite> (2010)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container left">
+            <div class="content">
+              <h3>Raja Mohanty</h3>
+              <p>Biografia não encontrada</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O círculo do destino</cite> (2010)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="container right">
+            <div class="content">
+              <h3>Sirish Rao</h3>
+              <p>Biografia não encontrada</p>
+              <h4>Já li:</h4>
+              <ul>
+                <li><cite>O círculo do destino</cite> (2010)</li>
+              </ul>
+            </div>
+          </div>
+
         </div>
+      </section>
+    </main>
+    
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
 
-      </div>
-    </section>
-  </main>
-  
-  
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../scripts/menu-responsivo.js"></script>
-  <script src="../scripts/fullscreen-menu.js"></script>
-  <script src="../scripts/linha-do-tempo.js"></script>
-</body>
-
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
+        </a>
+      </section>
+    </footer>
+  </body>
 </html>

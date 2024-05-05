@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rafael Santana" />
+    <meta name="description" content="Livros que eu li" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Biblioteca - Livros Lidos</title>
+    <link rel="stylesheet" href="../styles/01-global-styles.css" />
+    <link rel="stylesheet" href="../styles/02-header-e-nav.css" />
+    <link rel="stylesheet" href="../styles/03-footer.css" />
+    <link rel="stylesheet" href="../styles/05-livros-lidos.css" />
+    <link rel="stylesheet" href="../styles/media-queries.css" />
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
+    <script src="../scripts/menu-responsivo.js" defer></script>
+    <script src="../scripts/fullscreen-menu.js" defer></script>
+    <script src="../scripts/exibir-livros-lidos.js" defer></script>
+    <script src="../scripts/autores.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minha Biblioteca - Livros Lidos</title>
-  <link rel="stylesheet" href="../styles/global-styles.css" />
-  <link rel="stylesheet" href="../styles/header-e-nav.css" />
-  <link rel="stylesheet" href="../styles/footer.css" />
-  <link rel="stylesheet" href="../styles/livros-lidos.css" />
-  <link rel="stylesheet" href="../styles/media-queries.css" />
-</head>
-
-<body>
-  <header id="header">
-    <div class="titulo">
-      <h1><a href="../index.html">Minha Biblioteca</a></h1>
-    </div>
-    <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
-    <nav id="nav-bar" class="menu-responsivo">
-      <ul>
-        <li><a href="livros-lidos.html" class="nav-link">Livros Lidos</a></li>
-        <li><a href="linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
-        <li><a href="frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <h2 class="heading-2">Livros Lidos</h2>
-    
-    <section class="container">
-      <div class="dados-e-menu">
-        <div class="dados">
-          <h3>Total de Livros Lidos:</h3>
-          <p id="total-livros"></p>
-          <h3>Autoras e Autores Lidos:</h3>
-          <p id="total-autores"></p>
-        </div>
-
-        <div id="abrir-fullscreen-menu" class="abrir-menu">
-          <h3>Conhecer a Biblioteca <span><i class="fa-solid fa-arrow-right"></i></span></h3>
-          <!-- <p>Navegue pelos diferentes estilos literários</p> -->
-          <!-- <span><i class="fa-solid fa-arrow-right"></i></span> -->
-        </div>
+  <body>
+    <header id="header">
+      <div class="titulo">
+        <h1><a href="../index.html">Minha Biblioteca</a></h1>
       </div>
-    </section>
+      <span id="icone-menu" title="Abrir Menu"><i class="fa-solid fa-bars"></i></span>
+      <nav id="nav-bar" class="menu-responsivo">
+        <ul>
+          <li><a href="livros-lidos.html" class="nav-link">Livros Lidos</a></li>
+          <li><a href="linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
+          <li><a href="frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <section id="fullscreen-menu" class="livros-segmento">
-      <a href="javascript:void(0)" class="fechar-menu">&times;</a>
-      <ul class="fullscreen-menu-conteudo">
-        <li href="#" id="ensaios" class="link">Ensaios</li>
-        <li href="#" id="ficcao" class="link">Ficção</li>
-        <li href="#" id="filosofia" class="link">Filosofia</li>
-        <li href="#" id="historia" class="link">História</li>
-        <li href="#" id="hq" class="link">HQs, Mangás & Graphic Novels</li>
-        <li href="#" id="lit-infantil" class="link">Literatura Infantil</li>
-        <li href="#" id="lit-juvenil" class="link">Literatura Juvenil</li>
-        <li href="#" id="poesia" class="link">Poesia</li>
-        <li href="#" id="teatro" class="link">Teatro</li>
-      </ul>
-    </section>
+    <main>
+      <h2 class="heading-2">Livros Lidos</h2>
+      
+      <section class="container">
+        <div class="dados-e-menu">
+          <div class="dados">
+            <h3>Total de Livros Lidos:</h3>
+            <p id="total-livros"></p>
+            <h3>Autoras e Autores Lidos:</h3>
+            <p id="total-autores"></p>
+          </div>
+
+          <div id="abrir-fullscreen-menu" class="abrir-menu">
+            <h3>Conhecer a Biblioteca <span><i class="fa-solid fa-arrow-right"></i></span></h3>
+            <!-- <p>Navegue pelos diferentes estilos literários</p> -->
+            <!-- <span><i class="fa-solid fa-arrow-right"></i></span> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="fullscreen-menu" class="livros-segmento">
+        <a href="javascript:void(0)" class="fechar-menu">&times;</a>
+        <ul class="fullscreen-menu-conteudo">
+          <li href="#" id="ensaios" class="link">Ensaios</li>
+          <li href="#" id="ficcao" class="link">Contos, Novelas e Romances</li>
+          <li href="#" id="filosofia" class="link">Filosofia</li>
+          <li href="#" id="historia" class="link">História</li>
+          <li href="#" id="hq" class="link">HQs, Mangás & Graphic Novels</li>
+          <li href="#" id="lit-infantil" class="link">Literatura Infantil</li>
+          <li href="#" id="lit-juvenil" class="link">Literatura Juvenil</li>
+          <li href="#" id="poesia" class="link">Poesia</li>
+          <li href="#" id="teatro" class="link">Teatro</li>
+        </ul>
+      </section>
+      
+      <h2 id="titulo-teste" class="heading-2"></h2>
+      <section class="container-livros">
+        <!-- Os itens serão adicionados dinamicamente aqui -->
+      </section>  
+    </main>
     
-    <h2 id="titulo-teste" class="heading-2"></h2>
-    <section class="container-livros">
-      <!-- Os itens serão adicionados dinamicamente aqui -->
-    </section>  
-  </main>
-  
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
+    <footer>
+      <p>Desenvolvido por Rafa Santana</p>
 
-    <section class="contato">
-      <a href="https://github.com/rafa-san" target="_blank"><i class="fa brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
-        <i class="fa brands fa-linkedin"></i>
-      </a>
-    </section>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="../scripts/menu-responsivo.js"></script>
-  <script src="../scripts/fullscreen-menu.js"></script>
-  <script src="../scripts/exibir-livros-lidos.js"></script>
-  <script src="../scripts/autores.js"></script>
-</body>
-
+      <section class="contato">
+        <a href="https://github.com/rafa-san" target="_blank" id="profile-link">
+          <i class="fa brands fa-github"> <span class="texto-icone">GitHub</span></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-santana-53750415a/" target="_blank">
+          <i class="fa brands fa-linkedin"> <span class="texto-icone">LinkedIn</span></i>
+        </a>
+      </section>
+    </footer>
+  </body>
 </html>
