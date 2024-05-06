@@ -19,7 +19,9 @@ const selecao = [
   <strong>Filipe:</strong> É, mas antes a gente tem que fazer traços, letras, sílabas e um monte de outras coisas e... leva meses pra ensinarem a gente a escrever!<br>
   <strong>Mafalda:</strong> <strong>MESES?! MALDITOS BUROCRATAS!</strong>`, autor: "Quino", livro: "Toda Mafalda"},
 
-  {frase: "Viver (na minha compreensão) é existir dentro de um conceito de tempo. Mas relembrar é cancelar a própria noção de tempo. Toda lembrança, não importa o quão remota, acontece 'agora', no momento em que é convocada à mente. Quanto mais algo é relembrado, mais vezes o cérebro tem chance de aprimorar a experiência original, porque toda lembrança é uma recriação, não uma reprodução.", autor: "David Mazzucchelli", livro: "Asterios Polyp"}
+  {frase: "Viver (na minha compreensão) é existir dentro de um conceito de tempo. Mas relembrar é cancelar a própria noção de tempo. Toda lembrança, não importa o quão remota, acontece 'agora', no momento em que é convocada à mente. Quanto mais algo é relembrado, mais vezes o cérebro tem chance de aprimorar a experiência original, porque toda lembrança é uma recriação, não uma reprodução.", autor: "David Mazzucchelli", livro: "Asterios Polyp"},
+
+  {frase: "A beleza será CONVULSIVA, ou não será", autor: "André Breton", livro: "Nadja"}
 ];
 
 function gerarSelecao() {
