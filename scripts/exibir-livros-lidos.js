@@ -43,7 +43,11 @@ const livros = [
 
   {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
+  {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/contos-de-lugares-distantes.jpg'},
+
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
+
+  {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Ficção', img:'../images/dialogos-com-leuco.jpg'},
 
   {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
 
@@ -77,6 +81,8 @@ const livros = [
 
   {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História', img:'../images/historia.jpg'},
 
+  {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/historia-do-olho.jpg'},
+
   {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
@@ -105,6 +111,8 @@ const livros = [
   
   {livro:'Na garupa do Meu tio', autor:'David Merveille', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Belga', segmento:'Literatura Infantil', img:'../images/na-garupa-do-meu-tio.jpg'},
 
+  {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
+
   {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/noite-no-museu.jpg'},
 
   {livro:'Noites brancas', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/noites-brancas.jpg'},
@@ -118,6 +126,8 @@ const livros = [
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
+
+  {livro:'O valor do riso', autor:'Virginia Woolf', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Ensaios', img:'../images/o-valor-do-riso.jpg'},
 
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
@@ -160,6 +170,12 @@ const livros = [
   {livro:'Teogonia: a origem dos deuses', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/teogonia.jpg'},
   
   {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/thapa-kunturi.jpg'},
+
+  {livro:'The Complete Calvin and Hobbes: Book 1', autor:'Bill Watterson', editora:'Andrews McMeel Publishing', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/the-complete-calvin-and-hobbes-book-1.jpg'},
+  
+  {livro:'The Complete Calvin and Hobbes: Book 2', autor:'Bill Watterson', editora:'Andrews McMeel Publishing', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/the-complete-calvin-and-hobbes-book-2.jpg'},
+  
+  {livro:'The Complete Calvin and Hobbes: Book 3', autor:'Bill Watterson', editora:'Andrews McMeel Publishing', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/the-complete-calvin-and-hobbes-book-3.jpg'},
 
   {livro:'Toda Mafalda', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/toda-mafalda.jpg'},
 
