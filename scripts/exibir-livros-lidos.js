@@ -95,6 +95,16 @@ const livros = [
 
   {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
+  {livro:'Livro das mil e uma noites: volume 1', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-1.jpg'},
+  
+  {livro:'Livro das mil e uma noites: volume 2', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-2.jpg'},
+
+  {livro:'Livro das mil e uma noites: volume 3', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-3.jpg'},
+
+  {livro:'Livro das mil e uma noites: volume 4', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-4.jpg'},
+
+  {livro:'Livro das mil e uma noites: volume 5', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
+
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
   {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
