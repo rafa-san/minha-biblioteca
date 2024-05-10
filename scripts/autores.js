@@ -49,6 +49,7 @@ const autores = [
   "Hesíodo",
   "Homero",
   "Íbico",
+  "Jack London",
   "James Joyce",
   "Jennifer Uman",
   "Joe Sacco",
