@@ -4,57 +4,73 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  /* box-shadow: 0 0.1px 4px black; */
+  justify-content: center;
+  min-height: 80px;
+  padding: 8px;
   width: 100%;
 }
 
 .titulo {
-  padding: 16px 0 8px;
   text-align: center;
   width: 100%;
 }
 
-#icone-menu {
+#menu-icone {
   display: block;
   cursor: pointer;
   font-size: 1.4em;
-  margin: 8px;
+  padding: 12px 8px 6px 8px;
 }
 
-#nav-bar,
-.m-responsivo {
-  display: block;
+#menu-icone > div {
+  background-color: black;
+  height: 3px;
+  margin: 3px 0;
+  width: 20px;
+}
+
+.linha-1, .linha-2, .linha-3 {
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Adicionando a propriedade opacity na transição */
+}
+
+.mudar .linha-1 {
+  transform: translate(0, 2px) rotate(-47deg);
+}
+
+.mudar .linha-2 {
+  opacity: 0;
+}
+
+.mudar .linha-3 {
+  transform: translate(0, -10px) rotate(47deg);
+}
+
+.menu-responsivo,
+.responsivo {
   width: 100%;
 }
 
-.m-responsivo ul {
+.menu-responsivo ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 8px;
-  padding: 8px;
 }
 
-#nav-bar ul li {
+.menu-responsivo ul li {
   list-style-type: none;
-  padding: 8px;
+  margin-bottom: 14px;
   text-align: center;
 }
 
-#nav-bar ul li a {
-  text-decoration: none;
-}
-
-#nav-bar ul li a:hover {
-  color: black;
+.menu-responsivo ul li a:hover {
   text-decoration: underline;
 }
 
 .menu-responsivo li {
-  list-style-type: none;
   display: none;
+  transition: opacity 0.4s ease; /* Ajustando a transição apenas para a propriedade opacity */
 }
 
-.m-responsivo li {
+.responsivo li {
   display: block;
+  opacity: 0;
 }

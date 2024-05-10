@@ -7,28 +7,23 @@
   }
 
   .titulo {
-    margin-bottom: 8px;
     margin-left: 16px;
     text-align: left;
   }
 
-  #icone-menu {
+  #menu-icone {
     display: none;
   }
 
-  #nav-bar {
-    display: block;
-  }
-
-  #nav-bar ul {
-    display: flex;
+  .menu-responsivo ul {
     flex-direction: row;
     justify-content: space-around;
-    height: 100%;
   }
 
-  #nav-bar ul li {
-    display: inline;
+  .menu-responsivo li {
+    display: inline-block;
+    margin: 20px 5px 10px;
+    padding: 0 8px;
   }
 
 
