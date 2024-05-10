@@ -61,7 +61,7 @@ const livros = [
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
-  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | autoria anônima', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
+  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
@@ -95,15 +95,15 @@ const livros = [
 
   {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 1', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-1.jpg'},
+  {livro:'Livro das mil e uma noites: volume 1', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-1.jpg'},
   
-  {livro:'Livro das mil e uma noites: volume 2', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-2.jpg'},
+  {livro:'Livro das mil e uma noites: volume 2', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-2.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 3', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-3.jpg'},
+  {livro:'Livro das mil e uma noites: volume 3', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-3.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 4', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-4.jpg'},
+  {livro:'Livro das mil e uma noites: volume 4', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-4.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 5', autor:'Autoras e autores diversos', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
+  {livro:'Livro das mil e uma noites: volume 5', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
@@ -130,6 +130,8 @@ const livros = [
   {livro:'Notas de Petersburgo de 1836', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/notas-de-petersburgo-de-1836.jpg'},
 
   {livro:'Notas sobre Gaza', autor:'Joe Sacco', editora:'Quadrinhos na Cia.', anoEdicao:'2010', categoria:'Literatura Maltesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/notas-sobre-gaza.jpg'},
+
+  {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-chamado-da-floresta.jpg'},
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
   
