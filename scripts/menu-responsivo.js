@@ -1,16 +1,23 @@
-const iconeMenu = document.getElementById('icone-menu');
+const icone = document.getElementById('menu-icone');
+const menu = document.getElementById('nav-bar');
+const menuItems = document.querySelectorAll('.menu-responsivo li');
 
-iconeMenu.addEventListener('click', function() {
-  const menuResponsivo = document.getElementById('nav-bar');
+icone.addEventListener('click', menuResponsivo);
 
-  if (menuResponsivo.className === 'menu-responsivo') {
-    iconeMenu.innerHTML = '<i class="fa-solid fa-circle-xmark"></i>';
-    iconeMenu.title = 'Fechar Menu';
-    menuResponsivo.className = ' m-responsivo';
+function menuResponsivo() {
+  menu.classList.toggle('responsivo');
+  icone.classList.toggle("mudar");
+
+  if (menu.classList.contains('responsivo')) {
+    // Abrindo o menu
+    setTimeout(() => {
+      menuItems.forEach(item => item.style.opacity = 1);
+    }, 10); // Adicionando um pequeno atraso para garantir que a transição ocorra suavemente
   } else {
-    menuResponsivo.className = 'menu-responsivo';
-    iconeMenu.innerHTML = '<i class="fa-solid fa-bars"></i>';
-    iconeMenu.title = 'Abrir Menu';
+    // Fechando o menu
+    menuItems.forEach(item => item.style.opacity = 0);
   }
-});
 
+  // Alternando o título do ícone
+  icone.title = menu.classList.contains('responsivo') ? 'Fechar Menu' : 'Abrir Menu';
+}
