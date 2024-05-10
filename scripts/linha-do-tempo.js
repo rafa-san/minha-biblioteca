@@ -4,6 +4,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const fullscreenMenu = document.getElementById('fullscreen-menu');
   const tags = document.querySelectorAll('.tag');
   const timelines = document.querySelectorAll('.timeline');
+  const heading = document.querySelector('#titulo-teste');
+
+  // Função para adicionar o heading dinâmico
+  function adicionarHeading(tag) {
+    // Definir o texto do heading com base na tag escolhida
+    heading.textContent = tag.textContent;
+  }
 
   // Adicionar evento de clique para abrir o menu fullscreen
   abrirMenuBtn.addEventListener('click', function() {
@@ -27,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Adicionar a classe ativa apenas à tag clicada
       this.classList.add('active');
+
+      // Adicionar o heading dinâmico
+      adicionarHeading(this);
 
       // Obter o século correspondente ao clicar na tag
       const centuryId = this.getAttribute('data-century');
