@@ -15,7 +15,7 @@ function menuResponsivo() {
     }, 10); // Adicionando um pequeno atraso para garantir que a transição ocorra suavemente
   } else {
     // Fechando o menu
-    menuItems.forEach(item => item.style.opacity = 0);
+    menuItems.forEach(item => item.style.opacity = 0.7);
   }
 
   // Alternando o título do ícone
