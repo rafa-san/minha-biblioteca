@@ -81,7 +81,8 @@ const autores = [
   "Suzy Lee",
   "Valerio Vidali",
   "Virginia Woolf",
-  "William Hazlitt"
+  "William Hazlitt",
+  "Yasunari Kawabata"
 ];
 
 // Exibir a quantidade de autores
