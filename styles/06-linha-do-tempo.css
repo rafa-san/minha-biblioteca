@@ -297,3 +297,17 @@
   transform: rotate(20deg);
   width: 72px;
 }
+
+.nobel {
+  position: absolute;
+  top: -12px;
+  right: -25px;
+  background-color: lightblue;
+  border-radius: 25px;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  transform: rotate(20deg);
+  width: 72px;
+}
