@@ -19,6 +19,8 @@ const livros = [
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
+  {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/a-vida-privada-das-arvores.jpg'},
+
   {livro:'As nuvens; Só para mulheres; Um deus chamado dinheiro', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2000', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-nuvens-so-para-mulheres-um-deus-chamado-dinheiro.jpg'},
 
   {livro:'As Traquínias', autor:'Sófocles', editora:'Unicamp', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-traquinias.jpg'},
@@ -34,6 +36,8 @@ const livros = [
   {livro:'Avenida Niévski', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/avenida-nievski.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
+
+  {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/bonsai.jpg'},
 
   {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
 
@@ -68,6 +72,8 @@ const livros = [
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
+
+  {livro:'Formas de voltar para casa', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/formas-de-voltar-para-casa.jpg'},
 
   {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/fragmentos-completos-safo.jpg'},
 
@@ -114,6 +120,8 @@ const livros = [
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
 
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
+
+  {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
@@ -148,6 +156,8 @@ const livros = [
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
   {livro:'Os trabalhos e os dias', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2006', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/os-trabalhos-e-os-dias.jpg'},
+
+  {livro:'Oblómov', autor:'Ivan Gontcharóv', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/oblomov.jpg'},
 
   {livro:'Odisseia', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/odisseia.jpg'},
 
