@@ -29,7 +29,7 @@ const selecao = [
 
   {frase: "Gostou do fato de no estádio as pessoas gritarem e reclamarem, mas ficou surpreso quando notou a raiva dirigida ao árbitro, de modo que resolveu defendê-lo, e ainda que no começo as pessoas tenham levado a mal, também era engraçado ver o Camilo, a cada vez que o árbitro marcava uma falta ou dava um cartão, ficar de pé e dizer em voz alta: muito bem, senho juiz, ótima decisão.", autor: "Alejandro Zambra", livro: "Meus documentos"},
 
-  {frase: `a poesia mora <br> nos dias habita as frestas <br> das calçadas adormece no canto <br> entre cama e parede <br> e insiste <br> escorregando pelas sobmbras <br> dos sapatos apressados pelo sorriso preso <br> no canto do rosto <br> nos teus <br> e meus <br> olhos d'água`, autor: "Aline Miranda", livro: "..."}
+  {frase: `a poesia mora <br> nos dias habita as frestas <br> das calçadas adormece no canto <br> entre cama e parede <br> e insiste <br> escorregando pelas sombras <br> dos sapatos apressados pelo sorriso preso <br> no canto do rosto <br> nos teus <br> e meus <br> olhos d'água`, autor: "Aline Miranda", livro: "..."}
 ];
 
 function gerarSelecao() {
