@@ -4,12 +4,16 @@ const livros = [
   {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
 
   {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/a-casa-das-belas-adormecidas.jpg'},
+
+  {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Juvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
   
   {livro:'A divina comédia', autor:'Dante Alighieri', editora:'Abril Cultural', anoEdicao:'1979', categoria:'Literatura Italiana', segmento:'Poesia', img:'../images/a-divina-comedia.jpg'},
 
   {livro:'A Gaia Ciência', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2012', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/a-gaia-ciencia.jpg'},
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
+
+  {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
 
   {livro:'A parte que falta', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta.jpg'},
 
@@ -33,11 +37,17 @@ const livros = [
 
   {livro:'Asterios Polyp', autor:'David Mazzucchelli', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/asterios-polyp.jpg'},
 
+  {livro:'Através do espelho e o que Alice encontrou lá', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/atraves-do-espelho-e-o-que-alice-encontrou-la.jpg'},
+
   {livro:'Avenida Niévski', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/avenida-nievski.jpg'},
+
+  {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
 
   {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/bonsai.jpg'},
+
+  {livro:`Butcher's Crossing`, autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2016', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/butchers-crossing.jpg'},
 
   {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
 
@@ -65,9 +75,13 @@ const livros = [
 
   {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/electra(s).jpg'},
 
+  {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
+
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
+
+  {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/ficcoes.jpg'},
 
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
@@ -115,6 +129,10 @@ const livros = [
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
+  {livro:'Luna Clara e Apolo Onze', autor:'Adriana Falcão', editora:'Salamandra', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/luna-clara-e-apolo-onze.jpg'},
+
+  {livro:'Marcelino Pedregulho', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/marcelino-pedregulho.jpg'},
+
   {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
@@ -141,6 +159,8 @@ const livros = [
 
   {livro:'Notas sobre Gaza', autor:'Joe Sacco', editora:'Quadrinhos na Cia.', anoEdicao:'2010', categoria:'Literatura Maltesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/notas-sobre-gaza.jpg'},
 
+  {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/o-assassinato-e-outras-historias.jpg'},
+
   {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-chamado-da-floresta.jpg'},
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
@@ -149,9 +169,13 @@ const livros = [
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
+  {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
+
   {livro:'O valor do riso', autor:'Virginia Woolf', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Ensaios', img:'../images/o-valor-do-riso.jpg'},
 
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
+
+  {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
@@ -177,15 +201,21 @@ const livros = [
 
   {livro:'Quinoterapia', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2004', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/quinoterapia.jpg'},
 
+  {livro:'Raul Taburin', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/raul-taburin.jpg'},
+
   {livro:'Repeteco', autor:`Bryan Lee O'Malley`, editora:'Quadrinhos na Cia.', anoEdicao:'2016', categoria:'Literatura Canadense', segmento:'HQs, Mangás & Graphic Novels', img:'../images/repeteco.jpg'},
 
   {livro:'Selma', autor:'Juta Bauer', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Alemã', segmento:'Literatura Infantil', img:'../images/selma.jpg'},
+
+  {livro:'Senhor Lambert', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/senhor-lambert.jpg'},
 
   {livro:'Serrote 22', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-22.jpg'},
 
   {livro:'Serrote 23', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-23.jpg'},
 
   {livro:'Serrote 24', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-24.jpg'},
+
+  {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
 
   {livro:'Super-Homem versus Apocalypse: A Revanche - Parte Dois', autor:'Dan Jurgens', editora:'Abril Jovem', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/super-homem-versus-apocalypse-parte2.jpg'},
 
@@ -202,6 +232,8 @@ const livros = [
   {livro:'The Complete Calvin and Hobbes: Book 3', autor:'Bill Watterson', editora:'Andrews McMeel Publishing', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/the-complete-calvin-and-hobbes-book-3.jpg'},
 
   {livro:'Toda Mafalda', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/toda-mafalda.jpg'},
+
+  {livro:'Todos os belos cavalos', autor:'Cormac McCarthy', editora:'Alfaguara', anoEdicao:'2017', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/todos-os-belos-cavalos.jpg'},
 
   {livro:'Tragédias', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/esquilo-tragedias.jpg'},
 
