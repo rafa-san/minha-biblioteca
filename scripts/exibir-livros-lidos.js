@@ -91,7 +91,7 @@ const livros = [
 
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
-  {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/ficando-longe-do-fato-de-ja-estar-meio-que-longe-de-tudo.jpg'},
 
   {livro:'Ficção completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
@@ -121,7 +121,7 @@ const livros = [
 
   {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
   {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
@@ -191,7 +191,9 @@ const livros = [
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
-  {livro:'O livro do travesseiro', autor:'Sei Shônagon', editora:'Editora 34', anoEdicao:'2013', categoria:'Literatura Japonesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
+
+  {livro:'O livro do travesseiro', autor:'Sei Shônagon', editora:'Editora 34', anoEdicao:'2013', categoria:'Literatura Japonesa', segmento:'Biografias, Crônicas e Diários', img:'../images/o-livro-do-travesseiro.jpg'},
 
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
@@ -203,13 +205,15 @@ const livros = [
 
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
-  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
 
   {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
+
+  {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Os trabalhos e os dias', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2006', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/os-trabalhos-e-os-dias.jpg'},
 
@@ -227,7 +231,7 @@ const livros = [
   
   {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
-  {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/passeios-na-ilha.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
 
@@ -244,6 +248,46 @@ const livros = [
   {livro:'Selma', autor:'Juta Bauer', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Alemã', segmento:'Literatura Infantil', img:'../images/selma.jpg'},
 
   {livro:'Senhor Lambert', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/senhor-lambert.jpg'},
+
+  {livro:'Serrote 2', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2009', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-02.jpg'},
+
+  {livro:'Serrote 3', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2009', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-03.jpg'},
+
+  {livro:'Serrote 4', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2010', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-04.jpg'},
+
+  {livro:'Serrote 5', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2010', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-05.jpg'},
+
+  {livro:'Serrote 6', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2010', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-06.jpg'},
+
+  {livro:'Serrote 7', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2011', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-07.jpg'},
+
+  {livro:'Serrote 8', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2011', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-08.jpg'},
+
+  {livro:'Serrote 9', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2011', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-09.jpg'},
+
+  {livro:'Serrote 10', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2012', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-10.jpg'},
+
+  {livro:'Serrote 11', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2012', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-11.jpg'},
+
+  {livro:'Serrote 12', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2012', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-12.jpg'},
+
+  {livro:'Serrote 13', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2013', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-13.jpg'},
+
+  {livro:'Serrote 14', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2013', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-14.jpg'},
+
+  {livro:'Serrote 15', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2013', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-15.jpg'},
+
+  {livro:'Serrote 16', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2014', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-16.jpg'},
+
+  {livro:'Serrote 17', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2014', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-17.jpg'},
+
+  {livro:'Serrote 18', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2014', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-18.jpg'},
+
+  {livro:'Serrote 19', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2015', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-19.jpg'},
+
+  {livro:'Serrote 20', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2015', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-20.jpg'},
+
+  {livro:'Serrote 21', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2015', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-21.jpg'},
 
   {livro:'Serrote 22', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-22.jpg'},
 
