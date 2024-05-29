@@ -1,7 +1,7 @@
 const container = document.querySelector('.container-livros');
 
 const livros = [
-  {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Ficção', img:'../images/47-contos-de-juan-carlos-onetti.jpg'},
 
   {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
 
@@ -49,7 +49,7 @@ const livros = [
 
   {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
 
-  {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/barba-ensopada-de-sangue.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
 
@@ -85,7 +85,7 @@ const livros = [
 
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
-  {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/eu-sou-um-gato.jpg'},
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
@@ -93,7 +93,7 @@ const livros = [
 
   {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/ficando-longe-do-fato-de-ja-estar-meio-que-longe-de-tudo.jpg'},
 
-  {livro:'Ficção completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Ficção completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Ficção', img:'../images/ficcao-completa-bruno-schulz.jpg'},
 
   {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/ficcoes.jpg'},
 
@@ -119,7 +119,7 @@ const livros = [
 
   {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/historia-do-olho.jpg'},
 
-  {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-fantasticas.jpg'},
 
   {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
@@ -169,7 +169,7 @@ const livros = [
 
   {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
 
-  {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/nos-penhascos-de-marmore.jpg'},
 
   {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/noite-no-museu.jpg'},
 
@@ -185,7 +185,7 @@ const livros = [
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
 
-  {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
   
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
@@ -197,23 +197,23 @@ const livros = [
 
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
-  {livro:'O sofredor do ver', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
+
+  {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/o-senhor-dos-aneis.jpg'},
+
+  {livro:'O sofredor do ver', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-sofredor-do-ver.jpg'},
 
   {livro:'O valor do riso', autor:'Virginia Woolf', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Ensaios', img:'../images/o-valor-do-riso.jpg'},
 
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
+  {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/o-vermelho-e-o-negro.jpg'},
+
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
-
-  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
-
-  {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
-
-  {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
-  {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/os-trabalhadores-do-mar.jpg'},
 
   {livro:'Os trabalhos e os dias', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2006', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/os-trabalhos-e-os-dias.jpg'},
 
@@ -227,7 +227,7 @@ const livros = [
 
   {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
 
-  {livro:'Pais e Filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
   
   {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
