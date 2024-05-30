@@ -21,13 +21,15 @@ const livros = [
 
   {livro:'A parte que falta encontra o grande O', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta-encontra-o-grande-o.jpg'},
 
-  {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
   {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/a-vida-privada-das-arvores.jpg'},
+
+  {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica e Teoria Literária', img:'../images/as-antenas-do-caracol.jpg'},
 
   {livro:'As nuvens; Só para mulheres; Um deus chamado dinheiro', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2000', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-nuvens-so-para-mulheres-um-deus-chamado-dinheiro.jpg'},
 
@@ -39,7 +41,7 @@ const livros = [
 
   {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/aias.jpg'},
 
-  {livro:'Antologia poética', autor:'Carlos Drummond de Andrade', editora:'Record', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Antologia poética', autor:'Carlos Drummond de Andrade', editora:'Record', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/antologia-poetica.jpg'},
 
   {livro:'Asterios Polyp', autor:'David Mazzucchelli', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/asterios-polyp.jpg'},
 
@@ -65,9 +67,13 @@ const livros = [
 
   {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/coeforas.jpg'},
 
+  {livro:'Como funciona a ficção', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/como-funciona-a-ficcao.jpg'},
+
   {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
   {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/contos-de-lugares-distantes.jpg'},
+
+  {livro:'Crítica, teoria e literatura infantil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
@@ -82,6 +88,10 @@ const livros = [
   {livro:'Ele que o abismo viu: epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
 
   {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/electra(s).jpg'},
+
+  {livro:'Endurance: a lendária expedição de Shackleton à Antártida', autor:'Caroline Alexander', editora:'Companhia das Letras', anoEdicao:'1999', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/endurance.jpg'},
+
+  {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
@@ -144,6 +154,8 @@ const livros = [
   {livro:'Livro das mil e uma noites: volume 4', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-4.jpg'},
 
   {livro:'Livro das mil e uma noites: volume 5', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
+
+  {livro:'Livro ilustrado: palavras e imagens', autor:'Maria Nikolajeva e Carole Scott', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Global', segmento:'Crítica e Teoria Literária', img:'../images/livro-ilustrado.jpg'},
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
@@ -228,6 +240,8 @@ const livros = [
   {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
 
   {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
+
+  {livro:'Para ler o livro ilustrado', autor:'Sophie Van der Linden', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Crítica e Teoria Literária', img:'../images/para-ler-o-livro-ilustrado.jpg'},
   
   {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
@@ -333,6 +347,7 @@ document.getElementById('total-livros').innerHTML = livros.length;
 
 const segmentos = {
   'biografia': 'Biografias, Crônicas e Diários',
+  'critica': 'Crítica e Teoria Literária',
   'ensaios': 'Ensaios',
   'ficcao': 'Ficção',
   'filosofia': 'Filosofia',
