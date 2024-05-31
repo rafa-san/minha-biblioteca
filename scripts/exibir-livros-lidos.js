@@ -15,6 +15,8 @@ const livros = [
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
 
+  {livro:'A metamorfose', autor:'Franz Kafka', editora:'Nova Cultural', anoEdicao:'2002', categoria:'Literatura Tcheca', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
 
   {livro:'A parte que falta', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta.jpg'},
@@ -24,6 +26,8 @@ const livros = [
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
+
+  {livro:'A vaca e o hipogrifo', autor:'Mario Quintana', editora:'Alfaguara', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
@@ -99,6 +103,8 @@ const livros = [
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
+  {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
   {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/ficando-longe-do-fato-de-ja-estar-meio-que-longe-de-tudo.jpg'},
@@ -110,6 +116,8 @@ const livros = [
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
+
+  {livro:'Firmin', autor:'Sam Savage', editora:'Planeta', anoEdicao:'2008', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Formas de voltar para casa', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/formas-de-voltar-para-casa.jpg'},
 
@@ -128,6 +136,8 @@ const livros = [
   {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História e Jornalismo', img:'../images/historia.jpg'},
 
   {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/historia-do-olho.jpg'},
+
+  {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-fantasticas.jpg'},
 
@@ -181,6 +191,8 @@ const livros = [
 
   {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
 
+  {livro:'Nariz de vidro', autor:'Mario Quintana', editora:'Moderna', anoEdicao:'1984', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/nos-penhascos-de-marmore.jpg'},
 
   {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/noite-no-museu.jpg'},
@@ -221,6 +233,8 @@ const livros = [
 
   {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/o-vermelho-e-o-negro.jpg'},
 
+  {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
@@ -238,6 +252,8 @@ const livros = [
   {livro:'Onde vivem os monstros', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/onde-vivem-os-monstros.jpg'},
 
   {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
+
+  {livro:'Paideia: a formação do homem grego', autor:'Werner Jaeger', editora:'WMF Martins Fontes', anoEdicao:'2013', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
 
