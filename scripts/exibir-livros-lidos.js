@@ -8,6 +8,8 @@ const livros = [
   {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/a-casa-das-belas-adormecidas.jpg'},
 
   {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Juvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
+
+  {livro:'A desobediência civil', autor:'Henry David Thoreau', editora:'L&PM', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'A divina comédia', autor:'Dante Alighieri', editora:'Abril Cultural', anoEdicao:'1979', categoria:'Literatura Italiana', segmento:'Poesia', img:'../images/a-divina-comedia.jpg'},
 
@@ -64,6 +66,8 @@ const livros = [
   {livro:`Butcher's Crossing`, autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2016', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/butchers-crossing.jpg'},
 
   {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
+
+  {livro:'Cartas a um jovem poeta e A canção de amor e de morte do porta-estandarte Cristóvão Rilke', autor:'Rainer Maria Rilke', editora:'Globo', anoEdicao:'2001', categoria:'Literatura Tcheca', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
@@ -180,6 +184,16 @@ const livros = [
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
 
   {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
+
+  {livro:'Minha luta 1: A morte do pai', autor:'Karl Ove Knausgard', editora:'Companhia das Letras', anoEdicao:'2013', categoria:'Literatura Norueguesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Minhas viagens com Heródoto', autor:'Ryszard Kapuscinski', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Bielorrussa', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Mitologia grega: Volume 2', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Mitologia grega: Volume 3', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
@@ -353,9 +367,13 @@ const livros = [
 
   {livro:'Uma criatura dócil', autor:'Fiódor Dostoiévski', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/uma-criatura-docil.jpg'},
 
+  {livro:'Variações em vermelho', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2011', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Você é minha Mãe?', autor:'Alison Bechdel', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/voce-e-minha-mae.jpg'},
 
-  {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'}
+  {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'},
+
+  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'}
 ];
 
 // Exibir a quantidade de livro:
@@ -371,6 +389,7 @@ const segmentos = {
   'hq': 'HQs, Mangás & Graphic Novels',
   'lit-infantil': 'Literatura Infantil',
   'lit-juvenil': 'Literatura Juvenil',
+  'mitologia': 'Mitologia',
   'poesia': 'Poesia',
   'teatro': 'Teatro'
 };
