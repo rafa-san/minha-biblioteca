@@ -3,9 +3,13 @@ const container = document.querySelector('.container-livros');
 const livros = [
   {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Ficção', img:'../images/47-contos-de-juan-carlos-onetti.jpg'},
 
+  {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
 
   {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/a-casa-das-belas-adormecidas.jpg'},
+
+  {livro:'A civilização do espetáculo', autor:'Mario Vargas Llosa', editora:'Objetiva', anoEdicao:'2013', categoria:'Literatura Peruana', segmento:'Ensaios', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Juvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
 
@@ -14,6 +18,8 @@ const livros = [
   {livro:'A divina comédia', autor:'Dante Alighieri', editora:'Abril Cultural', anoEdicao:'1979', categoria:'Literatura Italiana', segmento:'Poesia', img:'../images/a-divina-comedia.jpg'},
 
   {livro:'A gaia ciência', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2012', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/a-gaia-ciencia.jpg'},
+
+  {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
 
@@ -69,6 +75,8 @@ const livros = [
 
   {livro:'Cartas a um jovem poeta e A canção de amor e de morte do porta-estandarte Cristóvão Rilke', autor:'Rainer Maria Rilke', editora:'Globo', anoEdicao:'2001', categoria:'Literatura Tcheca', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
 
+  {livro:'Cem anos de solidão', autor:'Gabriel García Márquez', editora:'Record', anoEdicao:'2006', categoria:'Literatura Colombiana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
   {livro:'Có! & Birds', autor:'Gustavo Duarte', editora:'Quadrinhos na Cia.', anoEdicao:'2014', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/co-e-birds.jpg'},
@@ -91,6 +99,8 @@ const livros = [
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
+  {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Ecce homo', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/ecce-homo.jpg'},
 
   {livro:'Ele que o abismo viu: epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
@@ -101,7 +111,11 @@ const livros = [
 
   {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
+  {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
+
+  {livro:'Estrela da vida inteira', autor:'Manuel Bandeira', editora:'Nova Fronteira', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/eu-sou-um-gato.jpg'},
 
@@ -147,6 +161,8 @@ const livros = [
 
   {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
+  {livro:'Iaiá Garcia', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
@@ -154,6 +170,8 @@ const livros = [
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
+
+  {livro:'Libertinagem', autor:'Manuel Bandeira', editora:'Global', anoEdicao:'2013', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/lira-grega.jpg'},
 
@@ -181,7 +199,11 @@ const livros = [
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
 
+  {livro:'Memorial de Aires', autor:'Machado de Assis', editora:'Galex', anoEdicao:'-', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
+
+  {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
 
@@ -205,6 +227,8 @@ const livros = [
 
   {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
 
+  {livro:'Não há lugar para a lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Espanhola', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Nariz de vidro', autor:'Mario Quintana', editora:'Moderna', anoEdicao:'1984', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/nos-penhascos-de-marmore.jpg'},
@@ -216,6 +240,8 @@ const livros = [
   {livro:'Notas de Petersburgo de 1836', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/notas-de-petersburgo-de-1836.jpg'},
 
   {livro:'Notas sobre Gaza', autor:'Joe Sacco', editora:'Quadrinhos na Cia.', anoEdicao:'2010', categoria:'Literatura Maltesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/notas-sobre-gaza.jpg'},
+
+  {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/o-assassinato-e-outras-historias.jpg'},
 
@@ -236,6 +262,8 @@ const livros = [
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
   {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
+
+  {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/o-senhor-dos-aneis.jpg'},
 
@@ -282,6 +310,8 @@ const livros = [
   {livro:'Prometeu acorrentado; Ájax; Alceste', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/prometeu-acorrentado-ajax-alceste.jpg'},
 
   {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
+
+  {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Quinoterapia', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2004', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/quinoterapia.jpg'},
 
