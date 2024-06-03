@@ -41,7 +41,9 @@ const livros = [
 
   {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/a-vida-privada-das-arvores.jpg'},
 
-  {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica e Teoria Literária', img:'../images/as-antenas-do-caracol.jpg'},
+  {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica, História e Teoria literária', img:'../images/as-antenas-do-caracol.jpg'},
+
+  {livro:'As melhores seleções estrangeiras de todos os tempos', autor:'Mauro Beting', editora:'Editora Contexto', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'As nuvens; Só para mulheres; Um deus chamado dinheiro', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2000', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-nuvens-so-para-mulheres-um-deus-chamado-dinheiro.jpg'},
 
@@ -63,7 +65,11 @@ const livros = [
 
   {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
 
+  {livro:'Banksy: Guerra e Spray', autor:'Banksy', editora:'Intrínseca', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Arte, Cinema e Fotografia', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/barba-ensopada-de-sangue.jpg'},
+
+  {livro:'Batman Begins', autor:'Dennis O\'Neil (novelization)', editora:'Del Rey Books', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/imagem-indisponivel.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
 
@@ -79,23 +85,35 @@ const livros = [
 
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
+  {livro:'Civilizações perdidas: Astecas - Reinado de sangue e esplendor', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Civilizações perdidas: Egito - Terra dos faraós', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Civilizações perdidas: Grécia - Templos, túmulos e tesouros', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Civilizações perdidas: O esplendor dos Maias', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Civilizações perdidas: O império Inca', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Có! & Birds', autor:'Gustavo Duarte', editora:'Quadrinhos na Cia.', anoEdicao:'2014', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/co-e-birds.jpg'},
 
   {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/coeforas.jpg'},
 
-  {livro:'Como funciona a ficção', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/como-funciona-a-ficcao.jpg'},
+  {livro:'Como funciona a ficção', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
 
   {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
   {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/contos-de-lugares-distantes.jpg'},
 
-  {livro:'Crítica, teoria e literatura infantil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
+  {livro:'Crítica, teoria e literatura infantil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
   {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Ficção', img:'../images/dialogos-com-leuco.jpg'},
 
   {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
+
+  {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
@@ -109,7 +127,7 @@ const livros = [
 
   {livro:'Endurance: a lendária expedição de Shackleton à Antártida', autor:'Caroline Alexander', editora:'Companhia das Letras', anoEdicao:'1999', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/endurance.jpg'},
 
-  {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica e Teoria Literária', img:'../images/era-uma-vez-uma-capa.jpg'},
+  {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
   {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
@@ -145,6 +163,8 @@ const livros = [
 
   {livro:'Habibi', autor:'Craig Thompson', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/habibi.jpg'},
 
+  {livro:'Heath Ledger: O astro sombrio de Hollywood', autor:'Brian J. Robb', editora:'Panini Books', anoEdicao:'2009', categoria:'Literatura Inglesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Helena', autor:'Eurípides', editora:'Movimento', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/helena.jpg'},
 
   {livro:'Héracles', autor:'Eurípides', editora:'Palas Athena', anoEdicao:'2003', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/heracles.jpg'},
@@ -167,7 +187,11 @@ const livros = [
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
+  {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
+
+  {livro:'Jornalismo diário', autor:'Ana Estela de Sousa Pinto', editora:'Publifolha', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
 
@@ -187,7 +211,7 @@ const livros = [
 
   {livro:'Livro das mil e uma noites: volume 5', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
 
-  {livro:'Livro ilustrado: palavras e imagens', autor:'Maria Nikolajeva e Carole Scott', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Global', segmento:'Crítica e Teoria Literária', img:'../images/livro-ilustrado.jpg'},
+  {livro:'Livro ilustrado: palavras e imagens', autor:'Maria Nikolajeva e Carole Scott', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Global', segmento:'Crítica, História e Teoria literária', img:'../images/livro-ilustrado.jpg'},
 
   {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
 
@@ -210,6 +234,8 @@ const livros = [
   {livro:'Minha luta 1: A morte do pai', autor:'Karl Ove Knausgard', editora:'Companhia das Letras', anoEdicao:'2013', categoria:'Literatura Norueguesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Minhas viagens com Heródoto', autor:'Ryszard Kapuscinski', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Bielorrussa', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Mitologia grega', autor:'Pierre Grimal', editora:'L&PM', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
@@ -249,19 +275,27 @@ const livros = [
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
 
+  {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
   
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
+  {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimenos', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
+
+  {livro:'O livro de ouro da mitologia', autor:'Thomas Bulfinch', editora:'Ediouro', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O livro do travesseiro', autor:'Sei Shônagon', editora:'Editora 34', anoEdicao:'2013', categoria:'Literatura Japonesa', segmento:'Biografias, Crônicas e Diários', img:'../images/o-livro-do-travesseiro.jpg'},
 
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
   {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
+
+  {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
@@ -299,11 +333,13 @@ const livros = [
 
   {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
 
-  {livro:'Para ler o livro ilustrado', autor:'Sophie Van der Linden', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Crítica e Teoria Literária', img:'../images/para-ler-o-livro-ilustrado.jpg'},
+  {livro:'Para ler o livro ilustrado', autor:'Sophie Van der Linden', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/para-ler-o-livro-ilustrado.jpg'},
   
   {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
 
   {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/passeios-na-ilha.jpg'},
+
+  {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
 
@@ -371,6 +407,8 @@ const livros = [
 
   {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
 
+  {livro:'Sua vida em movimento', autor:'Marcio Atalla', editora:'Paralela', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Super-Homem versus Apocalypse: A Revanche - Parte Dois', autor:'Dan Jurgens', editora:'Abril Jovem', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/super-homem-versus-apocalypse-parte2.jpg'},
 
   {livro:'Super-Homem versus Apocalypse: A Revanche - Parte Três', autor:'Dan Jurgens', editora:'Abril Jovem', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/super-homem-versus-apocalypse-parte3.jpg'},
@@ -391,6 +429,8 @@ const livros = [
 
   {livro:'Tragédias', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/esquilo-tragedias.jpg'},
 
+  {livro:'Tragédias gregas', autor:'Pascal Thiercy', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Três contos', autor:'Gustave Flaubert', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/tres-contos.jpg'},
 
   {livro:'Três sombras', autor:'Cyril Pedrosa', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/tres-sombras.jpg'},
@@ -410,15 +450,20 @@ const livros = [
 document.getElementById('total-livros').innerHTML = livros.length;
 
 const segmentos = {
+  'arte': 'Arte, Cinema e Fotografia',
   'biografia': 'Biografias, Crônicas e Diários',
-  'critica': 'Crítica e Teoria Literária',
+  'critica': 'Crítica, História e Teoria literária',
+  'desenvolvimento': 'Desenvolvimento Pessoal',
   'ensaios': 'Ensaios',
+  'esporte': 'Esportes, Lazer e Viagens',
   'ficcao': 'Ficção',
+  'financas': 'Finanças e Investimenos',
   'filosofia': 'Filosofia',
   'historia': 'História e Jornalismo',
   'hq': 'HQs, Mangás & Graphic Novels',
   'lit-infantil': 'Literatura Infantil',
   'lit-juvenil': 'Literatura Juvenil',
+  'livros-em-ingles': 'Livros em Inglês',
   'mitologia': 'Mitologia',
   'poesia': 'Poesia',
   'teatro': 'Teatro'
