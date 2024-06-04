@@ -33,6 +33,8 @@ const livros = [
 
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
+  {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
   {livro:'A vaca e o hipogrifo', autor:'Mario Quintana', editora:'Alfaguara', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
@@ -54,6 +56,8 @@ const livros = [
   {livro:'Agamêmnon - Orestéia I', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/agamemnon.jpg'},
 
   {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/aias.jpg'},
+
+  {livro:'Antologia da literatura fantástica', autor:'Adolfo Bioy Casares, Jorge Luis Borges, Silvina Ocampo (organizadores)', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Global', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Antologia poética', autor:'Carlos Drummond de Andrade', editora:'Record', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/antologia-poetica.jpg'},
 
@@ -187,6 +191,8 @@ const livros = [
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
+  {livro:'Intercâmbio, aí vou eu!', autor:'Flavia Mariano', editora:'Alaúde', anoEdicao:'2008', categoria:'Literatura Brasileira', segmento:'Educação', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
@@ -217,6 +223,8 @@ const livros = [
 
   {livro:'Luna Clara e Apolo Onze', autor:'Adriana Falcão', editora:'Salamandra', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/luna-clara-e-apolo-onze.jpg'},
 
+  {livro:'Manual de manutenção e reparo de bicicletas', autor:'Chris Sidwells', editora:'Ambientes e Costumes', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'Marcelino Pedregulho', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/marcelino-pedregulho.jpg'},
 
   {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
@@ -228,6 +236,8 @@ const livros = [
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
 
   {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
+  {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
 
@@ -269,6 +279,8 @@ const livros = [
 
   {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
+  {livro:'O ateneu', autor:'Raul Pompéia', editora:'Ática', anoEdicao:'1996', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+
   {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/o-assassinato-e-outras-historias.jpg'},
 
   {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-chamado-da-floresta.jpg'},
@@ -278,18 +290,24 @@ const livros = [
   {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
+
+  {livro:'O futuro é... viajar, malhar, estudar, namorar e investir', autor:'Mara Luquet', editora:'Benvirá', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Finanças e Investimentos', img:'../images/imagem-indisponivel.jpg'},
   
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
-  {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimenos', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimentos', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
+
+  {livro:'O livro das virtudes', autor:'William J. Bennett', editora:'Nova Fronteira', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O livro de ouro da mitologia', autor:'Thomas Bulfinch', editora:'Ediouro', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O livro do travesseiro', autor:'Sei Shônagon', editora:'Editora 34', anoEdicao:'2013', categoria:'Literatura Japonesa', segmento:'Biografias, Crônicas e Diários', img:'../images/o-livro-do-travesseiro.jpg'},
+
+  {livro:'O livro ilustrado dos mitos: Contos e lendas do mundo', autor:'Neil Philip', editora:'Marco Zero', anoEdicao:'1996', categoria:'Literatura Inglesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
@@ -308,6 +326,8 @@ const livros = [
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
   {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/o-vermelho-e-o-negro.jpg'},
+
+  {livro:'Os cem melhores poemas brasileiros do século', autor:'Italo Moriconi (organizador)', editora:'Objetiva', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
 
   {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
@@ -452,12 +472,14 @@ document.getElementById('total-livros').innerHTML = livros.length;
 const segmentos = {
   'arte': 'Arte, Cinema e Fotografia',
   'biografia': 'Biografias, Crônicas e Diários',
+  'citacoes': 'Citações',
   'critica': 'Crítica, História e Teoria literária',
   'desenvolvimento': 'Desenvolvimento Pessoal',
+  'educacao': 'Educação',
   'ensaios': 'Ensaios',
   'esporte': 'Esportes, Lazer e Viagens',
   'ficcao': 'Ficção',
-  'financas': 'Finanças e Investimenos',
+  'financas': 'Finanças e Investimentos',
   'filosofia': 'Filosofia',
   'historia': 'História e Jornalismo',
   'hq': 'HQs, Mangás & Graphic Novels',
