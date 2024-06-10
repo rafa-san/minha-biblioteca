@@ -37,7 +37,7 @@ const livros = [
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
-  {livro:'A vaca e o hipogrifo', autor:'Mario Quintana', editora:'Alfaguara', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A vaca e o hipogrifo', autor:'Mario Quintana', editora:'Alfaguara', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/a-vaca-e-o-tipografo.jpg'},
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
@@ -45,7 +45,7 @@ const livros = [
 
   {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica, História e Teoria literária', img:'../images/as-antenas-do-caracol.jpg'},
 
-  {livro:'As melhores seleções estrangeiras de todos os tempos', autor:'Mauro Beting', editora:'Editora Contexto', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'As melhores seleções estrangeiras de todos os tempos', autor:'Mauro Beting', editora:'Editora Contexto', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/as-melhores-selecoes-estrangeiras-de-todos-os-tempos.jpg'},
 
   {livro:'As nuvens; Só para mulheres; Um deus chamado dinheiro', autor:'Aristófanes', editora:'Jorge Zahar', anoEdicao:'2000', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/as-nuvens-so-para-mulheres-um-deus-chamado-dinheiro.jpg'},
 
@@ -69,7 +69,7 @@ const livros = [
 
   {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
 
-  {livro:'Banksy: Guerra e Spray', autor:'Banksy', editora:'Intrínseca', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Arte, Cinema e Fotografia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Banksy: Guerra e Spray', autor:'Banksy', editora:'Intrínseca', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Arte, Cinema e Fotografia', img:'../images/banksy-guerra-e-spray.jpg'},
 
   {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/barba-ensopada-de-sangue.jpg'},
 
@@ -117,7 +117,7 @@ const livros = [
 
   {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
 
-  {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/diarios-1947-1963.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
@@ -237,13 +237,13 @@ const livros = [
 
   {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/meu-reino-por-um-cavalo.jpg'},
 
   {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
 
-  {livro:'Minha luta 1: A morte do pai', autor:'Karl Ove Knausgard', editora:'Companhia das Letras', anoEdicao:'2013', categoria:'Literatura Norueguesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Minha luta 1: A morte do pai', autor:'Karl Ove Knausgard', editora:'Companhia das Letras', anoEdicao:'2013', categoria:'Literatura Norueguesa', segmento:'Biografias, Crônicas e Diários', img:'../images/a-morte-do-pai.jpg'},
 
-  {livro:'Minhas viagens com Heródoto', autor:'Ryszard Kapuscinski', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Bielorrussa', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Minhas viagens com Heródoto', autor:'Ryszard Kapuscinski', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Bielorrussa', segmento:'História e Jornalismo', img:'../images/minhas-viagens-com-herodoto.jpg'},
 
   {livro:'Mitologia grega', autor:'Pierre Grimal', editora:'L&PM', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
@@ -287,7 +287,7 @@ const livros = [
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
 
-  {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/o-clube-do-filme.jpg'},
 
   {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
 
@@ -449,7 +449,7 @@ const livros = [
 
   {livro:'Tragédias', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/esquilo-tragedias.jpg'},
 
-  {livro:'Tragédias gregas', autor:'Pascal Thiercy', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Tragédias gregas', autor:'Pascal Thiercy', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/tragedias-gregas.jpg'},
 
   {livro:'Três contos', autor:'Gustave Flaubert', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/tres-contos.jpg'},
 
@@ -457,7 +457,7 @@ const livros = [
 
   {livro:'Uma criatura dócil', autor:'Fiódor Dostoiévski', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/uma-criatura-docil.jpg'},
 
-  {livro:'Variações em vermelho', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2011', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Variações em vermelho', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2011', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/variacoes-em-vermelho.jpg'},
 
   {livro:'Você é minha Mãe?', autor:'Alison Bechdel', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/voce-e-minha-mae.jpg'},
 
