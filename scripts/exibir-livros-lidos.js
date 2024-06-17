@@ -3,7 +3,7 @@ const container = document.querySelector('.container-livros');
 const livros = [
   {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Ficção', img:'../images/47-contos-de-juan-carlos-onetti.jpg'},
 
-  {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/1984.jpg'},
 
   {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
 
@@ -57,7 +57,7 @@ const livros = [
 
   {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/aias.jpg'},
 
-  {livro:'Antologia da literatura fantástica', autor:'Adolfo Bioy Casares, Jorge Luis Borges, Silvina Ocampo (organizadores)', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Global', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Antologia da literatura fantástica', autor:'Adolfo Bioy Casares, Jorge Luis Borges, Silvina Ocampo (organizadores)', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Global', segmento:'Ficção', img:'../images/antologia-da-literatura-fantastica.jpg'},
 
   {livro:'Antologia poética', autor:'Carlos Drummond de Andrade', editora:'Record', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/antologia-poetica.jpg'},
 
@@ -91,13 +91,13 @@ const livros = [
 
   {livro:'Civilizações perdidas: Astecas - Reinado de sangue e esplendor', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Civilizações perdidas: Egito - Terra dos faraós', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Civilizações perdidas: Egito - Terra dos faraós', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-egito-terra-dos-faraos.jpg'},
 
   {livro:'Civilizações perdidas: Grécia - Templos, túmulos e tesouros', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Civilizações perdidas: O esplendor dos Maias', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Civilizações perdidas: O esplendor dos Maias', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-o-esplendor-dos-maias.jpg'},
 
-  {livro:'Civilizações perdidas: O império Inca', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Civilizações perdidas: O império Inca', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-imperio-inca.jpg'},
 
   {livro:'Có! & Birds', autor:'Gustavo Duarte', editora:'Quadrinhos na Cia.', anoEdicao:'2014', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/co-e-birds.jpg'},
 
@@ -137,7 +137,7 @@ const livros = [
 
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
-  {livro:'Estrela da vida inteira', autor:'Manuel Bandeira', editora:'Nova Fronteira', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Estrela da vida inteira', autor:'Manuel Bandeira', editora:'Nova Fronteira', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/estrela-da-vida-inteira.jpg'},
 
   {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/eu-sou-um-gato.jpg'},
 
@@ -167,7 +167,7 @@ const livros = [
 
   {livro:'Habibi', autor:'Craig Thompson', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/habibi.jpg'},
 
-  {livro:'Heath Ledger: O astro sombrio de Hollywood', autor:'Brian J. Robb', editora:'Panini Books', anoEdicao:'2009', categoria:'Literatura Inglesa', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Heath Ledger: O astro sombrio de Hollywood', autor:'Brian J. Robb', editora:'Panini Books', anoEdicao:'2009', categoria:'Literatura Inglesa', segmento:'Biografias, Crônicas e Diários', img:'../images/heath-ledger.jpg'},
 
   {livro:'Helena', autor:'Eurípides', editora:'Movimento', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/helena.jpg'},
 
@@ -193,11 +193,11 @@ const livros = [
 
   {livro:'Intercâmbio, aí vou eu!', autor:'Flavia Mariano', editora:'Alaúde', anoEdicao:'2008', categoria:'Literatura Brasileira', segmento:'Educação', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/introducao-a-historia-da-filosofia.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
 
-  {livro:'Jornalismo diário', autor:'Ana Estela de Sousa Pinto', editora:'Publifolha', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Jornalismo diário', autor:'Ana Estela de Sousa Pinto', editora:'Publifolha', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'História e Jornalismo', img:'../images/jornalismo-diario.jpg'},
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
 
@@ -247,7 +247,7 @@ const livros = [
 
   {livro:'Mitologia grega', autor:'Pierre Grimal', editora:'L&PM', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
-  {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-1.jpg'},
 
   {livro:'Mitologia grega: Volume 2', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
 
@@ -263,9 +263,9 @@ const livros = [
 
   {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
 
-  {livro:'Não há lugar para a lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Espanhola', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Não há lugar para a lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Espanhola', segmento:'Biografias, Crônicas e Diários', img:'../images/nao-ha-lugar-para-a-logica-em-kassel.jpg'},
 
-  {livro:'Nariz de vidro', autor:'Mario Quintana', editora:'Moderna', anoEdicao:'1984', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Nariz de vidro', autor:'Mario Quintana', editora:'Moderna', anoEdicao:'1984', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/nariz-de-vidro.jpg'},
 
   {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/nos-penhascos-de-marmore.jpg'},
 
@@ -297,25 +297,25 @@ const livros = [
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
-  {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimentos', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimentos', img:'../images/o-investidor-inteligente.jpg'},
 
   {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
 
-  {livro:'O livro das virtudes', autor:'William J. Bennett', editora:'Nova Fronteira', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O livro das virtudes', autor:'William J. Bennett', editora:'Nova Fronteira', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-livro-das-virtudes.jpg'},
 
-  {livro:'O livro de ouro da mitologia', autor:'Thomas Bulfinch', editora:'Ediouro', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O livro de ouro da mitologia', autor:'Thomas Bulfinch', editora:'Ediouro', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Mitologia', img:'../images/o-livro-de-ouro-da-mitologia.jpg'},
 
   {livro:'O livro do travesseiro', autor:'Sei Shônagon', editora:'Editora 34', anoEdicao:'2013', categoria:'Literatura Japonesa', segmento:'Biografias, Crônicas e Diários', img:'../images/o-livro-do-travesseiro.jpg'},
 
-  {livro:'O livro ilustrado dos mitos: Contos e lendas do mundo', autor:'Neil Philip', editora:'Marco Zero', anoEdicao:'1996', categoria:'Literatura Inglesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O livro ilustrado dos mitos: Contos e lendas do mundo', autor:'Neil Philip', editora:'Marco Zero', anoEdicao:'1996', categoria:'Literatura Inglesa', segmento:'Mitologia', img:'../images/o-livro-ilustrado-dos-mitos.jpg'},
 
   {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
 
   {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
 
-  {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/o-obvio-que-ignoramos.jpg'},
 
-  {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Ficção', img:'../images/o-profeta.jpg'},
 
   {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/o-senhor-dos-aneis.jpg'},
 
@@ -327,7 +327,7 @@ const livros = [
 
   {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/o-vermelho-e-o-negro.jpg'},
 
-  {livro:'Os cem melhores poemas brasileiros do século', autor:'Italo Moriconi (organizador)', editora:'Objetiva', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Os cem melhores poemas brasileiros do século', autor:'Italo Moriconi (organizador)', editora:'Objetiva', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/os-cem-melhores-poemas-brasileiros-do-seculo.jpg'},
 
   {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
 
@@ -349,7 +349,7 @@ const livros = [
 
   {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
 
-  {livro:'Paideia: a formação do homem grego', autor:'Werner Jaeger', editora:'WMF Martins Fontes', anoEdicao:'2013', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Paideia: a formação do homem grego', autor:'Werner Jaeger', editora:'WMF Martins Fontes', anoEdicao:'2013', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/paideia.jpg'},
 
   {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
 
@@ -427,7 +427,7 @@ const livros = [
 
   {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
 
-  {livro:'Sua vida em movimento', autor:'Marcio Atalla', editora:'Paralela', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Sua vida em movimento', autor:'Marcio Atalla', editora:'Paralela', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/sua-vida-em-movimento.jpg'},
 
   {livro:'Super-Homem versus Apocalypse: A Revanche - Parte Dois', autor:'Dan Jurgens', editora:'Abril Jovem', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/super-homem-versus-apocalypse-parte2.jpg'},
 
@@ -463,7 +463,7 @@ const livros = [
 
   {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'},
 
-  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'}
+  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/zazie-no-metro.jpg'}
 ];
 
 // Exibir a quantidade de livro:
