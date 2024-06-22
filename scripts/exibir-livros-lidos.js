@@ -9,17 +9,17 @@ const livros = [
 
   {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/a-casa-das-belas-adormecidas.jpg'},
 
-  {livro:'A civilização do espetáculo', autor:'Mario Vargas Llosa', editora:'Objetiva', anoEdicao:'2013', categoria:'Literatura Peruana', segmento:'Ensaios', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A civilização do espetáculo', autor:'Mario Vargas Llosa', editora:'Objetiva', anoEdicao:'2013', categoria:'Literatura Peruana', segmento:'Ensaios', img:'../images/a-civilizacao-do-espetaculo.jpg'},
 
   {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Juvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
 
-  {livro:'A desobediência civil', autor:'Henry David Thoreau', editora:'L&PM', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A desobediência civil', autor:'Henry David Thoreau', editora:'L&PM', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/a-desobediencia-civil.jpg'},
   
   {livro:'A divina comédia', autor:'Dante Alighieri', editora:'Abril Cultural', anoEdicao:'1979', categoria:'Literatura Italiana', segmento:'Poesia', img:'../images/a-divina-comedia.jpg'},
 
   {livro:'A gaia ciência', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2012', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/a-gaia-ciencia.jpg'},
 
-  {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/a-hora-da-estrela.jpg'},
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
 
@@ -33,7 +33,7 @@ const livros = [
 
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
-  {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/a-testemunha-silenciosa.jpg'},
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
@@ -83,17 +83,17 @@ const livros = [
 
   {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
 
-  {livro:'Cartas a um jovem poeta e A canção de amor e de morte do porta-estandarte Cristóvão Rilke', autor:'Rainer Maria Rilke', editora:'Globo', anoEdicao:'2001', categoria:'Literatura Tcheca', segmento:'Biografias, Crônicas e Diários', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Cartas a um jovem poeta e A canção de amor e de morte do porta-estandarte Cristóvão Rilke', autor:'Rainer Maria Rilke', editora:'Globo', anoEdicao:'2001', categoria:'Literatura Tcheca', segmento:'Biografias, Crônicas e Diários', img:'../images/cartas-a-um-jovem-poeta.jpg'},
 
-  {livro:'Cem anos de solidão', autor:'Gabriel García Márquez', editora:'Record', anoEdicao:'2006', categoria:'Literatura Colombiana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Cem anos de solidão', autor:'Gabriel García Márquez', editora:'Record', anoEdicao:'2006', categoria:'Literatura Colombiana', segmento:'Ficção', img:'../images/cem-anos-de-solidao.jpg'},
 
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
-  {livro:'Civilizações perdidas: Astecas - Reinado de sangue e esplendor', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Civilizações perdidas: Astecas - Reinado de sangue e esplendor', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/astecas-reinado-de-sangue-e-esplendor.jpg'},
 
   {livro:'Civilizações perdidas: Egito - Terra dos faraós', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-egito-terra-dos-faraos.jpg'},
 
-  {livro:'Civilizações perdidas: Grécia - Templos, túmulos e tesouros', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Civilizações perdidas: Grécia - Templos, túmulos e tesouros', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/grecia-templos-tumulos-e-tesouros.jpg'},
 
   {livro:'Civilizações perdidas: O esplendor dos Maias', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-o-esplendor-dos-maias.jpg'},
 
@@ -157,7 +157,7 @@ const livros = [
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
 
-  {livro:'Firmin', autor:'Sam Savage', editora:'Planeta', anoEdicao:'2008', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Firmin', autor:'Sam Savage', editora:'Planeta', anoEdicao:'2008', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/firmin.jpg'},
 
   {livro:'Formas de voltar para casa', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/formas-de-voltar-para-casa.jpg'},
 
@@ -179,7 +179,7 @@ const livros = [
 
   {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/historia-do-olho.jpg'},
 
-  {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-de-cronopios-e-de-famas.jpg'},
 
   {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-fantasticas.jpg'},
 
@@ -191,7 +191,7 @@ const livros = [
   
   {livro:'Ilíada', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/iliada.jpg'},
 
-  {livro:'Intercâmbio, aí vou eu!', autor:'Flavia Mariano', editora:'Alaúde', anoEdicao:'2008', categoria:'Literatura Brasileira', segmento:'Educação', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Intercâmbio, aí vou eu!', autor:'Flavia Mariano', editora:'Alaúde', anoEdicao:'2008', categoria:'Literatura Brasileira', segmento:'Educação', img:'../images/intercambio-ai-vou-eu.jpg'},
 
   {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/introducao-a-historia-da-filosofia.jpg'},
 
@@ -249,9 +249,9 @@ const livros = [
 
   {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-1.jpg'},
 
-  {livro:'Mitologia grega: Volume 2', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Mitologia grega: Volume 2', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-2.jpg'},
 
-  {livro:'Mitologia grega: Volume 3', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Mitologia grega: Volume 3', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-3.jpg'},
   
   {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
@@ -329,7 +329,7 @@ const livros = [
 
   {livro:'Os cem melhores poemas brasileiros do século', autor:'Italo Moriconi (organizador)', editora:'Objetiva', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/os-cem-melhores-poemas-brasileiros-do-seculo.jpg'},
 
-  {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/os-melhores-contos.jpg'},
 
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
