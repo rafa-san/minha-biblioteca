@@ -23,7 +23,7 @@ const livros = [
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
 
-  {livro:'A metamorfose', autor:'Franz Kafka', editora:'Nova Cultural', anoEdicao:'2002', categoria:'Literatura Tcheca', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'A metamorfose', autor:'Franz Kafka', editora:'Nova Cultural', anoEdicao:'2002', categoria:'Literatura Tcheca', segmento:'Ficção', img:'../images/a-metamorfose.jpg'},
 
   {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
 
@@ -73,7 +73,7 @@ const livros = [
 
   {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/barba-ensopada-de-sangue.jpg'},
 
-  {livro:'Batman Begins', autor:'Dennis O\'Neil (novelization)', editora:'Del Rey Books', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Batman Begins', autor:'Dennis O\'Neil (novelization)', editora:'Del Rey Books', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/batman-begins.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
 
@@ -201,7 +201,7 @@ const livros = [
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
 
-  {livro:'Libertinagem', autor:'Manuel Bandeira', editora:'Global', anoEdicao:'2013', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Libertinagem', autor:'Manuel Bandeira', editora:'Global', anoEdicao:'2013', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/libertinagem.jpg'},
 
   {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/lira-grega.jpg'},
 
@@ -223,7 +223,7 @@ const livros = [
 
   {livro:'Luna Clara e Apolo Onze', autor:'Adriana Falcão', editora:'Salamandra', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/luna-clara-e-apolo-onze.jpg'},
 
-  {livro:'Manual de manutenção e reparo de bicicletas', autor:'Chris Sidwells', editora:'Ambientes e Costumes', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Esportes, Lazer e Viagens', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Manual de manutenção e reparo de bicicletas', autor:'Chris Sidwells', editora:'Ambientes e Costumes', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Esportes, Lazer e Viagens', img:'../images/manual-de-manutencao-e-reparo-de-bicicletas.jpg'},
 
   {livro:'Marcelino Pedregulho', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/marcelino-pedregulho.jpg'},
 
@@ -291,7 +291,7 @@ const livros = [
 
   {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
 
-  {livro:'O futuro é... viajar, malhar, estudar, namorar e investir', autor:'Mara Luquet', editora:'Benvirá', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Finanças e Investimentos', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O futuro é... viajar, malhar, estudar, namorar e investir', autor:'Mara Luquet', editora:'Benvirá', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Finanças e Investimentos', img:'../images/o-futuro-e.jpg'},
   
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
 
@@ -359,7 +359,7 @@ const livros = [
 
   {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/passeios-na-ilha.jpg'},
 
-  {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
 
@@ -367,7 +367,7 @@ const livros = [
 
   {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
 
-  {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/quincas-borba.jpg'},
 
   {livro:'Quinoterapia', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2004', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/quinoterapia.jpg'},
 
