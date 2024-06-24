@@ -121,7 +121,7 @@ const livros = [
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
-  {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/dom-casmurro.jpg'},
 
   {livro:'Ecce homo', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/ecce-homo.jpg'},
 
@@ -133,7 +133,7 @@ const livros = [
 
   {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
-  {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/esau-e-jaco.jpg'},
 
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
@@ -143,7 +143,7 @@ const livros = [
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
-  {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-de-esopo.jpg'},
 
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
 
@@ -185,7 +185,7 @@ const livros = [
 
   {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
-  {livro:'Iaiá Garcia', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Iaiá Garcia', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/iaia-garcia.jpg'},
 
   {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
@@ -231,11 +231,11 @@ const livros = [
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
 
-  {livro:'Memorial de Aires', autor:'Machado de Assis', editora:'Galex', anoEdicao:'-', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Memorial de Aires', autor:'Machado de Assis', editora:'Galex', anoEdicao:'-', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/memorial-de-aires.jpg'},
 
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
 
-  {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/memorias-postumas-de-bras-cubas.jpg'},
 
   {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/meu-reino-por-um-cavalo.jpg'},
 
@@ -245,7 +245,7 @@ const livros = [
 
   {livro:'Minhas viagens com Heródoto', autor:'Ryszard Kapuscinski', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Bielorrussa', segmento:'História e Jornalismo', img:'../images/minhas-viagens-com-herodoto.jpg'},
 
-  {livro:'Mitologia grega', autor:'Pierre Grimal', editora:'L&PM', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Mitologia', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'Mitologia grega', autor:'Pierre Grimal', editora:'L&PM', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Mitologia', img:'../images/mitologia-grega.jpg'},
 
   {livro:'Mitologia grega: Volume 1', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-1.jpg'},
 
@@ -277,9 +277,9 @@ const livros = [
 
   {livro:'Notas sobre Gaza', autor:'Joe Sacco', editora:'Quadrinhos na Cia.', anoEdicao:'2010', categoria:'Literatura Maltesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/notas-sobre-gaza.jpg'},
 
-  {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-alienista.jpg'},
 
-  {livro:'O ateneu', autor:'Raul Pompéia', editora:'Ática', anoEdicao:'1996', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/imagem-indisponivel.jpg'},
+  {livro:'O ateneu', autor:'Raul Pompéia', editora:'Ática', anoEdicao:'1996', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-ateneu.jpg'},
 
   {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/o-assassinato-e-outras-historias.jpg'},
 
