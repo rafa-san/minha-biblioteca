@@ -201,6 +201,8 @@ const livros = [
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
 
+  {livro:'Leocádio, o leão que mandava bala', autor:'Shel Silverstein', editora:'Companhia das Letrinhas', anoEdicao:'2018', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/leocadio-o-leao-que-mandava-bala.jpg'},
+
   {livro:'Libertinagem', autor:'Manuel Bandeira', editora:'Global', anoEdicao:'2013', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/libertinagem.jpg'},
 
   {livro:'Lira grega: antologia de poesia arcaica', autor:'Autoras e autores diversos', editora:'Hedra', anoEdicao:'2013', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/lira-grega.jpg'},
@@ -424,6 +426,8 @@ const livros = [
   {livro:'Serrote 23', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-23.jpg'},
 
   {livro:'Serrote 24', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'novembro 2016', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-24.jpg'},
+
+  {livro:'Serrote 25', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2017', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-25.jpg'},
 
   {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
 
