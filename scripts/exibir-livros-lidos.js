@@ -429,6 +429,8 @@ const livros = [
 
   {livro:'Serrote 25', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'março 2017', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-25.jpg'},
 
+  {livro:'Serrote 26', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2017', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-26.jpg'},
+
   {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
 
   {livro:'Sua vida em movimento', autor:'Marcio Atalla', editora:'Paralela', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/sua-vida-em-movimento.jpg'},
