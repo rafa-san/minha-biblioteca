@@ -62,6 +62,7 @@ const autores = [
   "Fiódor Dostoiévski",
   "Flávia Lins e Silva",
   "Flavia Mariano",
+  "Francisco Alvim",
   "François Place",
   "Franz Kafka",
   "Frédéric Gros",
