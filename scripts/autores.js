@@ -44,6 +44,7 @@ const autores = [
   "Dante Alighieri",
   "David Foster Wallace",
   "David Gilmour",
+  "David Grann",
   "David Mazzucchelli",
   "David Merveille",
   "Davide Cali",
