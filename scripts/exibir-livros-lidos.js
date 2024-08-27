@@ -335,6 +335,8 @@ const livros = [
 
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
+  {livro:'Os náufragos do Wager: Uma história de motim e assassinato', autor:'David Grann', editora:'Companhia das Letras', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/os-naufragos-do-wager.jpg'},
+
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
   {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/os-trabalhadores-do-mar.jpg'},
