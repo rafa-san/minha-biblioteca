@@ -1,13 +1,17 @@
 @charset "utf-8";
 
 footer {
+  background-color: var(--cor4);
+  margin-top: 48px;
   padding: 24px 8px;
   text-align: center;
   width: 100%;
 }
 
 footer p {
-  font-size: 1.1em;
+  color: var(--white);
+  font-size: 1.2em;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -20,8 +24,9 @@ footer p {
 
 .fa-github,
 .fa-linkedin {
+  color: var(--white);
   font-size: 1.2em;
-  /* text-shadow: 1px 1px 1px #1f1f1f; */
+  text-shadow: 1px 1px 1px #1f1f1f;
   transition: 0.3s ease-out;
 }
 

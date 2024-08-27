@@ -5,6 +5,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.192);
   min-height: 80px;
   padding: 8px;
   width: 100%;
@@ -15,6 +16,10 @@
   width: 100%;
 }
 
+.titulo a {
+  color: var(--cor1);
+}
+
 #menu-icone {
   display: block;
   cursor: pointer;
@@ -23,7 +28,7 @@
 }
 
 #menu-icone > div {
-  background-color: black;
+  background-color: var(--cor4);
   height: 3px;
   margin: 3px 0;
   width: 20px;
@@ -61,8 +66,13 @@
   text-align: center;
 }
 
+.menu-responsivo ul li a {
+  color: var(--cor1);
+  font-weight: 600;
+}
+
 .menu-responsivo ul li a:hover {
-  text-decoration: underline;
+  color: var(--cor2);
 }
 
 .menu-responsivo li {
