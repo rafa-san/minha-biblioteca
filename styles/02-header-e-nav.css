@@ -17,7 +17,7 @@
 }
 
 .titulo a {
-  color: var(--cor1);
+  color: var(--cor3);
 }
 
 #menu-icone {
@@ -28,7 +28,7 @@
 }
 
 #menu-icone > div {
-  background-color: var(--cor4);
+  background-color: var(--cor2);
   height: 3px;
   margin: 3px 0;
   width: 20px;
@@ -67,12 +67,12 @@
 }
 
 .menu-responsivo ul li a {
-  color: var(--cor1);
+  color: var(--cor2);
   font-weight: 600;
 }
 
 .menu-responsivo ul li a:hover {
-  color: var(--cor2);
+  text-decoration: underline;
 }
 
 .menu-responsivo li {

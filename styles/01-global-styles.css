@@ -1,11 +1,12 @@
 @charset "utf-8";
 
 :root {
-  --cor1: #ff7851; /* */
-  --cor2: #995e4c;
-  --cor3: #ffe6d7; /* */
-  --cor4: #004d73;
   --white: #fff;
+  --black: #000;
+  --cor1: rgb(241, 246, 249);
+  --cor2: rgb(75, 85, 161);
+  --cor3: rgb(236, 97, 89);
+  --cor4: rgb(253, 217, 187);
 }
 
 * {
