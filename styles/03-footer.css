@@ -11,6 +11,7 @@ footer {
 footer p {
   color: var(--white);
   font-size: 1.2em;
+  font-weight: 600;
   margin-top: 16px;
   text-align: center;
 }
@@ -24,9 +25,8 @@ footer p {
 
 .fa-github,
 .fa-linkedin {
-  color: var(--white);
+  color: var(--cor3);
   font-size: 1.2em;
-  text-shadow: 1px 1px 1px #1f1f1f;
   transition: 0.3s ease-out;
 }
 
@@ -36,6 +36,7 @@ footer p {
 }
 
 .texto-icone {
+  color: var(--white);
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.1em;
   word-spacing: 2px;

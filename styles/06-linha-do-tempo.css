@@ -1,109 +1,79 @@
 @charset "utf-8";
 
 .heading-2 {
-  margin: 16px auto;
+  color: var(--cor2);
+  margin: 40px auto 24px;
   text-align: center;
   width: 90%;
 }
 
 
-/* CONTAINER DO BACKGROUND */
-.container-background {
+/* CONTAINER DAS FRASES E TRECHOS */
+#container-frases-e-trechos {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url('../images/img-linha-do-tempo.jpeg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  flex-direction: row;
+  flex-wrap: wrap;
   border-radius: 8px;
-  height: 420px;
-  margin: 16px auto;
-  text-align: center;
-  width: 85%;
+  margin: auto;
+  padding: 16px;
+  max-width: 80%;
+  min-height: 28vh;
+  min-width: 70%;
 }
 
-.abrir-menu {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 16px;
-  color: #fff;
+#frases-e-trechos {
+  color: var(--cor2);
+  font-size: 1.1em;
   margin: 8px auto;
+  text-align: left;
+  width: 100%;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 16px;
+  margin: 0 8px;
+  opacity: 0.4;
+}
+
+.frases-e-trechos-autor {
+  background-image: radial-gradient(circle, var(--cor4), var(--white));
+  border-radius: 16px;
+  font-size: 18px;
+  margin: 8px auto;
+  max-width: 60%;
+  min-width: 50%;
+  padding: 8px;
+  text-align: center;
+}
+
+#texto {
+  background-image: radial-gradient(circle, var(--cor4), var(--white));
+  border-radius: 16px;
+  margin: auto;
+  max-width: 80%;
+  min-width: 70%;
+  padding: 8px;
+  text-align: center;
+}
+
+
+/* LINK PARA O FULLSCREEN MENU */
+.abrir-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle, var(--cor2), var(--cor2));
+  border-radius: 16px;
+  color: var(--white);
+  cursor: pointer;
+  margin: 40px auto 72px;
   padding: 16px;
   width: 90%;
 }
 
-.abrir-menu {
-  position: relative;
-  cursor: pointer;
-}
-
 .abrir-menu span {
   padding: 0 16px;
-}
-
-
- /* FULLSCREEN MENU */
-.fullscreen-menu-conteudo {
-  position: relative;
-  top: 18%;
-  display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  text-align: center;
-  width: 100%;
-  z-index: 1;
-}
-
-.livros-seculos {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background-color: rgba(0,0,0, 0.97);
-  height: 100%;
-  overflow-x: hidden;
-  transition: 0.5s;
-  width: 0;
-}
-
-.livros-seculos a {
-  color: #818181;
-  cursor: pointer;
-  font-size: 36px;
-  padding: 8px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.livros-seculos ul {
-  padding: 16px 0;
-}
-
-.livros-seculos li {
-  color: #818181;
-  cursor: pointer;
-  font-size: 1.5em;
-  font-weight: 500;
-  margin: auto;
-  padding: 8px;
-  transition: 0.3s;
-  width: 95%;
-}
-
-.livros-seculos a:hover,
-.livros-seculos a:focus {
-  color: #f1f1f1;
-}
-
-.livros-seculos ul li:hover {
-  color: #f1f1f1;
-}
-
-.livros-seculos .fechar-menu {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
 }
 
 
@@ -129,18 +99,11 @@
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 25px;
-  color: white;
+  color: var(--white);
   cursor: pointer;
   margin: 8px auto;
   padding: 8px 20px;
   width: 100%;
-}
-
-/* Estilo para a tag ativa */
-.active {
-  /* background-color: #fff; */
-  /* border: 1px solid #818181; */
-  color: #818181;
 }
 
 /* Ocultar timelines não ativas */
@@ -161,7 +124,7 @@
   top: 0;
   bottom: 0;
   left: 50%;
-  background-color: white;
+  background-color: var(--white);
   content: '';
   margin-left: -3px;
   width: 6px;
@@ -181,7 +144,7 @@
   top: 15px;
   right: -17px;
   z-index: 1;
-  background-color: white;
+  background-color: var(--white);
   border: 4px solid var(--cor1);
   border-radius: 50%;
   content: '';
@@ -210,8 +173,8 @@
   top: 22px;
   right: 30px;
   z-index: 1;
-  border: medium solid white;
-  border-color: transparent transparent transparent white;
+  border: medium solid var(--white);
+  border-color: transparent transparent transparent var(--white);
   border-width: 10px 0 10px 10px;
   content: " ";
   height: 0;
@@ -230,9 +193,9 @@
   top: 22px;
   left: 30px;
   z-index: 1;
-  border: medium solid white;
+  border: medium solid var(--white);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent var(--white) transparent transparent;
   content: " ";
   height: 0;
   width: 0;
@@ -246,10 +209,26 @@
 /* Conteúdo atual */
 .content {
   position: relative;
-  background-color: white;
+  background-color: var(--white);
   border-radius: 6px;
   padding: 20px 30px;
 }
+
+.ribbon,
+.nobel {
+  position: absolute;
+  top: -12px;
+  right: -25px;
+  background-color: var(--cor2);
+  border-radius: 25px;
+  color: var(--white);
+  font-size: 12px;
+  padding: 4px;
+  text-align: center;
+  transform: rotate(20deg);
+  width: 72px;
+}
+
 
 /* Media queries - Telas com menos de 600 px de largura */
 @media screen and (max-width: 768px) {
@@ -266,8 +245,8 @@
   
   /* Garantir que todas as setas fiquem voltadas para o lado esquerdo */
   .container::before {
-    border: medium solid white;
-    border-color: transparent white transparent transparent;
+    border: medium solid var(--white);
+    border-color: transparent var(--white) transparent transparent;
     border-width: 10px 10px 10px 0;
     left: 60px;
   }
@@ -281,33 +260,4 @@
   .right {
     left: 0%;
   }
-}
-
-
-.ribbon {
-  position: absolute;
-  top: -12px;
-  right: -25px;
-  background-color: #ff9800;
-  border-radius: 25px;
-  color: white;
-  font-size: 12px;
-  padding: 4px;
-  text-align: center;
-  transform: rotate(20deg);
-  width: 72px;
-}
-
-.nobel {
-  position: absolute;
-  top: -12px;
-  right: -25px;
-  background-color: lightblue;
-  border-radius: 25px;
-  color: white;
-  font-size: 12px;
-  padding: 4px;
-  text-align: center;
-  transform: rotate(20deg);
-  width: 72px;
 }

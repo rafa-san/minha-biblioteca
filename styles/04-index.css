@@ -17,14 +17,14 @@
 .container-carrossel-livros {
   display: flex;
   margin: 32px auto 40px;
-  width: 85%;
+  width: 80%;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  color: var(--cor3);
+  color: var(--cor2);
   height: auto;
   margin: 6px;
   width: 100%;
@@ -60,5 +60,5 @@ figure {
 }
 
 .texto-autor {
-  color: var(--cor3);
+  color: var(--cor2);
 }

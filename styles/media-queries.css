@@ -28,33 +28,26 @@
   }
 
 
-  /* HOME */
+  /* INDEX */
   .imagem-home {
     height: 88vh;
   }
 
   .container-carrossel-livros {
-    width: 95%;
+    width: 93%;
   }
 
 
-  /* LIVROS */
-  .dados,
+  /* LIVROS LIDOS */
+  .dados-livros,
+  .dados-autores,
   .abrir-menu {
-    max-width: 50%;
-  }
-
-  .livros-segmento li {
-    font-size: 2.0em;
+    max-width: 30%;
   }
 
 
-  /* FRASES E TRECHOS */
-  /* #imagem-livro-container {
-    max-width: 500px;
+  /* FULLSCREEN MENU */
+  .fullscreen-menu-conteudo {
+    columns: 2;
   }
-
-  #frases-e-trechos {
-    max-width: 500px;
-  } */
 }

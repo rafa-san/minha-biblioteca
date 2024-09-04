@@ -24,3 +24,8 @@ ol,
 ul {
   list-style-position: inside;
 }
+
+.fa-quote-left,
+.fa-quote-right {
+  color: var(--cor3);
+}
