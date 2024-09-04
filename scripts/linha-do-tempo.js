@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const fullscreenMenu = document.getElementById('fullscreen-menu');
   const tags = document.querySelectorAll('.tag');
   const timelines = document.querySelectorAll('.timeline');
-  const heading = document.querySelector('#titulo-teste');
+  const heading = document.querySelector('#titulo-do-seculo');
 
   // Função para adicionar o heading dinâmico
   function adicionarHeading(tag) {
@@ -32,9 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
       // Remover a classe ativa de todas as tags
       tags.forEach(tag => tag.classList.remove('active'));
 
-      // Adicionar a classe ativa apenas à tag clicada
-      this.classList.add('active');
-
       // Adicionar o heading dinâmico
       adicionarHeading(this);
 
@@ -49,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       // Fechar o menu fullscreen ao selecionar uma opção
       fullscreenMenu.style.width = '0';
+      
       // Remover classe quando o menu é fechado
       document.body.classList.remove('menu-aberto');
     });

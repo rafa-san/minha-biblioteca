@@ -1,13 +1,13 @@
 const container = document.querySelector('.container-livros');
 
 const livros = [
-  {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Ficção', img:'../images/47-contos-de-juan-carlos-onetti.jpg'},
+  {livro:'47 contos de Juan Carlos Onetti', autor:'Juan Carlos Onetti', editora:'Companhia das Letras', anoEdicao:'2006', categoria:'Literatura Uruguaia', segmento:'Contos, Novelas e Romances', img:'../images/47-contos-de-juan-carlos-onetti.jpg'},
 
-  {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/1984.jpg'},
+  {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Contos, Novelas e Romances', img:'../images/1984.jpg'},
 
   {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
 
-  {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/a-casa-das-belas-adormecidas.jpg'},
+  {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Contos, Novelas e Romances', img:'../images/a-casa-das-belas-adormecidas.jpg'},
 
   {livro:'A civilização do espetáculo', autor:'Mario Vargas Llosa', editora:'Objetiva', anoEdicao:'2013', categoria:'Literatura Peruana', segmento:'Ensaios', img:'../images/a-civilizacao-do-espetaculo.jpg'},
 
@@ -19,13 +19,13 @@ const livros = [
 
   {livro:'A gaia ciência', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2012', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/a-gaia-ciencia.jpg'},
 
-  {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/a-hora-da-estrela.jpg'},
+  {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/a-hora-da-estrela.jpg'},
 
   {livro:'A incrível história do vinho', autor:'Benoist Simmat', editora:'L&PM', anoEdicao:'2022', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/a-incrivel-historia-do-vinho.jpg'},
 
-  {livro:'A metamorfose', autor:'Franz Kafka', editora:'Nova Cultural', anoEdicao:'2002', categoria:'Literatura Tcheca', segmento:'Ficção', img:'../images/a-metamorfose.jpg'},
+  {livro:'A metamorfose', autor:'Franz Kafka', editora:'Nova Cultural', anoEdicao:'2002', categoria:'Literatura Tcheca', segmento:'Contos, Novelas e Romances', img:'../images/a-metamorfose.jpg'},
 
-  {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
+  {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
 
   {livro:'A parte que falta', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta.jpg'},
 
@@ -33,7 +33,7 @@ const livros = [
 
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
-  {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/a-testemunha-silenciosa.jpg'},
+  {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/a-testemunha-silenciosa.jpg'},
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
 
@@ -41,7 +41,7 @@ const livros = [
 
   {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
-  {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/a-vida-privada-das-arvores.jpg'},
+  {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/a-vida-privada-das-arvores.jpg'},
 
   {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica, História e Teoria literária', img:'../images/as-antenas-do-caracol.jpg'},
 
@@ -57,7 +57,7 @@ const livros = [
 
   {livro:'Aias', autor:'Sófocles', editora:'Iluminuras', anoEdicao:'2008', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/aias.jpg'},
 
-  {livro:'Antologia da literatura fantástica', autor:'Adolfo Bioy Casares, Jorge Luis Borges, Silvina Ocampo (organizadores)', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Global', segmento:'Ficção', img:'../images/antologia-da-literatura-fantastica.jpg'},
+  {livro:'Antologia da literatura fantástica', autor:'Adolfo Bioy Casares, Jorge Luis Borges, Silvina Ocampo (organizadores)', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Global', segmento:'Contos, Novelas e Romances', img:'../images/antologia-da-literatura-fantastica.jpg'},
 
   {livro:'Antologia poética', autor:'Carlos Drummond de Andrade', editora:'Record', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/antologia-poetica.jpg'},
 
@@ -65,27 +65,27 @@ const livros = [
 
   {livro:'Através do espelho e o que Alice encontrou lá', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/atraves-do-espelho-e-o-que-alice-encontrou-la.jpg'},
 
-  {livro:'Avenida Niévski', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/avenida-nievski.jpg'},
+  {livro:'Avenida Niévski', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/avenida-nievski.jpg'},
 
   {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
 
   {livro:'Banksy: Guerra e Spray', autor:'Banksy', editora:'Intrínseca', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Arte, Cinema e Fotografia', img:'../images/banksy-guerra-e-spray.jpg'},
 
-  {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/barba-ensopada-de-sangue.jpg'},
+  {livro:'Barba ensopada de sangue', autor:'Daniel Galera', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/barba-ensopada-de-sangue.jpg'},
 
   {livro:'Batman Begins', autor:'Dennis O\'Neil (novelization)', editora:'Del Rey Books', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/batman-begins.jpg'},
  
   {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
 
-  {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/bonsai.jpg'},
+  {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/bonsai.jpg'},
 
-  {livro:`Butcher's Crossing`, autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2016', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/butchers-crossing.jpg'},
+  {livro:`Butcher's Crossing`, autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2016', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/butchers-crossing.jpg'},
 
   {livro:'Caminhar, uma filosofia', autor:'Frédéric Gros', editora:'Ubu', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Filosofia', img:'../images/caminhar-uma-filosofia.jpg'},
 
   {livro:'Cartas a um jovem poeta e A canção de amor e de morte do porta-estandarte Cristóvão Rilke', autor:'Rainer Maria Rilke', editora:'Globo', anoEdicao:'2001', categoria:'Literatura Tcheca', segmento:'Biografias, Crônicas e Diários', img:'../images/cartas-a-um-jovem-poeta.jpg'},
 
-  {livro:'Cem anos de solidão', autor:'Gabriel García Márquez', editora:'Record', anoEdicao:'2006', categoria:'Literatura Colombiana', segmento:'Ficção', img:'../images/cem-anos-de-solidao.jpg'},
+  {livro:'Cem anos de solidão', autor:'Gabriel García Márquez', editora:'Record', anoEdicao:'2006', categoria:'Literatura Colombiana', segmento:'Contos, Novelas e Romances', img:'../images/cem-anos-de-solidao.jpg'},
 
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
@@ -103,7 +103,7 @@ const livros = [
 
   {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/coeforas.jpg'},
 
-  {livro:'Como funciona a ficção', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
+  {livro:'Como funciona a Contos, Novelas e Romances', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
 
   {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
@@ -113,7 +113,7 @@ const livros = [
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
-  {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Ficção', img:'../images/dialogos-com-leuco.jpg'},
+  {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Contos, Novelas e Romances', img:'../images/dialogos-com-leuco.jpg'},
 
   {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
 
@@ -121,7 +121,7 @@ const livros = [
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
-  {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/dom-casmurro.jpg'},
+  {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/dom-casmurro.jpg'},
 
   {livro:'Ecce homo', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/ecce-homo.jpg'},
 
@@ -133,33 +133,33 @@ const livros = [
 
   {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
-  {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/esau-e-jaco.jpg'},
+  {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/esau-e-jaco.jpg'},
 
-  {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/essa-mulher-e-outros-contos.jpg'},
+  {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
   {livro:'Estrela da vida inteira', autor:'Manuel Bandeira', editora:'Nova Fronteira', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/estrela-da-vida-inteira.jpg'},
 
-  {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Ficção', img:'../images/eu-sou-um-gato.jpg'},
+  {livro:'Eu sou um gato', autor:'Natsume Soseki', editora:'Estação Liberdade', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'Contos, Novelas e Romances', img:'../images/eu-sou-um-gato.jpg'},
 
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
-  {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-de-esopo.jpg'},
+  {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Contos, Novelas e Romances', img:'../images/fabulas-de-esopo.jpg'},
 
-  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Ficção', img:'../images/fabulas-34.jpg'},
+  {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Contos, Novelas e Romances', img:'../images/fabulas-34.jpg'},
 
   {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/ficando-longe-do-fato-de-ja-estar-meio-que-longe-de-tudo.jpg'},
 
-  {livro:'Ficção completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Ficção', img:'../images/ficcao-completa-bruno-schulz.jpg'},
+  {livro:'Contos, Novelas e Romances completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
 
-  {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/ficcoes.jpg'},
+  {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/ficcoes.jpg'},
 
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
 
-  {livro:'Firmin', autor:'Sam Savage', editora:'Planeta', anoEdicao:'2008', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/firmin.jpg'},
+  {livro:'Firmin', autor:'Sam Savage', editora:'Planeta', anoEdicao:'2008', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/firmin.jpg'},
 
-  {livro:'Formas de voltar para casa', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/formas-de-voltar-para-casa.jpg'},
+  {livro:'Formas de voltar para casa', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/formas-de-voltar-para-casa.jpg'},
 
   {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/fragmentos-completos-safo.jpg'},
 
@@ -177,15 +177,15 @@ const livros = [
 
   {livro:'História', autor:'Heródoto', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'História e Jornalismo', img:'../images/historia.jpg'},
 
-  {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/historia-do-olho.jpg'},
+  {livro:'História do olho', autor:'Georges Bataille', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/historia-do-olho.jpg'},
 
-  {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-de-cronopios-e-de-famas.jpg'},
+  {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/historias-de-cronopios-e-de-famas.jpg'},
 
-  {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/historias-fantasticas.jpg'},
+  {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/historias-fantasticas.jpg'},
 
   {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
-  {livro:'Iaiá Garcia', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/iaia-garcia.jpg'},
+  {livro:'Iaiá Garcia', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/iaia-garcia.jpg'},
 
   {livro:'Ifigênia em Áulis; As fenícias; As bacantes', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2005', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/ifigenia-em-aulis-as-fenicias-as-bacantes.jpg'},
   
@@ -199,7 +199,7 @@ const livros = [
 
   {livro:'Jornalismo diário', autor:'Ana Estela de Sousa Pinto', editora:'Publifolha', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'História e Jornalismo', img:'../images/jornalismo-diario.jpg'},
   
-  {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/khadji-murat.jpg'},
+  {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/khadji-murat.jpg'},
 
   {livro:'Leocádio, o leão que mandava bala', autor:'Shel Silverstein', editora:'Companhia das Letrinhas', anoEdicao:'2018', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/leocadio-o-leao-que-mandava-bala.jpg'},
 
@@ -209,15 +209,15 @@ const livros = [
 
   {livro:'Lisístrata e Tesmoforiantes', autor:'Aristófanes', editora:'Perspectiva', anoEdicao:'2011', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/lisistrata-e-tesmoforiantes.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 1', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-1.jpg'},
+  {livro:'Livro das mil e uma noites: volume 1', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Contos, Novelas e Romances', img:'../images/mil-e-uma-noites-volume-1.jpg'},
   
-  {livro:'Livro das mil e uma noites: volume 2', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-2.jpg'},
+  {livro:'Livro das mil e uma noites: volume 2', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2017', categoria:'Literatura Árabe', segmento:'Contos, Novelas e Romances', img:'../images/mil-e-uma-noites-volume-2.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 3', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-3.jpg'},
+  {livro:'Livro das mil e uma noites: volume 3', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Contos, Novelas e Romances', img:'../images/mil-e-uma-noites-volume-3.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 4', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-4.jpg'},
+  {livro:'Livro das mil e uma noites: volume 4', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2018', categoria:'Literatura Árabe', segmento:'Contos, Novelas e Romances', img:'../images/mil-e-uma-noites-volume-4.jpg'},
 
-  {livro:'Livro das mil e uma noites: volume 5', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Ficção', img:'../images/mil-e-uma-noites-volume-5.jpg'},
+  {livro:'Livro das mil e uma noites: volume 5', autor:'Autoria desconhecida', editora:'Biblioteca Azul', anoEdicao:'2021', categoria:'Literatura Árabe', segmento:'Contos, Novelas e Romances', img:'../images/mil-e-uma-noites-volume-5.jpg'},
 
   {livro:'Livro ilustrado: palavras e imagens', autor:'Maria Nikolajeva e Carole Scott', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Global', segmento:'Crítica, História e Teoria literária', img:'../images/livro-ilustrado.jpg'},
 
@@ -233,15 +233,15 @@ const livros = [
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
 
-  {livro:'Memorial de Aires', autor:'Machado de Assis', editora:'Galex', anoEdicao:'-', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/memorial-de-aires.jpg'},
+  {livro:'Memorial de Aires', autor:'Machado de Assis', editora:'Galex', anoEdicao:'-', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/memorial-de-aires.jpg'},
 
-  {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/memorias-do-subsolo.jpg'},
+  {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/memorias-do-subsolo.jpg'},
 
-  {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/memorias-postumas-de-bras-cubas.jpg'},
+  {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/memorias-postumas-de-bras-cubas.jpg'},
 
   {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/meu-reino-por-um-cavalo.jpg'},
 
-  {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Ficção', img:'../images/meus-documentos.jpg'},
+  {livro:'Meus documentos', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/meus-documentos.jpg'},
 
   {livro:'Minha luta 1: A morte do pai', autor:'Karl Ove Knausgard', editora:'Companhia das Letras', anoEdicao:'2013', categoria:'Literatura Norueguesa', segmento:'Biografias, Crônicas e Diários', img:'../images/a-morte-do-pai.jpg'},
 
@@ -263,35 +263,35 @@ const livros = [
   
   {livro:'Na garupa do Meu tio', autor:'David Merveille', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Belga', segmento:'Literatura Infantil', img:'../images/na-garupa-do-meu-tio.jpg'},
 
-  {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/nadja.jpg'},
+  {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/nadja.jpg'},
 
   {livro:'Não há lugar para a lógica em Kassel', autor:'Enrique Vila-Matas', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Espanhola', segmento:'Biografias, Crônicas e Diários', img:'../images/nao-ha-lugar-para-a-logica-em-kassel.jpg'},
 
   {livro:'Nariz de vidro', autor:'Mario Quintana', editora:'Moderna', anoEdicao:'1984', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/nariz-de-vidro.jpg'},
 
-  {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Ficção', img:'../images/nos-penhascos-de-marmore.jpg'},
+  {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Contos, Novelas e Romances', img:'../images/nos-penhascos-de-marmore.jpg'},
 
   {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/noite-no-museu.jpg'},
 
-  {livro:'Noites brancas', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/noites-brancas.jpg'},
+  {livro:'Noites brancas', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/noites-brancas.jpg'},
 
-  {livro:'Notas de Petersburgo de 1836', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/notas-de-petersburgo-de-1836.jpg'},
+  {livro:'Notas de Petersburgo de 1836', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/notas-de-petersburgo-de-1836.jpg'},
 
   {livro:'Notas sobre Gaza', autor:'Joe Sacco', editora:'Quadrinhos na Cia.', anoEdicao:'2010', categoria:'Literatura Maltesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/notas-sobre-gaza.jpg'},
 
-  {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-alienista.jpg'},
+  {livro:'O alienista', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/o-alienista.jpg'},
 
-  {livro:'O ateneu', autor:'Raul Pompéia', editora:'Ática', anoEdicao:'1996', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-ateneu.jpg'},
+  {livro:'O ateneu', autor:'Raul Pompéia', editora:'Ática', anoEdicao:'1996', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/o-ateneu.jpg'},
 
-  {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/o-assassinato-e-outras-historias.jpg'},
+  {livro:'O assassinato e outras histórias', autor:'Anton Tchekhov', editora:'Cosac Naify', anoEdicao:'2002', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/o-assassinato-e-outras-historias.jpg'},
 
-  {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-chamado-da-floresta.jpg'},
+  {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/o-chamado-da-floresta.jpg'},
 
   {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
 
   {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/o-clube-do-filme.jpg'},
 
-  {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Ficção', img:'../images/o-clube-do-suicidio.jpg'},
+  {livro:'O clube do suicídio e outras histórias', autor:'Robert Louis Stevenson', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Escocesa', segmento:'Contos, Novelas e Romances', img:'../images/o-clube-do-suicidio.jpg'},
 
   {livro:'O futuro é... viajar, malhar, estudar, namorar e investir', autor:'Mara Luquet', editora:'Benvirá', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Finanças e Investimentos', img:'../images/o-futuro-e.jpg'},
   
@@ -303,7 +303,7 @@ const livros = [
 
   {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
 
-  {livro:'O livro das virtudes', autor:'William J. Bennett', editora:'Nova Fronteira', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/o-livro-das-virtudes.jpg'},
+  {livro:'O livro das virtudes', autor:'William J. Bennett', editora:'Nova Fronteira', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/o-livro-das-virtudes.jpg'},
 
   {livro:'O livro de ouro da mitologia', autor:'Thomas Bulfinch', editora:'Ediouro', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Mitologia', img:'../images/o-livro-de-ouro-da-mitologia.jpg'},
 
@@ -317,21 +317,21 @@ const livros = [
 
   {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/o-obvio-que-ignoramos.jpg'},
 
-  {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Ficção', img:'../images/o-profeta.jpg'},
+  {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Contos, Novelas e Romances', img:'../images/o-profeta.jpg'},
 
-  {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Ficção', img:'../images/o-senhor-dos-aneis.jpg'},
+  {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Contos, Novelas e Romances', img:'../images/o-senhor-dos-aneis.jpg'},
 
-  {livro:'O sofredor do ver', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/o-sofredor-do-ver.jpg'},
+  {livro:'O sofredor do ver', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/o-sofredor-do-ver.jpg'},
 
   {livro:'O valor do riso', autor:'Virginia Woolf', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Ensaios', img:'../images/o-valor-do-riso.jpg'},
 
   {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
-  {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/o-vermelho-e-o-negro.jpg'},
+  {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/o-vermelho-e-o-negro.jpg'},
 
   {livro:'Os cem melhores poemas brasileiros do século', autor:'Italo Moriconi (organizador)', editora:'Objetiva', anoEdicao:'2001', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/os-cem-melhores-poemas-brasileiros-do-seculo.jpg'},
 
-  {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/os-melhores-contos.jpg'},
+  {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/os-melhores-contos.jpg'},
 
   {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
@@ -339,11 +339,11 @@ const livros = [
 
   {livro:'Os persas; Electra; Hécuba', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/os-persas-electra-hecuba.jpg'},
 
-  {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/os-trabalhadores-do-mar.jpg'},
+  {livro:'Os trabalhadores do mar', autor:'Victor Hugo', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/os-trabalhadores-do-mar.jpg'},
 
   {livro:'Os trabalhos e os dias', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2006', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/os-trabalhos-e-os-dias.jpg'},
 
-  {livro:'Oblómov', autor:'Ivan Gontcharóv', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/oblomov.jpg'},
+  {livro:'Oblómov', autor:'Ivan Gontcharóv', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/oblomov.jpg'},
 
   {livro:'Odisseia', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/odisseia.jpg'},
 
@@ -355,7 +355,7 @@ const livros = [
 
   {livro:'Paideia: a formação do homem grego', autor:'Werner Jaeger', editora:'WMF Martins Fontes', anoEdicao:'2013', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/paideia.jpg'},
 
-  {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/pais-e-filhos.jpg'},
+  {livro:'Pais e filhos', autor:'Ivan Turguêniev', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/pais-e-filhos.jpg'},
 
   {livro:'Para ler o livro ilustrado', autor:'Sophie Van der Linden', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/para-ler-o-livro-ilustrado.jpg'},
   
@@ -371,7 +371,7 @@ const livros = [
 
   {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
 
-  {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Ficção', img:'../images/quincas-borba.jpg'},
+  {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/quincas-borba.jpg'},
 
   {livro:'Quinoterapia', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2004', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/quinoterapia.jpg'},
 
@@ -433,7 +433,7 @@ const livros = [
 
   {livro:'Serrote 26', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2017', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-26.jpg'},
 
-  {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/stoner.jpg'},
+  {livro:'Stoner', autor:'John Williams', editora:'Rádio Londres', anoEdicao:'2015', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/stoner.jpg'},
 
   {livro:'Sua vida em movimento', autor:'Marcio Atalla', editora:'Paralela', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Esportes, Lazer e Viagens', img:'../images/sua-vida-em-movimento.jpg'},
 
@@ -453,25 +453,25 @@ const livros = [
 
   {livro:'Toda Mafalda', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/toda-mafalda.jpg'},
 
-  {livro:'Todos os belos cavalos', autor:'Cormac McCarthy', editora:'Alfaguara', anoEdicao:'2017', categoria:'Literatura Norte-Americana', segmento:'Ficção', img:'../images/todos-os-belos-cavalos.jpg'},
+  {livro:'Todos os belos cavalos', autor:'Cormac McCarthy', editora:'Alfaguara', anoEdicao:'2017', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/todos-os-belos-cavalos.jpg'},
 
   {livro:'Tragédias', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/esquilo-tragedias.jpg'},
 
   {livro:'Tragédias gregas', autor:'Pascal Thiercy', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/tragedias-gregas.jpg'},
 
-  {livro:'Três contos', autor:'Gustave Flaubert', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/tres-contos.jpg'},
+  {livro:'Três contos', autor:'Gustave Flaubert', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/tres-contos.jpg'},
 
   {livro:'Três sombras', autor:'Cyril Pedrosa', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/tres-sombras.jpg'},
 
-  {livro:'Uma criatura dócil', autor:'Fiódor Dostoiévski', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Ficção', img:'../images/uma-criatura-docil.jpg'},
+  {livro:'Uma criatura dócil', autor:'Fiódor Dostoiévski', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/uma-criatura-docil.jpg'},
 
-  {livro:'Variações em vermelho', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2011', categoria:'Literatura Argentina', segmento:'Ficção', img:'../images/variacoes-em-vermelho.jpg'},
+  {livro:'Variações em vermelho', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2011', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/variacoes-em-vermelho.jpg'},
 
   {livro:'Você é minha Mãe?', autor:'Alison Bechdel', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/voce-e-minha-mae.jpg'},
 
   {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'},
 
-  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Ficção', img:'../images/zazie-no-metro.jpg'}
+  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'}
 ];
 
 // Exibir a quantidade de livro:
@@ -486,7 +486,7 @@ const segmentos = {
   'educacao': 'Educação',
   'ensaios': 'Ensaios',
   'esporte': 'Esportes, Lazer e Viagens',
-  'ficcao': 'Ficção',
+  'ficcao': 'Contos, Novelas e Romances',
   'financas': 'Finanças e Investimentos',
   'filosofia': 'Filosofia',
   'historia': 'História e Jornalismo',
@@ -515,7 +515,7 @@ function mostrarLivrosPorSegmento(segmento) {
 
   livros.forEach((livro, index) => {
     if (livro.segmento === segmento) {
-      document.getElementById('titulo-teste').innerText = segmento;
+      document.getElementById('titulo-do-segmento').innerText = segmento;
       todosLivros[index].style.display = 'block';
     }
   });

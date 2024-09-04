@@ -21,7 +21,7 @@ const selecao = [
 
   {frase: "A beleza será CONVULSIVA, ou não será", autor: "André Breton", livro: "Nadja"},
 
-  // {frase: "Observo os carros, conto os carros. Me parece triste pensar que nos assentos traseiros vão meninos dormindo, e que cada um desses meninos recordará, alguma vez, o antigo carro em que anos atrás viajava com seus pais.", autor: "Alejandro Zambra", livro: "Formas de voltar para casa"},
+  {frase: "Observo os carros, conto os carros. Me parece triste pensar que nos assentos traseiros vão meninos dormindo, e que cada um desses meninos recordará, alguma vez, o antigo carro em que anos atrás viajava com seus pais.", autor: "Alejandro Zambra", livro: "Formas de voltar para casa"},
 
   // {frase: "Julio fugia dos relacionamentos sérios, não se escondia das mulheres, mas da seriedade, pois sabia que a seriedade era tanto ou mais perigosa que as mulheres. Julio sabia que estava condenado à seriedade, e tentava, obstinadamente, torcer seu destino sério, passar o tempo na estoica espera daquele espantoso e inevitável dia em que a seriedade chegaria para se instalar para sempre na sua vida.", autor: "Alejandro Zambra", livro: "Bonsai"}
 
@@ -37,7 +37,7 @@ const selecao = [
 function gerarSelecao() {
   const randomQuote = selecao[Math.floor(Math.random() * selecao.length)];
   document.getElementById('texto').innerHTML = '<i class="fa fa-quote-left"></i> ' + randomQuote.frase + '<i class="fa fa-quote-right"></i>';
-  document.getElementById('livro').innerHTML = `do livro <cite>${randomQuote.livro}</cite>`;
+  document.getElementById('livro').innerHTML = `<strong><cite>${randomQuote.livro}</cite></strong>`;
   document.getElementById('autor').textContent = randomQuote.autor;
 }
 
