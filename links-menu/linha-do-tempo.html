@@ -10,11 +10,30 @@
     <link rel="stylesheet" href="../styles/02-header-e-nav.css" />
     <link rel="stylesheet" href="../styles/03-footer.css" />
     <link rel="stylesheet" href="../styles/06-linha-do-tempo.css" />
+    <link rel="stylesheet" href="../styles/07-fullscreen-menu.css" />
     <link rel="stylesheet" href="../styles/media-queries.css" />
     <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous" defer></script>
     <script src="../scripts/menu-responsivo.js" defer></script>
     <script src="../scripts/fullscreen-menu.js" defer></script>
     <script src="../scripts/linha-do-tempo.js" defer></script>
+    <script src="../scripts/frases-e-trechos.js" defer></script>
+    <style>
+      .fullscreen-menu-conteudo {
+        max-width: 40%;
+        min-width: 40%;
+      }
+
+      .fullscreen-menu-conteudo li {
+        text-align: center;
+      }
+
+      #titulo-do-seculo {
+        color: var(--cor2);
+        margin: 24px auto 48px;
+        text-align: center;
+        width: 90%;
+      }
+    </style>
   </head>
 
   <body>
@@ -30,8 +49,7 @@
       <nav id="nav-bar" class="menu-responsivo">
         <ul>
           <li><a href="livros-lidos.html" class="nav-link">Livros Lidos</a></li>
-          <li><a href="linha-do-tempo.html" class="nav-link">Linha do Tempo</a></li>
-          <li><a href="frases-e-trechos.html" class="nav-link">Frases & Trechos</a></li>
+          <li><a href="linha-do-tempo.html" class="nav-link link-ativo">Linha do Tempo</a></li>
         </ul>
       </nav>
     </header>
@@ -39,10 +57,19 @@
     <main>
       <h2 class="heading-2">Linha do Tempo</h2>
 
+      <section id="container-frases-e-trechos">
+        <div id="frases-e-trechos">
+          <p id="texto"></p>
+          <div class="frases-e-trechos-autor">
+            <p id="livro"></p>
+            <p id="autor"></p>
+          </div>
+        </div>
+      </section>
+
       <section class="container-background">
         <div id="abrir-fullscreen-menu" class="abrir-menu">
-          <h3>Abrir Menu da Linha do Tempo <span><i class="fa-solid fa-arrow-right"></i></span></h3>
-          
+          <h3>Explorar a Linha do Tempo <span><i class="fa-solid fa-arrow-right"></i></span></h3>
         </div>
       </section>
 
@@ -67,7 +94,7 @@
         </ul>
       </section>
 
-      <h2 id="titulo-teste" class="heading-2"></h2>
+      <h2 id="titulo-do-seculo" class="heading-2"></h2>
     
       <!-- LINHA DO TEMPO -->
       <section class="linha-do-tempo">
