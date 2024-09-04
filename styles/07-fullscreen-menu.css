@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+.fullscreen-menu-conteudo {
+  position: relative;
+  top: 16%;
+  margin: auto;
+  max-width: 80%;
+  min-width: 75%;
+  text-align: left;
+}
+
+.livros-segmento,
+.livros-seculos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--cor1);
+  height: 100%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  width: 0;
+  z-index: 1;
+}
+
+.livros-segmento a,
+.livros-seculos a {
+  color: var(--cor2);
+  cursor: pointer;
+  font-size: 36px;
+  padding: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.livros-segmento ul,
+.livros-seculos ul {
+  padding: 16px 0;
+}
+
+.livros-segmento li,
+.livros-seculos li {
+  color: var(--cor2);
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: auto;
+  padding: 8px;
+  transition: 0.3s;
+  width: 95%;
+}
+
+.livros-segmento a:hover,
+.livros-segmento a:focus,
+.livros-seculos a:hover,
+.livros-seculos a:focus {
+  color: var(--cor3);
+}
+
+.livros-segmento ul li:hover,
+.livros-seculos ul li:hover {
+  color: var(--cor3);
+}
+
+.livros-segmento .fechar-menu,
+.livros-seculos .fechar-menu {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
