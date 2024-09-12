@@ -49,5 +49,11 @@
   /* FULLSCREEN MENU */
   .fullscreen-menu-conteudo {
     columns: 2;
+    max-width: 80%;
+  }
+
+  .livros-segmento li,
+  .livros-seculos li {
+    font-size: 1.2em;
   }
 }

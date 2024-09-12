@@ -29,11 +29,31 @@
   width: 100%;
 }
 
+.quote {
+  display: block;
+  margin: auto;
+  width: 96%;
+}
+
+.direita {
+  text-align: right;
+}
+
 .fa-quote-left,
 .fa-quote-right {
-  font-size: 16px;
-  margin: 0 8px;
+  font-size: 24px;
+  font-weight: 600;
   opacity: 0.4;
+}
+
+#texto {
+  background-image: radial-gradient(circle, var(--cor4), var(--white));
+  border-radius: 16px;
+  margin: auto;
+  max-width: 100%;
+  min-width: 70%;
+  padding: 8px;
+  text-align: center;
 }
 
 .frases-e-trechos-autor {
@@ -41,18 +61,8 @@
   border-radius: 16px;
   font-size: 18px;
   margin: 8px auto;
-  max-width: 60%;
+  max-width: 70%;
   min-width: 50%;
-  padding: 8px;
-  text-align: center;
-}
-
-#texto {
-  background-image: radial-gradient(circle, var(--cor4), var(--white));
-  border-radius: 16px;
-  margin: auto;
-  max-width: 80%;
-  min-width: 70%;
   padding: 8px;
   text-align: center;
 }
