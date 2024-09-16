@@ -52,6 +52,7 @@ const autores = [
   "Dirce Waltrick do Amarante",
   "Dominique Ehrhard",
   "Edgar Allan Poe",
+  "Eiko Kadono",
   "Empédocles",
   "Enrique Vila-Matas",
   "Ernst Jünger",
