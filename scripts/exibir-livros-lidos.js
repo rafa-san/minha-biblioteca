@@ -118,6 +118,8 @@ const livros = [
   {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
 
   {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/diarios-1947-1963.jpg'},
+  
+  {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obras de Referência', segmento:'Dicionários', img:'../images/dicionario-michaelis-alemao.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
@@ -130,6 +132,8 @@ const livros = [
   {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/electra(s).jpg'},
 
   {livro:'Endurance: a lendária expedição de Shackleton à Antártida', autor:'Caroline Alexander', editora:'Companhia das Letras', anoEdicao:'1999', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/endurance.jpg'},
+
+  {livro:'Entregas expressas da Kiki', autor:'Eiko Kadono', editora:'Estação Liberdade', anoEdicao:'2021', categoria:'Literatura Japonesa', segmento:'Literatura Juvenil', img:'../images/entregas-expressas-da-kiki.jpg'},
 
   {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
@@ -483,6 +487,7 @@ const segmentos = {
   'citacoes': 'Citações',
   'critica': 'Crítica, História e Teoria literária',
   'desenvolvimento': 'Desenvolvimento Pessoal',
+  'dicionarios': 'Dicionários',
   'educacao': 'Educação',
   'ensaios': 'Ensaios',
   'esporte': 'Esportes, Lazer e Viagens',
