@@ -119,7 +119,7 @@ const livros = [
 
   {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/diarios-1947-1963.jpg'},
   
-  {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obras de Referência', segmento:'Dicionários', img:'../images/dicionario-michaelis-alemao.jpg'},
+  {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-michaelis-alemao.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
@@ -367,6 +367,8 @@ const livros = [
 
   {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/passeios-na-ilha.jpg'},
 
+  {livro:'Patchwork: Book 1', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1995', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-1.jpg'},
+
   {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
@@ -488,6 +490,7 @@ const segmentos = {
   'critica': 'Crítica, História e Teoria literária',
   'desenvolvimento': 'Desenvolvimento Pessoal',
   'dicionarios': 'Dicionários',
+  'didaticos': 'Didáticos',
   'educacao': 'Educação',
   'ensaios': 'Ensaios',
   'esporte': 'Esportes, Lazer e Viagens',
