@@ -33,7 +33,7 @@ const selecao = [
 
   {frase:"Jamais para mim a bandeira abaixada, jamais a última tentativa.", autor:"Sir Ernest Shackleton", livro:"Endurance: a lendária expedição de Shackleton à Antártida"},
 
-  {frase:"Meu coração ventava forçando o peito", autor:"Maura Lopes Cançado", livro:"O sofredor do ver"},
+  {frase:"Meu coração ventava forçando o peito.", autor:"Maura Lopes Cançado", livro:"O sofredor do ver"},
 
   {frase:"Tu, que me lês, estás seguro de entender minha linguagem?", autor:"Jorge Luis Borges", livro:"Ficções"}
 ];
