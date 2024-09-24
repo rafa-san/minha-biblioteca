@@ -369,6 +369,8 @@ const livros = [
 
   {livro:'Patchwork: Book 1', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1995', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-1.jpg'},
 
+  {livro:'Patchwork: Book 2', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1995', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-2.jpg'},
+
   {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
