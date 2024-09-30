@@ -80,6 +80,7 @@
   cursor: pointer;
   margin: 40px auto 72px;
   padding: 16px;
+  text-align: center;
   width: 90%;
 }
 
@@ -97,13 +98,28 @@
   position: relative;
 }
 
+.linha-do-tempo h4 {
+  margin-top: 16px;
+}
+
 .linha-do-tempo ul {
   list-style-type: none;
+}
+
+.linha-do-tempo ul li {
+  padding: 4px;
 }
 
 .linha-do-tempo li::before {
   content: "\21AA";
   padding-right: 0.5em;
+}
+
+.linha-do-tempo li.in::before {
+  color: var(--cor2);
+  content: "\21B3";
+  padding-right: 0.5em;
+  padding-left: 1.5em;
 }
 
 .tag {
