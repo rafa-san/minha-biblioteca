@@ -121,6 +121,8 @@ const livros = [
   
   {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-michaelis-alemao.jpg'},
 
+  {livro:'Dicionário Escolar Inglês', autor:'Rafael Alarcón Gaeta (Editor-Chefe)', editora:'Pearson', anoEdicao:'2004', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-longman-ingles.jpg'},
+
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
   {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/dom-casmurro.jpg'},
