@@ -7,3 +7,22 @@ Dois asteriscos (**) indicam data atribuída. As indicações em asterisco são 
 ***
 
 a palavra "In" é usada como uma forma abreviada de "em" ou "dentro de", indicando que o poema "Do desejo" está incluído no livro ou na coletânea chamada "Do Desejo", publicado em Campinas pela editora Pontes em 1992. É uma convenção comum em citações bibliográficas para indicar a fonte onde uma obra (como um poema ou capítulo) foi publicada.
+
+***
+
+Data da primeira publicação em livro entre colchetes
+
+
+***
+
+
+Lista de símbolos de arrow:
+
+&#8600;
+&#8627;
+&#10533;
+&#10553;
+&#11018;
+&#11102;
+&#11112;
+&#11169;
