@@ -13,8 +13,6 @@ const selecao = [
 
   {frase: "A beleza será CONVULSIVA, ou não será", autor: "André Breton", livro: "Nadja"},
 
-  // {frase: "Julio fugia dos relacionamentos sérios, não se escondia das mulheres, mas da seriedade, pois sabia que a seriedade era tanto ou mais perigosa que as mulheres. Julio sabia que estava condenado à seriedade, e tentava, obstinadamente, torcer seu destino sério, passar o tempo na estoica espera daquele espantoso e inevitável dia em que a seriedade chegaria para se instalar para sempre na sua vida.", autor: "Alejandro Zambra", livro: "Bonsai"}
-
   {frase: "Temos que resolver o seu problema, ele havia me dito aquela manhã, enquanto caminhávamos até o ponto. Perguntei qual, porque eu pensava que tinha muitos problemas, e não apenas um. Sua timidez, me respondeu, as mulheres não gostam dos tímidos. E claro que eu era tímido na época; falo de uma timidez genuína, verdadeira, não como hoje em dia que todo mundo é tímido, chega ser engraçado. Se alguém não te cumprimenta, dizem que é por timidez, e se matou a mulher, foi porque era tímido, se enganou um povo inteiro, se se candidatou a deputado, se comeu o resto de nutella do pote sem perguntar a ninguém: tímido. Falo de outra coisa: gagueira, insegurança, introspecção.", autor: "Alejandro Zambra", livro: "Meus documentos"},
 
   {frase: `a poesia mora <br> nos dias habita as frestas <br> das calçadas adormece no canto <br> entre cama e parede <br> e insiste <br> escorregando pelas sombras <br> dos sapatos apressados pelo sorriso preso <br> no canto do rosto <br> nos teus <br> e meus <br> olhos d'água`, autor: "Aline Miranda", livro: "..."},
@@ -35,7 +33,22 @@ const selecao = [
 
   {frase:"Meu coração ventava forçando o peito.", autor:"Maura Lopes Cançado", livro:"O sofredor do ver"},
 
-  {frase:"Tu, que me lês, estás seguro de entender minha linguagem?", autor:"Jorge Luis Borges", livro:"Ficções"}
+  {frase:"Tu, que me lês, estás seguro de entender minha linguagem?", autor:"Jorge Luis Borges", livro:"Ficções"},
+
+  {frase: `Aceitar o castigo imerecido,<br />
+          Não por fraqueza, mas por altivez.<br />
+          No tormento mais fundo o teu gemido<br />
+          Trocar num grito de ódio a quem o fez.<br />
+          As delícias da carne e pensamento<br />
+          Com que o instinto da espécie nos engana<br />
+          Sobpor ao generoso sentimento<br />
+          De uma afeição mais simplesmente humana.<br />
+          Não tremer de esperança nem de espanto.<br />
+          Nada pedir nem desejar senão<br />
+          A coragem de ser um novo santo<br />
+          Sem fé num mundo além do mundo. E então<br />
+          &nbsp;&nbsp;Morrer sem uma lágrima, que a vida<br />
+          &nbsp;&nbsp;Não vale a pena e a dor de ser vivida.`, autor: "Manuel Bandeira", livro: "Soneto Inglês nº 2 | Estrela da vida inteira"}
 ];
 
 function gerarSelecao() {
@@ -47,8 +60,4 @@ function gerarSelecao() {
 
 document.addEventListener('DOMContentLoaded', function() {
   gerarSelecao(); // Chamar a função ao carregar a página
-
-  document.getElementById('nova-selecao').addEventListener('click', function() {
-    gerarSelecao(); // Chamar a função ao clicar no botão
-  });
 });
