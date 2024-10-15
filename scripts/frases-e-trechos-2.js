@@ -41,8 +41,4 @@ function gerarSelecao() {
 
 document.addEventListener('DOMContentLoaded', function() {
   gerarSelecao(); // Chamar a função ao carregar a página
-
-  document.getElementById('nova-selecao').addEventListener('click', function() {
-    gerarSelecao(); // Chamar a função ao clicar no botão
-  });
 });
