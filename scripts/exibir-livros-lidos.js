@@ -141,6 +141,8 @@ const livros = [
 
   {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/esau-e-jaco.jpg'},
 
+  {livro:'Escute as Feras', autor:'Nastassja Martin', editora:'Editora 34', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Biografias, Crônicas e Diários', img:'../images/escute-as-feras.jpg'},
+
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
   {livro:'Estrela da vida inteira', autor:'Manuel Bandeira', editora:'Nova Fronteira', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/estrela-da-vida-inteira.jpg'},

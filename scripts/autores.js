@@ -162,6 +162,7 @@ const autores = [
   "Max Beerbohm",
   "Monteiro Lobato",
   "Murilo Mendes",
+  "Nastassja Martin",
   "Natsume Soseki",
   "Neil Philip",
   "Nikolai Gógol",
