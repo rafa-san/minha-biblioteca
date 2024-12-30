@@ -485,7 +485,12 @@ const livros = [
 
   {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'},
 
-  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'}
+  {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'},
+
+  // REVISTAS
+  {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Editora Acme', anoEdicao:'dezembro/96', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
+
+  {livro:'Super Game Power n° 51', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'junho/98', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-51.jpg'},
 ];
 
 // Exibir a quantidade de livro:
@@ -512,6 +517,7 @@ const segmentos = {
   'livros-em-ingles': 'Livros em Inglês',
   'mitologia': 'Mitologia',
   'poesia': 'Poesia',
+  'revistas': 'Revistas',
   'teatro': 'Teatro'
 };
 
