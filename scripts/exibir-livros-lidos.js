@@ -173,6 +173,8 @@ const livros = [
 
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
 
+  {livro:'Grécia Revisitada', autor:'Frederico Lourenço', editora:'Carambaia', anoEdicao:'2022', categoria:'Literatura Portuguesa', segmento:'Crítica, História e Teoria literária', img:'../images/grecia-revisitada.jpg'},
+
   {livro:'Habibi', autor:'Craig Thompson', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/habibi.jpg'},
 
   {livro:'Heath Ledger: O astro sombrio de Hollywood', autor:'Brian J. Robb', editora:'Panini Books', anoEdicao:'2009', categoria:'Literatura Inglesa', segmento:'Biografias, Crônicas e Diários', img:'../images/heath-ledger.jpg'},
@@ -375,6 +377,8 @@ const livros = [
 
   {livro:'Patchwork: Book 2', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1995', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-2.jpg'},
 
+  {livro:'Patchwork: Book 3', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1994', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-3.jpg'},
+
   {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
@@ -488,9 +492,17 @@ const livros = [
   {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'},
 
   // REVISTAS
-  {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Editora Acme', anoEdicao:'dezembro/96', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
+  {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Editora Acme', anoEdicao:'dezembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
 
-  {livro:'Super Game Power n° 51', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'junho/98', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-51.jpg'},
+  {livro:'Super Game Power n° 09', autor:'Marcelo Morales (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'dezembro/1994', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-09.jpg'},
+
+  {livro:'Super Game Power n° 20', autor:'Marcelo Morales (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'novembro/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-20.jpg'},
+
+  {livro:'Super Game Power n° 23', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'fevereiro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-23.jpg'},
+
+  {livro:'Super Game Power n° 25', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'abril/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-25.jpg'},
+
+  {livro:'Super Game Power n° 51', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'junho/1998', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-51.jpg'},
 ];
 
 // Exibir a quantidade de livro:

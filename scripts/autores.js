@@ -92,6 +92,7 @@ const autores = [
   "François Place",
   "Franz Kafka",
   "Frédéric Gros",
+  "Frederico Lourenço",
   "Friedrich Nietzsche",
   "Gabriel García Márquez",
   "George Orwell",
