@@ -379,6 +379,8 @@ const livros = [
 
   {livro:'Patchwork: Book 3', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1994', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-3.jpg'},
 
+  {livro:'Pequeno dicionário Houaiss da língua portuguesa', autor:'Instituto Antônio Houaiss de Lexicografia', editora:'Moderna', anoEdicao:'2015', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-houaiss-portugues.jpg'},
+
   {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
   {livro:'Poemas da antologia grega ou palatina', autor:'Autoras e autores diversos', editora:'Companhia das Letras', anoEdicao:'1995', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/poemas-da-antologia-grega-ou-palatina.jpg'},
@@ -492,7 +494,9 @@ const livros = [
   {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'},
 
   // REVISTAS
-  {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Editora Acme', anoEdicao:'dezembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
+  {livro:'Herói Gold n° 32', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'junho/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-32.jpg'},
+
+  {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'dezembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
 
   {livro:'Super Game Power n° 09', autor:'Marcelo Morales (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'dezembro/1994', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-09.jpg'},
 
@@ -501,6 +505,14 @@ const livros = [
   {livro:'Super Game Power n° 23', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'fevereiro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-23.jpg'},
 
   {livro:'Super Game Power n° 25', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'abril/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-25.jpg'},
+
+  {livro:'Super Game Power n° 26', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'maio/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-26.jpg'},
+
+  {livro:'Super Game Power n° 28', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'julho/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-28.jpg'},
+
+  {livro:'Super Game Power n° 46', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'janeiro/1998', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-46.jpg'},
+
+  {livro:'Super Game Power n° 50', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'maio/1998', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-50.jpg'},
 
   {livro:'Super Game Power n° 51', autor:'Rubem Barros (Editor-Chefe)', editora:'Editora Nova Cultural', anoEdicao:'junho/1998', categoria:'Revistas', segmento:'Revistas', img:'../images/super-game-power-51.jpg'},
 ];
