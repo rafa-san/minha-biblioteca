@@ -109,9 +109,13 @@ const livros = [
 
   {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/contos-de-lugares-distantes.jpg'},
 
+  {livro:'Contos, Novelas e Romances completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
+
   {livro:'Crítica, teoria e literatura infantil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
+
+  {livro:'Deserto sagrado', autor:'Fábio Levatti', editora:'Ibis Libris', anoEdicao:'2020', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/deserto-sagrado.jpg'},
 
   {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Contos, Novelas e Romances', img:'../images/dialogos-com-leuco.jpg'},
 
@@ -141,7 +145,7 @@ const livros = [
 
   {livro:'Esaú e Jacó', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/esau-e-jaco.jpg'},
 
-  {livro:'Escute as Feras', autor:'Nastassja Martin', editora:'Editora 34', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Biografias, Crônicas e Diários', img:'../images/escute-as-feras.jpg'},
+  {livro:'Escute as feras', autor:'Nastassja Martin', editora:'Editora 34', anoEdicao:'2021', categoria:'Literatura Francesa', segmento:'Biografias, Crônicas e Diários', img:'../images/escute-as-feras.jpg'},
 
   {livro:'Essa mulher e outros contos', autor:'Rodolfo Walsh', editora:'Editora 34', anoEdicao:'2010', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/essa-mulher-e-outros-contos.jpg'},
 
@@ -157,8 +161,6 @@ const livros = [
 
   {livro:'Ficando longe do fato de já estar meio que longe de tudo', autor:'David Foster Wallace', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/ficando-longe-do-fato-de-ja-estar-meio-que-longe-de-tudo.jpg'},
 
-  {livro:'Contos, Novelas e Romances completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
-
   {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/ficcoes.jpg'},
 
   {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
@@ -171,9 +173,11 @@ const livros = [
 
   {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/fragmentos-completos-safo.jpg'},
 
+  {livro:'Fullmetal alchemist vol. 1', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2023', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-01.jpg'},
+
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
 
-  {livro:'Grécia Revisitada', autor:'Frederico Lourenço', editora:'Carambaia', anoEdicao:'2022', categoria:'Literatura Portuguesa', segmento:'Crítica, História e Teoria literária', img:'../images/grecia-revisitada.jpg'},
+  {livro:'Grécia revisitada', autor:'Frederico Lourenço', editora:'Carambaia', anoEdicao:'2022', categoria:'Literatura Portuguesa', segmento:'Crítica, História e Teoria literária', img:'../images/grecia-revisitada.jpg'},
 
   {livro:'Habibi', autor:'Craig Thompson', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/habibi.jpg'},
 
@@ -495,6 +499,26 @@ const livros = [
 
   // REVISTAS
   {livro:'Herói Gold n° 32', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'junho/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-32.jpg'},
+
+  {livro:'Herói Gold n° 33', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'junho/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-33.jpg'},
+
+  {livro:'Herói Gold n° 34', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'junho/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-34.jpg'},
+  
+  {livro:'Herói Gold n° 35', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'julho/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-35.jpg'},
+
+  {livro:'Herói Gold n° 40', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'agosto/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-40.jpg'},
+
+  {livro:'Herói Gold n° 50', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'setembro/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-50.jpg'},
+
+  {livro:'Herói Gold n° 59', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'novembro/1995', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-59.jpg'},
+
+  {livro:'Herói Gold n° 64', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'janeiro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-64.jpg'},
+
+  {livro:'Herói Gold n° 71', autor:'Thales de Menezes (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'março/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-71.jpg'},
+
+  {livro:'Herói Gold n° 89', autor:'André Forastieri (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'setembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-89.jpg'},
+
+  {livro:'Herói Gold n° 95', autor:'André Forastieri (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'setembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-95.jpg'},
 
   {livro:'Herói Gold n° 100', autor:'André Forastieri (Edição)', editora:'Nova Sampa Editora | Acme', anoEdicao:'dezembro/1996', categoria:'Revistas', segmento:'Revistas', img:'../images/heroi-gold-100.jpg'},
 
