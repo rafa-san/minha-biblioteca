@@ -35,7 +35,9 @@ const selecao = [
 
   {frase:"Tu, que me lês, estás seguro de entender minha linguagem?", autor:"Jorge Luis Borges", livro:"Ficções"},
 
-  {frase: `Aceitar o castigo imerecido,<br />
+  {frase:"Ensinamentos obtidos sem sofrimento são desprovidos de valor. Pois as pessoas jamais podem adquirir algo sem sacrifício.", autor:"Hiromu Arakawa", livro:"Fullmetal Alchemist vol. 1"},
+
+  /*{frase: `Aceitar o castigo imerecido,<br />
           Não por fraqueza, mas por altivez.<br />
           No tormento mais fundo o teu gemido<br />
           Trocar num grito de ódio a quem o fez.<br />
@@ -48,7 +50,7 @@ const selecao = [
           A coragem de ser um novo santo<br />
           Sem fé num mundo além do mundo. E então<br />
           &nbsp;&nbsp;Morrer sem uma lágrima, que a vida<br />
-          &nbsp;&nbsp;Não vale a pena e a dor de ser vivida.`, autor: "Manuel Bandeira", livro: "Soneto Inglês nº 2 | Estrela da vida inteira"}
+          &nbsp;&nbsp;Não vale a pena e a dor de ser vivida.`, autor: "Manuel Bandeira", livro: "Soneto Inglês nº 2 | Estrela da vida inteira"}*/
 ];
 
 function gerarSelecao() {
