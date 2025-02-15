@@ -73,6 +73,7 @@ const autores = [
   "Dirce Waltrick do Amarante",
   "Dominique Ehrhard",
   "Dora Ferreira da Silva",
+  "E. B. White",
   "Edgar Allan Poe",
   "Eiko Kadono",
   "Emílio Moura",

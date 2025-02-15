@@ -33,6 +33,8 @@ const livros = [
 
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
+  {livro:'A teia de Charlotte', autor:'E. B. White', editora:'HarperKids', anoEdicao:'2023', categoria:'Literatura Norte-Americana', segmento:'Literatura Juvenil', img:'../images/a-teia-de-charlotte.jpg'},
+
   {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/a-testemunha-silenciosa.jpg'},
 
   {livro:'A trilogia tebana: Édipo Rei; Édipo em Colono; Antígona', autor:'Sófocles', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/a-trilogia-tebana.jpg'},
