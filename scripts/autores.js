@@ -30,6 +30,7 @@ const autores = [
   "Augusto Meyer",
   "Banksy",
   "Baquílides",
+  "Barbara Graziosi",
   "Benjamin Graham",
   "Benoist Simmat",
   "Bill Watterson",
@@ -141,6 +142,7 @@ const autores = [
   "Kahlil Gibran",
   "Karl Ove Knausgard",
   "Laura Erber",
+  'Lelis',
   "Lewis Carroll",
   "Liev Tolstói",
   "Lu Menezes",
@@ -237,4 +239,6 @@ const autores = [
 ];
 
 // Exibir a quantidade de autores
-document.getElementById('total-autores').innerHTML = autores.length;
+//document.getElementById('total-autores').innerHTML = autores.length;
+
+console.log(autores.length);

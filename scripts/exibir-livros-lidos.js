@@ -91,6 +91,8 @@ const livros = [
 
   {livro:'Chico Bento: pavor espaciar', autor:'Gustavo Duarte', editora:'Panini', anoEdicao:'2015', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/chico-bento-pavor-espaciar.jpg'},
 
+  {livro:'Cidades do Ouro', autor:'Lelis', editora:'Casa 21', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Guias de Viagem e Turismo', img:'../images/cidades-do-ouro.jpg'},
+
   {livro:'Civilizações perdidas: Astecas - Reinado de sangue e esplendor', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/astecas-reinado-de-sangue-e-esplendor.jpg'},
 
   {livro:'Civilizações perdidas: Egito - Terra dos faraós', autor:'Dale M. Brown (editor da série)', editora:'Abril Coleções', anoEdicao:'1998', categoria:'Literatura Global', segmento:'História e Jornalismo', img:'../images/civilizacoes-perdidas-egito-terra-dos-faraos.jpg'},
@@ -198,6 +200,8 @@ const livros = [
   {livro:'Histórias de cronópios e de famas', autor:'Julio Cortázar', editora:'Civilização Brasileira', anoEdicao:'2009', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/historias-de-cronopios-e-de-famas.jpg'},
 
   {livro:'Histórias fantásticas', autor:'Adolfo Bioy Casares', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/historias-fantasticas.jpg'},
+
+  {livro:'Homero', autor:'Barbara Graziosi', editora:'Mnema', anoEdicao:'2022', categoria:'Literatura Italiana', segmento:'Crítica, História e Teoria literária', img:'../images/homero.jpg'},
 
   {livro:'Hospício é deus: Diário I', autor:'Maura Lopes Cançado', editora:'Autêntica', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/hospicio-e-deus.jpg'},
 
@@ -560,6 +564,7 @@ const segmentos = {
   'ficcao': 'Contos, Novelas e Romances',
   'financas': 'Finanças e Investimentos',
   'filosofia': 'Filosofia',
+  'guias': 'Guias de Viagem e Turismo',
   'historia': 'História e Jornalismo',
   'hq': 'HQs, Mangás & Graphic Novels',
   'lit-infantil': 'Literatura Infantil',
