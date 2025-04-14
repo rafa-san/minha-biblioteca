@@ -5,13 +5,13 @@ const livros = [
 
   {livro:'1984', autor:'George Orwell', editora:'Companhia Editora Nacional', anoEdicao:'2005', categoria:'Literatura Inglesa', segmento:'Contos, Novelas e Romances', img:'../images/1984.jpg'},
 
-  {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-arvore-generosa.jpg'},
+  {livro:'A árvore generosa', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2006', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/a-arvore-generosa.jpg'},
 
   {livro:'A casa das belas adormecidas', autor:'Yasunari Kawabata', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Japonesa', segmento:'Contos, Novelas e Romances', img:'../images/a-casa-das-belas-adormecidas.jpg'},
 
   {livro:'A civilização do espetáculo', autor:'Mario Vargas Llosa', editora:'Objetiva', anoEdicao:'2013', categoria:'Literatura Peruana', segmento:'Ensaios', img:'../images/a-civilizacao-do-espetaculo.jpg'},
 
-  {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Juvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
+  {livro:'A conferência dos pássaros', autor:'Peter Sís', editora:'Companhia das Letrinhas', anoEdicao:'2013', categoria:'Literatura Tcheca', segmento:'Literatura Infantojuvenil', img:'../images/a-conferencia-dos-passaros.jpg'},
 
   {livro:'A desobediência civil', autor:'Henry David Thoreau', editora:'L&PM', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Ensaios', img:'../images/a-desobediencia-civil.jpg'},
   
@@ -27,13 +27,13 @@ const livros = [
 
   {livro:'A narrativa de A. Gordon Pym', autor:'Edgar Allan Poe', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/a-narrativa-de-a-gordon-pym.jpg'},
 
-  {livro:'A parte que falta', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta.jpg'},
+  {livro:'A parte que falta', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/a-parte-que-falta.jpg'},
 
-  {livro:'A parte que falta encontra o grande O', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/a-parte-que-falta-encontra-o-grande-o.jpg'},
+  {livro:'A parte que falta encontra o grande O', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/a-parte-que-falta-encontra-o-grande-o.jpg'},
 
   {livro:'A sangue frio', autor:'Truman Capote', editora:'Companhia das Letras', anoEdicao:'2003', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/a-sangue-frio.jpg'},
 
-  {livro:'A teia de Charlotte', autor:'E. B. White', editora:'HarperKids', anoEdicao:'2023', categoria:'Literatura Norte-Americana', segmento:'Literatura Juvenil', img:'../images/a-teia-de-charlotte.jpg'},
+  {livro:'A teia de Charlotte', autor:'E. B. White', editora:'HarperKids', anoEdicao:'2023', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/a-teia-de-charlotte.jpg'},
 
   {livro:'A testemunha silenciosa', autor:'Otto Lara Resende', editora:'Companhia das Letras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/a-testemunha-silenciosa.jpg'},
 
@@ -41,9 +41,11 @@ const livros = [
 
   {livro:'A vaca e o hipogrifo', autor:'Mario Quintana', editora:'Alfaguara', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/a-vaca-e-o-tipografo.jpg'},
 
-  {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
+  {livro:'A viagem da senhorita Timothy', autor:'Giovanna Zoboli', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Italiana', segmento:'Literatura Infantojuvenil', img:'../images/a-viagem-da-senhorita-timothy.jpg'},
 
   {livro:'A vida privada das árvores', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/a-vida-privada-das-arvores.jpg'},
+
+  {livro:'Árvores', autor:'Piotr Socha, Wojciech Grajkowski', editora:'WMF Martis Fontes', anoEdicao:'2021', categoria:'Literatura Polonesa', segmento:'Literatura Infantojuvenil', img:'../images/arvores.jpg'},
 
   {livro:'As antenas do caracol', autor:'Dirce Waltrick do Amarante', editora:'Iluminuras', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'Crítica, História e Teoria literária', img:'../images/as-antenas-do-caracol.jpg'},
 
@@ -65,11 +67,11 @@ const livros = [
 
   {livro:'Asterios Polyp', autor:'David Mazzucchelli', editora:'Quadrinhos na Cia.', anoEdicao:'2011', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/asterios-polyp.jpg'},
 
-  {livro:'Através do espelho e o que Alice encontrou lá', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/atraves-do-espelho-e-o-que-alice-encontrou-la.jpg'},
+  {livro:'Através do espelho e o que Alice encontrou lá', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Infantojuvenil', img:'../images/atraves-do-espelho-e-o-que-alice-encontrou-la.jpg'},
 
   {livro:'Avenida Niévski', autor:'Nikolai Gógol', editora:'Cosac Naify', anoEdicao:'2013', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/avenida-nievski.jpg'},
 
-  {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Juvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
+  {livro:'Aventuras de Alice no país das maravilhas', autor:'Lewis Carroll', editora:'Editora 34', anoEdicao:'2015', categoria:'Literatura Inglesa', segmento:'Literatura Infantojuvenil', img:'../images/aventuras-de-alice-no-pais-das-maravilhas.jpg'},
 
   {livro:'Banksy: Guerra e Spray', autor:'Banksy', editora:'Intrínseca', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Arte, Cinema e Fotografia', img:'../images/banksy-guerra-e-spray.jpg'},
 
@@ -77,7 +79,7 @@ const livros = [
 
   {livro:'Batman Begins', autor:'Dennis O\'Neil (novelization)', editora:'Del Rey Books', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/batman-begins.jpg'},
  
-  {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/bicycles.jpg'},
+  {livro:'Bicycles: Pop-up-book', autor:'Dominique Ehrhard', editora:'Prestel', anoEdicao:'2024', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/bicycles.jpg'},
 
   {livro:'Bonsai', autor:'Alejandro Zambra', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Chilena', segmento:'Contos, Novelas e Romances', img:'../images/bonsai.jpg'},
 
@@ -109,21 +111,23 @@ const livros = [
 
   {livro:'Como funciona a Contos, Novelas e Romances', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
 
-  {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/contos-da-mamae-gansa.jpg'},
+  {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
-  {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/contos-de-lugares-distantes.jpg'},
+  {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Infantojuvenil', img:'../images/contos-de-lugares-distantes.jpg'},
 
   {livro:'Contos, Novelas e Romances completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
 
-  {livro:'Crítica, teoria e literatura infantil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
+  {livro:'Crítica, teoria e Literatura Infantojuvenil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
 
-  {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
+  {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantojuvenil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
   {livro:'Deserto sagrado', autor:'Fábio Levatti', editora:'Ibis Libris', anoEdicao:'2020', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/deserto-sagrado.jpg'},
 
   {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Contos, Novelas e Romances', img:'../images/dialogos-com-leuco.jpg'},
 
-  {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
+  {livro:'Diário de Pilar na Amazônia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2023', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/diario-de-pilar-na-amazonia.jpg'},
+
+  {livro:'Diário de Pilar na Grécia', autor:'Flávia Lins e Silva', editora:'Pequena Zahar', anoEdicao:'2022', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/diario-de-pilar-na-grecia.jpg'},
 
   {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/diarios-1947-1963.jpg'},
   
@@ -131,7 +135,7 @@ const livros = [
 
   {livro:'Dicionário Escolar Inglês', autor:'Rafael Alarcón Gaeta (Editor-Chefe)', editora:'Pearson', anoEdicao:'2004', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-longman-ingles.jpg'},
 
-  {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
+  {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantojuvenil', img:'../images/dois-fios.jpg'},
 
   {livro:'Dom Casmurro', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/dom-casmurro.jpg'},
 
@@ -143,7 +147,7 @@ const livros = [
 
   {livro:'Endurance: a lendária expedição de Shackleton à Antártida', autor:'Caroline Alexander', editora:'Companhia das Letras', anoEdicao:'1999', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/endurance.jpg'},
 
-  {livro:'Entregas expressas da Kiki', autor:'Eiko Kadono', editora:'Estação Liberdade', anoEdicao:'2021', categoria:'Literatura Japonesa', segmento:'Literatura Juvenil', img:'../images/entregas-expressas-da-kiki.jpg'},
+  {livro:'Entregas expressas da Kiki', autor:'Eiko Kadono', editora:'Estação Liberdade', anoEdicao:'2021', categoria:'Literatura Japonesa', segmento:'Literatura Infantojuvenil', img:'../images/entregas-expressas-da-kiki.jpg'},
 
   {livro:'Era uma vez uma capa', autor:'Alan Powers', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/era-uma-vez-uma-capa.jpg'},
 
@@ -167,7 +171,7 @@ const livros = [
 
   {livro:'Ficções', autor:'Jorge Luis Borges', editora:'Companhia das Letras', anoEdicao:'2007', categoria:'Literatura Argentina', segmento:'Contos, Novelas e Romances', img:'../images/ficcoes.jpg'},
 
-  {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantil', img:'../images/fico-a-espera.jpg'},
+  {livro:'Fico à espera...', autor:'Davide Cali', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Suíça', segmento:'Literatura Infantojuvenil', img:'../images/fico-a-espera.jpg'},
   
   {livro:'Filoctetes', autor:'Sófocles', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/filoctetes.jpg'},
 
@@ -179,7 +183,7 @@ const livros = [
 
   {livro:'Fullmetal alchemist vol. 1', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2023', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-01.jpg'},
 
-  {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
+  {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantojuvenil', img:'../images/gorila.jpg'},
 
   {livro:'Grécia revisitada', autor:'Frederico Lourenço', editora:'Carambaia', anoEdicao:'2022', categoria:'Literatura Portuguesa', segmento:'Crítica, História e Teoria literária', img:'../images/grecia-revisitada.jpg'},
 
@@ -215,13 +219,13 @@ const livros = [
 
   {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/introducao-a-historia-da-filosofia.jpg'},
 
-  {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantil', img:'../images/jemmy-button.jpg'},
+  {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantojuvenil', img:'../images/jemmy-button.jpg'},
 
   {livro:'Jornalismo diário', autor:'Ana Estela de Sousa Pinto', editora:'Publifolha', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'História e Jornalismo', img:'../images/jornalismo-diario.jpg'},
   
   {livro:'Khadji-Murát', autor:'Liev Tolstói', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/khadji-murat.jpg'},
 
-  {livro:'Leocádio, o leão que mandava bala', autor:'Shel Silverstein', editora:'Companhia das Letrinhas', anoEdicao:'2018', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/leocadio-o-leao-que-mandava-bala.jpg'},
+  {livro:'Leocádio, o leão que mandava bala', autor:'Shel Silverstein', editora:'Companhia das Letrinhas', anoEdicao:'2018', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/leocadio-o-leao-que-mandava-bala.jpg'},
 
   {livro:'Libertinagem', autor:'Manuel Bandeira', editora:'Global', anoEdicao:'2013', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/libertinagem.jpg'},
 
@@ -241,15 +245,15 @@ const livros = [
 
   {livro:'Livro ilustrado: palavras e imagens', autor:'Maria Nikolajeva e Carole Scott', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Global', segmento:'Crítica, História e Teoria literária', img:'../images/livro-ilustrado.jpg'},
 
-  {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/lulu-e-o-urso.jpg'},
+  {livro:'Lulu e o urso', autor:'Carolina Moreyra', editora:'Pequena Zahar', anoEdicao:'2018', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/lulu-e-o-urso.jpg'},
 
-  {livro:'Luna Clara e Apolo Onze', autor:'Adriana Falcão', editora:'Salamandra', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/luna-clara-e-apolo-onze.jpg'},
+  {livro:'Luna Clara e Apolo Onze', autor:'Adriana Falcão', editora:'Salamandra', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/luna-clara-e-apolo-onze.jpg'},
 
   {livro:'Manual de manutenção e reparo de bicicletas', autor:'Chris Sidwells', editora:'Ambientes e Costumes', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Esportes, Lazer e Viagens', img:'../images/manual-de-manutencao-e-reparo-de-bicicletas.jpg'},
 
-  {livro:'Marcelino Pedregulho', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/marcelino-pedregulho.jpg'},
+  {livro:'Marcelino Pedregulho', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/marcelino-pedregulho.jpg'},
 
-  {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Juvenil', img:'../images/mary-poppins.jpg'},
+  {livro:'Mary Poppins', autor:'P. L. Travers', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Australiana', segmento:'Literatura Infantojuvenil', img:'../images/mary-poppins.jpg'},
 
   {livro:'Medéia; Hipólito; As troianas', autor:'Eurípides', editora:'Jorge Zahar', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/medeia-hipolito-as-troianas.jpg'},
 
@@ -275,13 +279,13 @@ const livros = [
 
   {livro:'Mitologia grega: Volume 3', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2009', categoria:'Literatura Brasileira', segmento:'Mitologia', img:'../images/mitologia-grega-3.jpg'},
   
-  {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/modelo-vivo-natureza-morta.jpg'},
+  {livro:'Modelo vivo - natureza morta', autor:'CárcamO', editora:'Berlendis & Vertecchia', anoEdicao:'2015', categoria:'Literatura Chilena', segmento:'Literatura Infantojuvenil', img:'../images/modelo-vivo-natureza-morta.jpg'},
 
   {livro:'Monstros!', autor:'Gustavo Duarte', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Brasileira', segmento:'HQs, Mangás & Graphic Novels', img:'../images/monstros.jpg'},
 
-  {livro:'Na cozinha noturna', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/na-cozinha-noturna.jpg'},
+  {livro:'Na cozinha noturna', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/na-cozinha-noturna.jpg'},
   
-  {livro:'Na garupa do Meu tio', autor:'David Merveille', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Belga', segmento:'Literatura Infantil', img:'../images/na-garupa-do-meu-tio.jpg'},
+  {livro:'Na garupa do Meu tio', autor:'David Merveille', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Belga', segmento:'Literatura Infantojuvenil', img:'../images/na-garupa-do-meu-tio.jpg'},
 
   {livro:'Nadja', autor:'André Breton', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/nadja.jpg'},
 
@@ -291,7 +295,7 @@ const livros = [
 
   {livro:'Nos penhascos de mármore', autor:'Ernst Jünger', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Alemã', segmento:'Contos, Novelas e Romances', img:'../images/nos-penhascos-de-marmore.jpg'},
 
-  {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/noite-no-museu.jpg'},
+  {livro:'Noite no museu', autor:'Dani Choi', editora:'Camaleão', anoEdicao:'2023', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantojuvenil', img:'../images/noite-no-museu.jpg'},
 
   {livro:'Noites brancas', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/noites-brancas.jpg'},
 
@@ -307,7 +311,7 @@ const livros = [
 
   {livro:'O chamado da floresta', autor:'Jack London', editora:'L&PM', anoEdicao:'2020', categoria:'Literatura Norte-Americana', segmento:'Contos, Novelas e Romances', img:'../images/o-chamado-da-floresta.jpg'},
 
-  {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantil', img:'../images/o-circulo-do-destino.jpg'},
+  {livro:'O círculo do destino', autor:'Raja Mohanty, Sirish Rao', editora:'WMF Martins Fontes', anoEdicao:'2010', categoria:'Literatura Indiana', segmento:'Literatura Infantojuvenil', img:'../images/o-circulo-do-destino.jpg'},
 
   {livro:'O clube do filme', autor:'David Gilmour', editora:'Intrínseca', anoEdicao:'2009', categoria:'Literatura Canadense', segmento:'Biografias, Crônicas e Diários', img:'../images/o-clube-do-filme.jpg'},
 
@@ -315,7 +319,7 @@ const livros = [
 
   {livro:'O futuro é... viajar, malhar, estudar, namorar e investir', autor:'Mara Luquet', editora:'Benvirá', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Finanças e Investimentos', img:'../images/o-futuro-e.jpg'},
   
-  {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantil', img:'../images/o-gato-e-o-diabo.jpg'},
+  {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantojuvenil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
 
@@ -331,9 +335,9 @@ const livros = [
 
   {livro:'O livro ilustrado dos mitos: Contos e lendas do mundo', autor:'Neil Philip', editora:'Marco Zero', anoEdicao:'1996', categoria:'Literatura Inglesa', segmento:'Mitologia', img:'../images/o-livro-ilustrado-dos-mitos.jpg'},
 
-  {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantil', img:'../images/o-menino-maluquinho.jpg'},
+  {livro:'O menino maluquinho', autor:'Ziraldo', editora:'Melhoramentos', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/o-menino-maluquinho.jpg'},
 
-  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Juvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
+  {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
 
   {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/o-obvio-que-ignoramos.jpg'},
 
@@ -345,7 +349,7 @@ const livros = [
 
   {livro:'O valor do riso', autor:'Virginia Woolf', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Ensaios', img:'../images/o-valor-do-riso.jpg'},
 
-  {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/o-velho-louco-por-desenho.jpg'},
+  {livro:'O velho louco por desenho', autor:'François Place', editora:'Companhia das Letrinhas', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/o-velho-louco-por-desenho.jpg'},
 
   {livro:'O vermelho e o negro', autor:'Stendhal', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/o-vermelho-e-o-negro.jpg'},
 
@@ -353,7 +357,7 @@ const livros = [
 
   {livro:'Os melhores contos', autor:'Rubem Braga', editora:'Global', anoEdicao:'1997', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/os-melhores-contos.jpg'},
 
-  {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Juvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
+  {livro:'Os meninos da rua Paulo', autor:'Ferenc Molnár', editora:'Cosac Naify', anoEdicao:'2005', categoria:'Literatura Húngara', segmento:'Literatura Infantojuvenil', img:'../images/os-meninos-da-rua-paulo.jpg'},
 
   {livro:'Os náufragos do Wager: Uma história de motim e assassinato', autor:'David Grann', editora:'Companhia das Letras', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/os-naufragos-do-wager.jpg'},
 
@@ -367,9 +371,9 @@ const livros = [
 
   {livro:'Odisseia', autor:'Homero', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/odisseia.jpg'},
 
-  {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantil', img:'../images/onda.jpg'},
+  {livro:'Onda', autor:'Suzy Lee', editora:'Cosac Naify', anoEdicao:'2008', categoria:'Literatura Sul-Coreana', segmento:'Literatura Infantojuvenil', img:'../images/onda.jpg'},
 
-  {livro:'Onde vivem os monstros', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/onde-vivem-os-monstros.jpg'},
+  {livro:'Onde vivem os monstros', autor:'Maurice Sendak', editora:'Cosac Naify', anoEdicao:'2014', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/onde-vivem-os-monstros.jpg'},
 
   {livro:'Orestes', autor:'Eurípides', editora:'Universidade de Brasília', anoEdicao:'1999', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/orestes.jpg'},
 
@@ -379,7 +383,7 @@ const livros = [
 
   {livro:'Para ler o livro ilustrado', autor:'Sophie Van der Linden', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Crítica, História e Teoria literária', img:'../images/para-ler-o-livro-ilustrado.jpg'},
   
-  {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantil', img:'../images/para-que-serve-um-livro.jpg'},
+  {livro:'Para que serve um livro?', autor:'Chloé Legeay', editora:'Pulo do Gato', anoEdicao:'2011', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/para-que-serve-um-livro.jpg'},
 
   {livro:'Passeios na ilha', autor:'Carlos Drummond de Andrade', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Brasileira', segmento:'Biografias, Crônicas e Diários', img:'../images/passeios-na-ilha.jpg'},
 
@@ -397,19 +401,19 @@ const livros = [
 
   {livro:'Prometeu acorrentado; Ájax; Alceste', autor:'Ésquilo, Sófocles, Eurípides', editora:'Jorge Zahar', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/prometeu-acorrentado-ajax-alceste.jpg'},
 
-  {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantil', img:'../images/quem-quer-este-rinoceronte.jpg'},
+  {livro:'Quem quer este rinoceronte?', autor:'Shel Silverstein', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/quem-quer-este-rinoceronte.jpg'},
 
   {livro:'Quincas Borba', autor:'Machado de Assis', editora:'Ática', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/quincas-borba.jpg'},
 
   {livro:'Quinoterapia', autor:'Quino', editora:'Martins Fontes', anoEdicao:'2004', categoria:'Literatura Argentina', segmento:'HQs, Mangás & Graphic Novels', img:'../images/quinoterapia.jpg'},
 
-  {livro:'Raul Taburin', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/raul-taburin.jpg'},
+  {livro:'Raul Taburin', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/raul-taburin.jpg'},
 
   {livro:'Repeteco', autor:`Bryan Lee O'Malley`, editora:'Quadrinhos na Cia.', anoEdicao:'2016', categoria:'Literatura Canadense', segmento:'HQs, Mangás & Graphic Novels', img:'../images/repeteco.jpg'},
 
-  {livro:'Selma', autor:'Juta Bauer', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Alemã', segmento:'Literatura Infantil', img:'../images/selma.jpg'},
+  {livro:'Selma', autor:'Juta Bauer', editora:'Cosac Naify', anoEdicao:'2007', categoria:'Literatura Alemã', segmento:'Literatura Infantojuvenil', img:'../images/selma.jpg'},
 
-  {livro:'Senhor Lambert', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Literatura Juvenil', img:'../images/senhor-lambert.jpg'},
+  {livro:'Senhor Lambert', autor:'Sempé', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/senhor-lambert.jpg'},
 
   {livro:'Serrote 2', autor:'Autoras e autores diversos', editora:'IMS', anoEdicao:'julho 2009', categoria:'Literatura Global', segmento:'Ensaios', img:'../images/serrote-02.jpg'},
 
@@ -473,7 +477,7 @@ const livros = [
   
   {livro:'Teogonia: a origem dos deuses', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/teogonia.jpg'},
   
-  {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantil', img:'../images/thapa-kunturi.jpg'},
+  {livro:'Thapa Kunturi: ninho do condor', autor:'CárcamO', editora:'Companhia das Letrinhas', anoEdicao:'2007', categoria:'Literatura Chilena', segmento:'Literatura Infantojuvenil', img:'../images/thapa-kunturi.jpg'},
 
   {livro:'The Complete Calvin and Hobbes: Book 1', autor:'Bill Watterson', editora:'Andrews McMeel Publishing', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/the-complete-calvin-and-hobbes-book-1.jpg'},
   
@@ -499,7 +503,7 @@ const livros = [
 
   {livro:'Você é minha Mãe?', autor:'Alison Bechdel', editora:'Quadrinhos na Cia.', anoEdicao:'2012', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/voce-e-minha-mae.jpg'},
 
-  {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/vozes-no-parque.jpg'},
+  {livro:'Vozes no parque', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantojuvenil', img:'../images/vozes-no-parque.jpg'},
 
   {livro:'Zazie no metrô', autor:'Raymond Queneau', editora:'Cosac Naify', anoEdicao:'2009', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/zazie-no-metro.jpg'},
 
@@ -567,8 +571,7 @@ const segmentos = {
   'guias': 'Guias de Viagem e Turismo',
   'historia': 'História e Jornalismo',
   'hq': 'HQs, Mangás & Graphic Novels',
-  'lit-infantil': 'Literatura Infantil',
-  'lit-juvenil': 'Literatura Juvenil',
+  'lit-infantojuvenil': 'Literatura Infantojuvenil',
   'livros-em-ingles': 'Livros em Inglês',
   'mitologia': 'Mitologia',
   'poesia': 'Poesia',
