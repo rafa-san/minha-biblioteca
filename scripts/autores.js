@@ -188,6 +188,7 @@ const autores = [
   "Peter Sís",
   "Pierre Grimal",
   "Píndaro",
+  "Piotr Socha",
   "Platão",
   "Possidipo",
   "Quino",
@@ -233,6 +234,7 @@ const autores = [
   "Werner Jaeger",
   "William Hazlitt",
   "William J. Bennett",
+  "Wojciech Grajkowski",
   "Yasunari Kawabata",
   "Zila Mamede",
   "Ziraldo"
