@@ -109,13 +109,13 @@ const livros = [
 
   {livro:'Coéforas - Orestéia II', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/coeforas.jpg'},
 
-  {livro:'Como funciona a Contos, Novelas e Romances', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
+  {livro:'Como funciona a ficção', autor:'James Wood', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/como-funciona-a-ficcao.jpg'},
 
   {livro:'Contos da mamãe gansa', autor:'Charles Perrault', editora:'Cosac Naify', anoEdicao:'2015', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/contos-da-mamae-gansa.jpg'},
 
   {livro:'Contos de lugares distantes', autor:'Shaun Tan', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Australiana', segmento:'Literatura Infantojuvenil', img:'../images/contos-de-lugares-distantes.jpg'},
 
-  {livro:'Contos, Novelas e Romances completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
+  {livro:'Ficção completa', autor:'Bruno Schulz', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Polonesa', segmento:'Contos, Novelas e Romances', img:'../images/ficcao-completa-bruno-schulz.jpg'},
 
   {livro:'Crítica, teoria e Literatura Infantojuvenil', autor:'Peter Hunt', editora:'Cosac Naify', anoEdicao:'2010', categoria:'Literatura Inglesa', segmento:'Crítica, História e Teoria literária', img:'../images/critica-teoria-e-literatura-intantil.jpg'},
 
@@ -322,6 +322,8 @@ const livros = [
   {livro:'O gato e o Diabo', autor:'James Joyce', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Irlandesa', segmento:'Literatura Infantojuvenil', img:'../images/o-gato-e-o-diabo.jpg'},
 
   {livro:'O hino homérico a Apolo', autor:'Anônimo', editora:'UNICAMP', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/hino-homerico-a-apolo.jpg'},
+  
+  {livro:'O homem da areia', autor:'E. T. A. Hoffmann', editora:'Ubu', anoEdicao:'2023', categoria:'Literatura Alemã', segmento:'Contos, Novelas e Romances', img:'../images/o-homem-da-areia.jpg'},
 
   {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimentos', img:'../images/o-investidor-inteligente.jpg'},
 

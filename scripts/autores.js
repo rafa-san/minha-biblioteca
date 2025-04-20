@@ -75,6 +75,7 @@ const autores = [
   "Dominique Ehrhard",
   "Dora Ferreira da Silva",
   "E. B. White",
+  "E. T. A. Hoffmann",
   "Edgar Allan Poe",
   "Eiko Kadono",
   "Emílio Moura",
