@@ -49,7 +49,7 @@ console.log(selecao.length);
 function gerarSelecao() {
   const randomQuote = selecao[Math.floor(Math.random() * selecao.length)];
   document.getElementById('texto').innerHTML = randomQuote.frase;
-  document.getElementById('livro').innerHTML = `< strong > <cite>${randomQuote.livro}</cite></strong> `;
+  document.getElementById('livro').innerHTML = `<strong> <cite>${randomQuote.livro}</cite></strong> `;
   document.getElementById('autor').textContent = randomQuote.autor;
 }
 
