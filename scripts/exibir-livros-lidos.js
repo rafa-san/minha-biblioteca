@@ -183,6 +183,8 @@ const livros = [
 
   {livro:'Fullmetal alchemist vol. 1', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2023', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-01.jpg'},
 
+  {livro:'Gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/gatos-alados.jpg'},
+
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantojuvenil', img:'../images/gorila.jpg'},
 
   {livro:'Grécia revisitada', autor:'Frederico Lourenço', editora:'Carambaia', anoEdicao:'2022', categoria:'Literatura Portuguesa', segmento:'Crítica, História e Teoria literária', img:'../images/grecia-revisitada.jpg'},
@@ -218,6 +220,8 @@ const livros = [
   {livro:'Intercâmbio, aí vou eu!', autor:'Flavia Mariano', editora:'Alaúde', anoEdicao:'2008', categoria:'Literatura Brasileira', segmento:'Educação', img:'../images/intercambio-ai-vou-eu.jpg'},
 
   {livro:'Introdução à história da filosofia: dos pré-socráticos a Aristóteles - Volume 1', autor:'Marilena Chaui', editora:'Companhia das Letras', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Filosofia', img:'../images/introducao-a-historia-da-filosofia.jpg'},
+
+  {livro:'Jane sozinha na cidade', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/jane-sozinha-na-cidade.jpg'},
 
   {livro:'Jemmy Button', autor:'Jennifer Uman, Valerio Vidali, Alix Barzelay', editora:'Pequena Zahar', anoEdicao:'2012', categoria:'Literatura Global', segmento:'Literatura Infantojuvenil', img:'../images/jemmy-button.jpg'},
 
@@ -325,6 +329,8 @@ const livros = [
   
   {livro:'O homem da areia', autor:'E. T. A. Hoffmann', editora:'Ubu', anoEdicao:'2023', categoria:'Literatura Alemã', segmento:'Contos, Novelas e Romances', img:'../images/o-homem-da-areia.jpg'},
 
+  {livro:'O incrível Alexander e os gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/o-incrivel-alexander-e-os-gatos-alados.jpg'},
+
   {livro:'O investidor inteligente', autor:'Benjamin Graham', editora:'Harper Collins', anoEdicao:'2017', categoria:'Literatura Inglesa', segmento:'Finanças e Investimentos', img:'../images/o-investidor-inteligente.jpg'},
 
   {livro:'O julgamento de Sócrates', autor:'I. F. Stone', editora:'Companhia de Bolso', anoEdicao:'2005', categoria:'Literatura Norte-Americana', segmento:'História e Jornalismo', img:'../images/o-julgamento-de-socrates.jpg'},
@@ -344,6 +350,8 @@ const livros = [
   {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/o-obvio-que-ignoramos.jpg'},
 
   {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Contos, Novelas e Romances', img:'../images/o-profeta.jpg'},
+
+  {livro:'O retorno dos gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/o-retorno-dos-gatos-alados.jpg'},
 
   {livro:'O senhor dos anéis', autor:'J. R. R. Tolkien', editora:'Martins Fontes', anoEdicao:'2001', categoria:'Literatura Inglesa', segmento:'Contos, Novelas e Romances', img:'../images/o-senhor-dos-aneis.jpg'},
 

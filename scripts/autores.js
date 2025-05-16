@@ -228,6 +228,7 @@ const autores = [
   "Thomas Bulfinch",
   "Torquato Neto",
   "Truman Capote",
+  "Ursula K. Le Guin",
   "Victor Hugo",
   "Vinicius de Moraes",
   "Virginia Woolf",
