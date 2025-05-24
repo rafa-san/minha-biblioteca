@@ -256,6 +256,34 @@
   width: 72px;
 }
 
+/* BOTÃO PAGE UP */
+.fa-arrow-up {
+  color: var(--cor2);
+}
+
+.page-up-btn {
+  display: none; /* Esconde o botão inicialmente */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--cor2);
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  z-index: 1;
+}
+
+.page-up-btn:hover {
+  background-color: var(--cor1);
+  border: 1px solid transparent;
+}
+
 
 /* Media queries - Telas com menos de 600 px de largura */
 @media screen and (max-width: 768px) {

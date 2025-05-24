@@ -166,3 +166,32 @@ img {
   padding: 4px;
   text-align: center;
 }
+
+
+/* BOTÃO PAGE UP */
+.fa-arrow-up {
+  color: var(--cor3);
+}
+
+.page-up-btn {
+  display: none; /* Esconde o botão inicialmente */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: var(--white);
+  border: 1px solid var(--cor3);
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  width: 32px;
+  z-index: 1;
+}
+
+.page-up-btn:hover {
+  background-color: var(--cor4);
+  border: 1px solid transparent;
+}
