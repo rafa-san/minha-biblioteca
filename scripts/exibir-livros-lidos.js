@@ -17,6 +17,8 @@ const livros = [
   
   {livro:'A divina comédia', autor:'Dante Alighieri', editora:'Abril Cultural', anoEdicao:'1979', categoria:'Literatura Italiana', segmento:'Poesia', img:'../images/a-divina-comedia.jpg'},
 
+  {livro:'A elegância do ouriço', autor:'Muriel Barbery', editora:'Companhia das Letras', anoEdicao:'2008', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/a-elegancia-do-ourico.jpg'},
+
   {livro:'A gaia ciência', autor:'Friedrich Nietzsche', editora:'Companhia de Bolso', anoEdicao:'2012', categoria:'Literatura Alemã', segmento:'Filosofia', img:'../images/a-gaia-ciencia.jpg'},
 
   {livro:'A hora da estrela', autor:'Clarice Lispector', editora:'Rocco', anoEdicao:'1998', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/a-hora-da-estrela.jpg'},
@@ -348,6 +350,8 @@ const livros = [
   {livro:'O mistério do 5 estrelas', autor:'Marcos Rey', editora:'Global', anoEdicao:'2005', categoria:'Literatura Brasileira', segmento:'Literatura Infantojuvenil', img:'../images/o-misterio-do-5-estrelas.jpg'},
 
   {livro:'O óbvio que ignoramos', autor:'Jacob Pétry', editora:'Lua de Papel', anoEdicao:'2010', categoria:'Literatura Brasileira', segmento:'Desenvolvimento Pessoal', img:'../images/o-obvio-que-ignoramos.jpg'},
+
+  {livro:'O pequeno príncipe', autor:'Antoine de Saint-Exupéry', editora:'HarperKids', anoEdicao:'2018', categoria:'Literatura Francesa', segmento:'Literatura Infantojuvenil', img:'../images/o-pequeno-principe.jpeg'},
 
   {livro:'O profeta', autor:'Kahlil Gibran', editora:'Ediouro', anoEdicao:'2001', categoria:'Literatura Libanesa', segmento:'Contos, Novelas e Romances', img:'../images/o-profeta.jpg'},
 
