@@ -487,6 +487,8 @@ const livros = [
 
   {livro:'Super-Homem versus Apocalypse: A Revanche - Parte Três', autor:'Dan Jurgens', editora:'Abril Jovem', anoEdicao:'1995', categoria:'Literatura Norte-Americana', segmento:'HQs, Mangás & Graphic Novels', img:'../images/super-homem-versus-apocalypse-parte3.jpg'},
 
+  {livro:'Teatro completo I', autor:'Eurípides', editora:'Editora 34', anoEdicao:'2022', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/teatro-completo-euripides-1.jpg'},
+
   {livro:'Teatro grego: tragédia e comédia', autor:'Junito de Souza Brandão', editora:'Vozes', anoEdicao:'2021', categoria:'Literatura Brasileira', segmento:'Crítica, História e Teoria literária', img:'../images/teatro-grego.jpeg'},
   
   {livro:'Teogonia: a origem dos deuses', autor:'Hesíodo', editora:'Iluminuras', anoEdicao:'2007', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/teogonia.jpg'},
