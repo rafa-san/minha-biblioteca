@@ -183,7 +183,9 @@ const livros = [
 
   {livro:'Fragmentos completos', autor:'Safo', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Poesia', img:'../images/fragmentos-completos-safo.jpg'},
 
-  {livro:'Fullmetal alchemist vol. 1', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2023', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-01.jpg'},
+  {livro:'Fullmetal Alchemist vol. 1', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2023', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-01.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 2', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2025', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-02.jpg'},
 
   {livro:'Gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Infantojuvenil', img:'../images/gatos-alados.jpg'},
 
