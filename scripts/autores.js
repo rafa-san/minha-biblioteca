@@ -224,6 +224,7 @@ const autores = [
   "Paulo Henriques Britto",
   "Paulo Leminski",
   "Paulo Mendes Campos",
+  "Paulo Pasta",
   "Paulo Roberto Pires",
   "Pedro Kilkerry",
   "Pep Molist",

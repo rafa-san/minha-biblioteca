@@ -123,6 +123,8 @@ const livros = [
 
   {livro:'De quanta terra precisa o homem?', autor:'Liev Tolstói', editora:'Companhia das Letrinhas', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Literatura Infantojuvenil', img:'../images/de-quanta-terra-precisa-o-homem.jpg'},
 
+  {livro:'Desencantos', autor:'Machado de Assis', editora:'Todavia', anoEdicao:'2023', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/desencantos.jpg'},
+
   {livro:'Deserto sagrado', autor:'Fábio Levatti', editora:'Ibis Libris', anoEdicao:'2020', categoria:'Literatura Brasileira', segmento:'Poesia', img:'../images/deserto-sagrado.jpg'},
 
   {livro:'Diálogos com Leucó', autor:'Cesare Pavese', editora:'Cosac Naify', anoEdicao:'2011', categoria:'Literatura Italiana', segmento:'Contos, Novelas e Romances', img:'../images/dialogos-com-leuco.jpg'},
