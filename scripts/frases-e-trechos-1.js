@@ -10,7 +10,7 @@ const selecao = [
   <strong>Filipe:</strong> E você queria que me ensinassem a escrever numa aula só?<br>
   <strong>Mafalda:</strong> Mas... você ficou lá o dia inteiro!<br>
   <strong>Filipe:</strong> É, mas antes a gente tem que fazer traços, letras, sílabas e um monte de outras coisas e... leva meses pra ensinarem a gente a escrever!<br>
-  <strong>Mafalda:</strong> <strong>MESES?! MALDITOS BUROCRATAS!</strong>`, autor: "Quino", livro: "Toda Mafalda"
+  <strong>Mafalda:</strong> MESES?! MALDITOS BUROCRATAS!`, autor: "Quino", livro: "Toda Mafalda"
   },
 
   { frase: "A beleza será CONVULSIVA, ou não será", autor: "André Breton", livro: "Nadja" },
