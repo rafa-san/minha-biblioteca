@@ -242,6 +242,7 @@ const autores = [
   "Raul Bopp",
   "Raul Pompéia",
   "Raymond Queneau",
+  "Reginaldo Prandi",
   "Ribeiro Couto",
   "Rick Riordan",
   "Robert Louis Stevenson",
