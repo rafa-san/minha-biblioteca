@@ -75,6 +75,7 @@ const autores = [
   "Dani Choi",
   "Daniel Defoe",
   "Daniel Galera",
+  "Daniel Soar",
   "Dante Alighieri",
   "Dante Milano",
   "David Foster Wallace",
