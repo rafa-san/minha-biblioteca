@@ -13,6 +13,7 @@ const autores = [
   "Alejandro Zambra",
   "Alexis de Tocqueville",
   "Alfred J. Keller",
+  "Alice W. Flaherty",
   "Alison Bechdel",
   "Alix Barzelay",
   "Alphonse Daudet",
