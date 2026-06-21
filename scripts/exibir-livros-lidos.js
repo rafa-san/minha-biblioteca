@@ -135,9 +135,9 @@ const livros = [
 
   {livro:'Diários (1947-63)', autor:'Susan Sontag', editora:'Companhia das Letras', anoEdicao:'2009', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/diarios-1947-1963.jpg'},
   
-  {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-michaelis-alemao.jpg'},
+  {livro:'Dicionário Escolar Alemão', autor:'Alfred J. Keller', editora:'Melhoramentos', anoEdicao:'2009', categoria:'Obra de Referência', segmento:'Dicionários e Enciclopédias', img:'../images/dicionario-michaelis-alemao.jpg'},
 
-  {livro:'Dicionário Escolar Inglês', autor:'Rafael Alarcón Gaeta (Editor-Chefe)', editora:'Pearson', anoEdicao:'2004', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-longman-ingles.jpg'},
+  {livro:'Dicionário Escolar Inglês', autor:'Rafael Alarcón Gaeta (Editor-Chefe)', editora:'Pearson', anoEdicao:'2004', categoria:'Obra de Referência', segmento:'Dicionários e Enciclopédias', img:'../images/dicionario-longman-ingles.jpg'},
 
   {livro:'Dois fios', autor:'Pep Molist', editora:'Cosac Naify', anoEdicao:'2012', categoria:'Literatura Espanhola', segmento:'Literatura Infantil', img:'../images/dois-fios.jpg'},
 
@@ -148,6 +148,8 @@ const livros = [
   {livro:'Ele que o abismo viu: epopeia de Gilgámesh', autor:'Sin-léqi-unnínni', editora:'Autêntica', anoEdicao:'2023', categoria:'Literatura Mesopotâmica', segmento:'Poesia', img:'../images/epopeia-de-gilgamesh.jpg'},
 
   {livro:'Electra(s)', autor:'Sófocles, Eurípides', editora:'Ateliê Editorial', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/electra(s).jpg'},
+
+  {livro:'Enciclopédia do estudante: literatura universal', autor:'Autoras e autores diversos', editora:'Moderna', anoEdicao:'2008', categoria:'Obra de Referência', segmento:'Dicionários e Enciclopédias', img:'../images/enciclopedia-do-estudante-07-literatura-universal.JPG'},
 
   {livro:'Endurance: a lendária expedição de Shackleton à Antártida', autor:'Caroline Alexander', editora:'Companhia das Letras', anoEdicao:'1999', categoria:'Literatura Norte-Americana', segmento:'Biografias, Crônicas e Diários', img:'../images/endurance.jpg'},
 
@@ -168,6 +170,8 @@ const livros = [
   {livro:'Eumênides - Orestéia III', autor:'Ésquilo', editora:'Iluminuras', anoEdicao:'2004', categoria:'Literatura Grega', segmento:'Teatro', img:'../images/eumenides.jpg'},
 
   {livro:'Fábulas de Esopo', autor:'Esopo', editora:'L&PM', anoEdicao:'2009', categoria:'Literatura Grega', segmento:'Contos, Novelas e Romances', img:'../images/fabulas-de-esopo.jpg'},
+
+  {livro:'Fábulas de La Fontaine', autor:'Jean de La Fontaine', editora:'Estação Liberdade', anoEdicao:'2004', categoria:'Literatura Francesa', segmento:'Contos, Novelas e Romances', img:'../images/fabulas-de-la-fontaine.jpg'},
 
   {livro:'Fábulas, seguidas do Romance de Esopo', autor:'Esopo | Autoria desconhecida', editora:'Editora 34', anoEdicao:'2017', categoria:'Literatura Grega', segmento:'Contos, Novelas e Romances', img:'../images/fabulas-34.jpg'},
 
@@ -190,6 +194,22 @@ const livros = [
   {livro:'Fullmetal Alchemist vol. 02', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2025', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-02.jpg'},
 
   {livro:'Fullmetal Alchemist vol. 03', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-03.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 04', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-04.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 05', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-05.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 06', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2016', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-06.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 07', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-07.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 08', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-08.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 09', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-09.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 10', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-10.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 11', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-11.jpg'},
 
   {livro:'Gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Juvenil', img:'../images/gatos-alados.jpg'},
 
@@ -274,6 +294,8 @@ const livros = [
   {livro:'Memórias do subsolo', autor:'Fiódor Dostoiévski', editora:'Editora 34', anoEdicao:'2009', categoria:'Literatura Russa', segmento:'Contos, Novelas e Romances', img:'../images/memorias-do-subsolo.jpg'},
 
   {livro:'Memórias póstumas de Brás Cubas', autor:'Machado de Assis', editora:'Ática', anoEdicao:'2002', categoria:'Literatura Brasileira', segmento:'Contos, Novelas e Romances', img:'../images/memorias-postumas-de-bras-cubas.jpg'},
+
+  {livro:'Memórias, Sonhos, Reflexões', autor:'Carl Gustav Jung', editora:'Nova Fronteira', anoEdicao:'2021', categoria:'Literatura Suíça', segmento:'Biografias, Crônicas e Diários', img:'../images/memorias-sonhos-reflexoes.jpg'},
 
   {livro:'Meu reino por um cavalo', autor:'Ivan Pinheiro Machado (organizador)', editora:'L&PM', anoEdicao:'2016', categoria:'Literatura Brasileira', segmento:'Citações', img:'../images/meu-reino-por-um-cavalo.jpg'},
 
@@ -415,7 +437,7 @@ const livros = [
 
   {livro:'Patchwork: Book 3', autor:'Sarah G. Rubin, Mariza Ferrari', editora:'Scipione', anoEdicao:'1994', categoria:'Livro Ditático', segmento:'Didáticos', img:'../images/patchwork-book-3.jpg'},
 
-  {livro:'Pequeno dicionário Houaiss da língua portuguesa', autor:'Instituto Antônio Houaiss de Lexicografia', editora:'Moderna', anoEdicao:'2015', categoria:'Obra de Referência', segmento:'Dicionários', img:'../images/dicionario-houaiss-portugues.jpg'},
+  {livro:'Pequeno dicionário Houaiss da língua portuguesa', autor:'Instituto Antônio Houaiss de Lexicografia', editora:'Moderna', anoEdicao:'2015', categoria:'Obra de Referência', segmento:'Dicionários e Enciclopédias', img:'../images/dicionario-houaiss-portugues.jpg'},
 
   {livro:'Percy Jackson & the Olympians: The lightning thief', autor:'Rick Riordan', editora:'Disney | Hyperion Books', anoEdicao:'2010', categoria:'Literatura Norte-Americana', segmento:'Livros em Inglês', img:'../images/percy-jackson-the-lightning-thief.jpg'},
 
@@ -586,7 +608,7 @@ const segmentos = {
   'citacoes': 'Citações',
   'critica': 'Crítica, História e Teoria literária',
   'desenvolvimento': 'Desenvolvimento Pessoal',
-  'dicionarios': 'Dicionários',
+  'dicionarios': 'Dicionários e Enciclopédias',
   'didaticos': 'Didáticos',
   'educacao': 'Educação',
   'ensaios': 'Ensaios',
