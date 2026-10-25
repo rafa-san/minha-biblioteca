@@ -221,6 +221,16 @@ const livros = [
 
   {livro:'Fullmetal Alchemist vol. 16', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2017', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-16.jpg'},
 
+  {livro:'Fullmetal Alchemist vol. 17', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2018', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-17.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 18', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2018', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-18.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 19', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2018', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-19.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 20', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2018', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-20.jpg'},
+
+  {livro:'Fullmetal Alchemist vol. 21', autor:'Hiromu Arakawa', editora:'JBC', anoEdicao:'2018', categoria:'Literatura Japonesa', segmento:'HQs, Mangás & Graphic Novels', img:'../images/fullmetal-alchemist-vol-21.jpg'},
+
   {livro:'Gatos alados', autor:'Ursula K. Le Guin', editora:'Glida', anoEdicao:'2024', categoria:'Literatura Norte-Americana', segmento:'Literatura Juvenil', img:'../images/gatos-alados.jpg'},
 
   {livro:'Gorila', autor:'Anthony Browne', editora:'Pequena Zahar', anoEdicao:'2014', categoria:'Literatura Inglesa', segmento:'Literatura Infantil', img:'../images/gorila.jpg'},
